@@ -1,0 +1,353 @@
+{
+ "_note": "Main office of each partner as given on the partner's own website, read 2026-11-25. An office is where an organisation is based, not where it works. Only partners with no state named on rainmatter.org/partners were looked up.",
+ "offices": {
+  "Asar": {
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "source": "https://asar.co.in/contact-us/",
+   "address": "No 16, 7th Temple Road, 15th Cross Malleswaram, Bangalore, Karnataka- 560003",
+   "note": "only office listed"
+  },
+  "Sattva Consulting": {
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "source": "https://www.sattva.co.in/contact/",
+   "address": "#294/295, 2nd Floor, Amar Jyothi Layout, Domlur, Bangalore – 560071",
+   "note": "first of several offices listed"
+  },
+  "Bridgespan India": {
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "source": "https://www.bridgespan.org/contact-us",
+   "address": "Bandra Kurla Complex, Mumbai, Maharashtra, 400051",
+   "note": "registered address"
+  },
+  "Kalpavriksh": {
+   "city": "Pune",
+   "state": "Maharashtra",
+   "source": "https://kalpavriksh.org/",
+   "address": "Flat no 5, 2nd Floor, Shri Dutta Krupa, 908, Deccan Gymkhana, Pune 411004",
+   "note": "only office listed"
+  },
+  "Saath Charitable Trust": {
+   "city": "Ahmedabad",
+   "state": "Gujarat",
+   "source": "https://saath.org/",
+   "address": "0/102, Nandanvan V, Nr. Prernatirth Derasar, Jodhpur Tekra, Satellite, Ahmedabad - 380015",
+   "note": "only office listed"
+  },
+  "The Local Food Project (Locavore)": {
+   "city": "Ernakulam",
+   "state": "Kerala",
+   "source": "https://www.thelocavore.in/contact-us/",
+   "address": "Cinzac Towers, Chittoor Road, Ernakulam, Kerala – 682018, India",
+   "note": "registered postal address"
+  },
+  "Vidhi – Center for Legal Policy": {
+   "city": "New Delhi",
+   "state": "Delhi",
+   "source": "https://vidhilegalpolicy.in/contact/",
+   "address": "A-232, Ratan Lal Sahdev Marg, Block A, Defence Colony, New Delhi, Delhi – 110024",
+   "note": "first of several offices listed"
+  },
+  "Ashoka Trust for Research in Ecology and the Environment (ATREE)": {
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "source": "https://www.atree.org/contact-us/",
+   "address": "Royal Enclave, Sriramapura, Jakkur Post, Bangalore 560 064, Karnataka",
+   "note": "head office"
+  },
+  "ComMutiny": {
+   "city": "New Delhi",
+   "state": "Delhi",
+   "source": "https://commutiny.in/",
+   "address": "3rd Floor, 8, Balaji Estate, Kalkaji, New Delhi – 110019",
+   "note": "only office listed"
+  },
+  "India climate collaborative": {
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "source": "https://indiaclimatecollaborative.org/",
+   "address": "Registered Address: 301, 3rd Floor, Construction House A, 24th Road, Off Linking Road",
+   "note": "registered address"
+  },
+  "Nature Conservation Foundation": {
+   "city": "Mysuru",
+   "state": "Karnataka",
+   "source": "https://www.ncf-india.org/contact-us",
+   "address": "1311,\"Amritha\", 12th Main Vijayanagar 1st Stage Mysore 570 017",
+   "note": "registered address"
+  },
+  "WRI India": {
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "source": "https://www.wri-india.org/",
+   "address": "1st Floor, Godrej & Boyce Premises, Gasworks Lane, Lalbaug, Parel Mumbai 400012, India",
+   "note": "first of several offices listed"
+  },
+  "CSTEP": {
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "source": "https://www.cstep.in/",
+   "address": "No. 18, 10th Cross, Mayura Street, Papanna Layout, Nagashettyhalli (RMV II Stage), Bengaluru 560094",
+   "note": "first of several offices listed"
+  },
+  "PRADAN": {
+   "city": "New Delhi",
+   "state": "Delhi",
+   "source": "https://pradan.net/contact-us/",
+   "address": "#3, Community Shopping Centre, Niti Bagh, New Delhi - 110049",
+   "note": "registered office"
+  },
+  "Wassan": {
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "source": "https://www.wassan.org/",
+   "address": "Plot No. 685 & 686, Street No. 12, Narasimha Swamy Colony, Nagole, Hyderabad – 500 068",
+   "note": "head office"
+  },
+  "ReapBenefit": {
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "source": "https://reapbenefit.org",
+   "address": "149, 12th Cross Rd, 2nd Phase, J. P. Nagar, Bengaluru, Karnataka 560078",
+   "note": "only office listed"
+  },
+  "Technology for Wildlife Foundation": {
+   "city": "Goa",
+   "state": "Goa",
+   "source": "https://www.techforwildlife.com/",
+   "address": "based in Goa, India",
+   "note": "city only; site says operations are paused"
+  },
+  "Youth Conservation Action Network (YouCAN)": {
+   "city": "Pudukkottai",
+   "state": "Tamil Nadu",
+   "source": "https://www.youcan.in/connect",
+   "address": "Registered Address: 52 AMA Nagar Nizam Colony Pudukkottai - 622001",
+   "note": "registered address"
+  },
+  "Shakti Foundation": {
+   "city": "New Delhi",
+   "state": "Delhi",
+   "source": "https://shaktifoundation.in/",
+   "address": "The Capital Court, 104B/2, 4th Floor, Munirka Phase III, New Delhi 110067",
+   "note": "only office listed"
+  },
+  "Sustainable Futures Collective": {
+   "city": "New Delhi",
+   "state": "Delhi",
+   "source": "https://www.sustainablefutures.org/contact-us",
+   "address": "A-16, First Floor, Qutab Institutional Area, Aruna Asaf Ali Marg, New Delhi (110067)",
+   "note": "mailing address"
+  },
+  "Biodiversity Collaborative": {
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "source": "https://www.biodiversitycollaborative.org/",
+   "address": "C/O ATREE, PO Royal Enclave, Srirampura Jakkur, Bengaluru, Karnataka 560064",
+   "note": "only office listed"
+  },
+  "India Development Review (IDR)": {
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "source": "https://idronline.org/contact/",
+   "address": "Registered address: 20, Tarangini, Opp. RBI Officers Quarters, Prabhadevi, Mumbai – 400025.",
+   "note": "registered address"
+  },
+  "Palluyir Trust": {
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "source": "https://palluyirtrust.org/contact-us/",
+   "address": "No: 13/2,First Floor, 7th Street, TANSI Nagar, Velachery, Chennai – 600 042",
+   "note": "only office listed"
+  },
+  "WELL Lab": {
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "source": "https://welllabs.org/contact-us/",
+   "address": "Registered Office: Institute for Financial Management and Research, No. 196, TT Krishnamachari Road, Alwarpet, Chennai",
+   "note": "registered office; an operating office in Bengaluru is also listed"
+  },
+  "ACT Grants": {
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "source": "https://actgrants.in/",
+   "address": "Registered Address: No. 8/2 (Old No.2 and Old No.7), Ulsoor Road, Sivan Chetty Gardens",
+   "note": "registered address"
+  },
+  "RCRC": {
+   "city": "New Delhi",
+   "state": "Delhi",
+   "source": "https://www.rcrc.in/",
+   "address": "#4, Community Shopping Centre, 1st Floor, Anupam Apartments, Mehrauli Badarpur Road, Saidullajab, Sainik Farm, New Delhi 110068",
+   "note": "only office listed"
+  },
+  "Tech4Good Community": {
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "source": "https://www.tech4goodcommunity.com/contact-4",
+   "address": "Working office: Fortuna-1, Jeewan Griha Colony, 2nd Phase, J. P. Nagar, Bengaluru, Karnataka 560078",
+   "note": "only office listed"
+  },
+  "Dakshin Foundation": {
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "source": "https://dakshin.org/contact/",
+   "address": "No. 2203, 8th Main, D Block, MCECHS Layout, Sahakar Nagar, Bengaluru – 560092",
+   "note": "only office listed"
+  },
+  "Sauramandala Foundation": {
+   "city": "Shillong",
+   "state": "Meghalaya",
+   "source": "https://www.sauramandala.org/",
+   "address": "C/B 037, Centre Nongrim Hills, Shillong Meghalaya 793 003, India",
+   "note": "only office listed"
+  },
+  "Waste Warriors": {
+   "city": "Dehradun",
+   "state": "Uttarakhand",
+   "source": "https://wastewarriors.org/get-involved/",
+   "address": "Head Office Address:136/2/2 Shivam Vihar, Rajpur Rd, Jakhan, Dehradun, Uttarakhand 248001",
+   "note": "head office"
+  },
+  "Akshayakalpa Foundation": {
+   "city": "Tiptur",
+   "state": "Karnataka",
+   "source": "https://akshayakalpa.org",
+   "address": "367/G, 3rd Main Road, Sharadanagar, Tiptur - 572 201",
+   "note": "only India office listed"
+  },
+  "Ethos Foundation": {
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "source": "https://ethosfoundation.in/",
+   "address": "109, Century Renata, Raja Ram Mohan Roy Road, Sampangi Rama Nagara, Bengaluru, Karnataka - 560027",
+   "note": "only office listed"
+  },
+  "Praja": {
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "source": "https://www.praja.org/contact_us",
+   "address": "Basement Gala No. B, Chanchal Smruti Co-op Hsg Soc Ltd., G.D. Ambekar Marg",
+   "note": "first of several offices listed"
+  },
+  "Living Landscapes": {
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "source": "https://livinglandscapes.in/",
+   "address": "Plot 9 Survey No. 11/7 Part, Khanammet Gayatri Heights, Jai Hind Enclave",
+   "note": "registered office"
+  },
+  "Udyam Foundation": {
+   "city": "New Delhi",
+   "state": "Delhi",
+   "source": "https://udym.org",
+   "address": "New Delhi, India",
+   "note": "city only"
+  },
+  "All Living Things Environmental Film Festival (ALT EFF)": {
+   "city": "Panchgani",
+   "state": "Maharashtra",
+   "source": "https://www.alteff.in/",
+   "address": "Krishna Bungalow, Bhilar Estate, Panchgani 412805",
+   "note": "only office listed"
+  },
+  "Climate RISE Alliance": {
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "source": "https://climaterise.in/",
+   "address": "F1, 1st Floor, Opposite G5A, Laxmi Woollen Mills Estate, Shakti Mills Lane",
+   "note": "registered office"
+  },
+  "Goonj": {
+   "city": "New Delhi",
+   "state": "Delhi",
+   "source": "https://goonj.org/our-offices/",
+   "address": "Rajesh Pilot Marg, Madan Pur Khadar, Near Sunder Public School, New Delhi – 110076",
+   "note": "head office"
+  },
+  "Rang De": {
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "source": "https://rangde.in/contact",
+   "address": "WeWork, Salarpuria Symbiosis, Begur Hobli, Bannerghatta Main Road, Arekere, Bengaluru",
+   "note": "only office listed"
+  },
+  "Wetlands International South Asia": {
+   "city": "New Delhi",
+   "state": "Delhi",
+   "source": "https://south-asia.wetlands.org/contact/",
+   "address": "Module No. 003, Ground Floor, NSIC Business Park, Okhla Industrial Estate, New Delhi 110020",
+   "note": "only office listed"
+  },
+  "Himalaya Unnati Mission": {
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "source": "https://himalayunnatimission.ssrdp.org/contacts/",
+   "address": "21st KM, Kanakapura Road, Bengaluru, INDIA 560082",
+   "note": "only office listed"
+  },
+  "PARI": {
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "source": "https://ruralindiaonline.org/en/contact-us",
+   "address": "27/43 Sagar Sangam, Bandra Reclamation, Bandra West, Mumbai, Maharashtra- 400050",
+   "note": "mailing address"
+  },
+  "Veditum": {
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "source": "https://www.veditum.org/",
+   "address": "1st Floor, 5 Ishwar Chowdhury Road, Near Deshapriya Park, Kolkata 700029, West Bengal",
+   "note": "only office listed"
+  },
+  "Fields of View": {
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "source": "http://fieldsofview.in/",
+   "address": "#1915, 5th Cross, 18th 'A' Main, JP Nagar 2nd Phase, Bangalore - 560 078",
+   "note": "only office listed"
+  },
+  "Nrityagram": {
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "source": "https://nrityagram.org/",
+   "address": "Nrityagram, Hessaraghatta Post, Kodihalli Village, Bangalore 560088 India",
+   "note": "only office listed"
+  },
+  "SayTrees": {
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "source": "https://www.saytrees.org/contact",
+   "address": "Number 6, 1st Floor, ST Main Road, opposite Concorde Midway City",
+   "note": "only office listed"
+  }
+ },
+ "not_found": {
+  "no address on the site": [
+   "CoRE Stack (CommonsTech Foundation)",
+   "Paani Foundation",
+   "Energy Swaraj Foundation",
+   "Lipok Social Foundation (LSF)",
+   "India Civic Summit (Oorvani Foundation)",
+   "Socratus",
+   "Solid Waste Management Round Table (SWMRT)",
+   "GROW+"
+  ],
+  "page did not load or render": [
+   "Indian Institute for Human Settlements (IIHS)",
+   "The Climate Narrative Hub",
+   "M.S. Swaminathan Research Foundation",
+   "Civis",
+   "SlamOutLoud",
+   "Wild Shaale @ Centre for Wildlife Studies",
+   "Platform for Commons",
+   "IndusTree",
+   "Climate Trends",
+   "Transform Rural India Foundation (TRIF)",
+   "WCS, India",
+   "Council on Energy, Environment and Water (CEEW)"
+  ]
+ }
+}

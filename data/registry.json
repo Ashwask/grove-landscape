@@ -1,0 +1,1009 @@
+{
+ "_note": "Editorial classification of the organisations listed on rainmatter.org/partners, using the Rainmatter Foundation's own vocabulary where it publishes one. focus = the Foundation's four focus areas (Urban, Rural, Conservation and Restoration, Messaging) plus a cross-cutting bucket. assets = the six natural assets the Foundation names. role = what kind of organisation it is. All three are read from the Foundation's description of the partner. scope is used only when no state is named: national, region or ns (not stated). declared_states and declared_source hold a partner's own correction, with a public link. users and title match Partner Updates threads.",
+ "contributors": [
+  {
+   "name": "Ashwin Kulkarni",
+   "role": "Maintainer, first classification"
+  }
+ ],
+ "focus": [
+  {
+   "id": "rural",
+   "label": "Rural"
+  },
+  {
+   "id": "urban",
+   "label": "Urban"
+  },
+  {
+   "id": "cons",
+   "label": "Conservation and Restoration"
+  },
+  {
+   "id": "msg",
+   "label": "Messaging"
+  },
+  {
+   "id": "cross",
+   "label": "Cross-cutting: policy, funding, data"
+  }
+ ],
+ "assets": [
+  {
+   "id": "biodiversity",
+   "label": "Biodiversity"
+  },
+  {
+   "id": "soil",
+   "label": "Soil"
+  },
+  {
+   "id": "water",
+   "label": "Water"
+  },
+  {
+   "id": "air",
+   "label": "Air"
+  },
+  {
+   "id": "energy",
+   "label": "Energy"
+  },
+  {
+   "id": "materials",
+   "label": "Materials"
+  }
+ ],
+ "groups": [
+  {
+   "id": "place",
+   "label": "Place-based",
+   "note": "Organisations that work with communities or local government in a place",
+   "roles": [
+    "impl",
+    "civic"
+   ]
+  },
+  {
+   "id": "social",
+   "label": "Narrative",
+   "note": "Social capital: media, arts, education and youth work that shifts attention to natural assets",
+   "roles": [
+    "media",
+    "edu"
+   ]
+  },
+  {
+   "id": "network",
+   "label": "Connective",
+   "note": "Network capital: networks, research and open data or tools that let others cooperate",
+   "roles": [
+    "net",
+    "res",
+    "tech"
+   ]
+  },
+  {
+   "id": "financial",
+   "label": "Financial",
+   "note": "Financial capital: funders and intermediaries that move money or build capacity",
+   "roles": [
+    "fund"
+   ]
+  }
+ ],
+ "roles": [
+  {
+   "id": "impl",
+   "label": "Community implementer",
+   "note": "Works directly with communities in a place"
+  },
+  {
+   "id": "res",
+   "label": "Research and policy",
+   "note": "Produces evidence, science or policy analysis"
+  },
+  {
+   "id": "net",
+   "label": "Network and backbone",
+   "note": "Convenes or coordinates other organisations"
+  },
+  {
+   "id": "civic",
+   "label": "Civic and governance practice",
+   "note": "Works with citizens, local government or political actors"
+  },
+  {
+   "id": "edu",
+   "label": "Education and youth",
+   "note": "Trains educators, students or young leaders"
+  },
+  {
+   "id": "media",
+   "label": "Media, arts and narrative",
+   "note": "Reports, films, food and culture as a route to climate understanding"
+  },
+  {
+   "id": "tech",
+   "label": "Data and technology",
+   "note": "Builds open data, platforms or tools"
+  },
+  {
+   "id": "fund",
+   "label": "Funding and capacity intermediary",
+   "note": "Moves money or builds the capacity of other organisations"
+  }
+ ],
+ "partners": {
+  "Asar": {
+   "role": "net",
+   "scope": "national",
+   "users": [
+    "Brikesh",
+    "Nitya"
+   ],
+   "title": "^Asar\\b",
+   "focus": "cross",
+   "assets": [
+    "air",
+    "energy"
+   ]
+  },
+  "Climate Trends": {
+   "role": "media",
+   "scope": "national",
+   "title": "Climate Trends",
+   "focus": "msg",
+   "assets": [
+    "air",
+    "energy"
+   ]
+  },
+  "Indian Institute for Human Settlements (IIHS)": {
+   "role": "res",
+   "scope": "national",
+   "users": [
+    "IIHS"
+   ],
+   "title": "\\bIIHS\\b",
+   "focus": "urban",
+   "assets": []
+  },
+  "Sattva Consulting": {
+   "role": "res",
+   "scope": "ns",
+   "title": "\\bSattva\\b",
+   "focus": "cross",
+   "assets": []
+  },
+  "Youth Conservation Action Network (YouCAN)": {
+   "role": "edu",
+   "scope": "national",
+   "users": [
+    "YouCAN"
+   ],
+   "title": "YouCAN|Earth Educators",
+   "focus": "msg",
+   "assets": [
+    "biodiversity"
+   ]
+  },
+  "Akshayakalpa Foundation": {
+   "role": "impl",
+   "scope": "ns",
+   "title": "Akshayakalpa",
+   "focus": "rural",
+   "assets": [
+    "soil"
+   ]
+  },
+  "B.PAC (Bangalore Political Action Committee)": {
+   "role": "civic",
+   "scope": "ns",
+   "title": "B\\.PAC",
+   "focus": "urban",
+   "assets": []
+  },
+  "Bridgespan India": {
+   "role": "fund",
+   "scope": "ns",
+   "title": "Bridgespan",
+   "focus": "cross",
+   "assets": []
+  },
+  "CoRE Stack (CommonsTech Foundation)": {
+   "role": "tech",
+   "scope": "ns",
+   "users": [
+    "CoREstack"
+   ],
+   "title": "CoRE ?[Ss]tack",
+   "focus": "cross",
+   "assets": [
+    "biodiversity"
+   ]
+  },
+  "Ethos Foundation": {
+   "role": "edu",
+   "scope": "national",
+   "users": [
+    "EthosFoundation"
+   ],
+   "title": "Ethos Foundation",
+   "focus": "urban",
+   "assets": []
+  },
+  "Kalpavriksh": {
+   "role": "net",
+   "scope": "ns",
+   "title": "Kalpavriksh|Vikalp Sangam|Decentres",
+   "focus": "cross",
+   "assets": []
+  },
+  "Malabar Awareness and Rescue Center for Wildlife (MARC)": {
+   "role": "impl",
+   "scope": "ns",
+   "title": "\\bMARC\\b",
+   "focus": "cons",
+   "assets": [
+    "biodiversity"
+   ]
+  },
+  "Paani Foundation": {
+   "role": "impl",
+   "scope": "ns",
+   "users": [
+    "Aditi_paani",
+    "Lipimeh"
+   ],
+   "title": "Paani Foundation",
+   "focus": "rural",
+   "assets": [
+    "water",
+    "soil"
+   ]
+  },
+  "Praja": {
+   "role": "civic",
+   "scope": "ns",
+   "users": [
+    "PrajaFoundation"
+   ],
+   "title": "Praja Foundation",
+   "focus": "urban",
+   "assets": []
+  },
+  "Saath Charitable Trust": {
+   "role": "impl",
+   "scope": "ns",
+   "users": [
+    "ahira"
+   ],
+   "title": "\\bSaath\\b",
+   "focus": "urban",
+   "assets": [
+    "materials"
+   ]
+  },
+  "Shakti Foundation": {
+   "role": "fund",
+   "scope": "national",
+   "users": [
+    "Shakti"
+   ],
+   "title": "Shakti Sustainable",
+   "focus": "cross",
+   "assets": [
+    "energy"
+   ]
+  },
+  "The Climate Narrative Hub": {
+   "role": "media",
+   "scope": "national",
+   "users": [
+    "CNHDasra",
+    "varshaa1400"
+   ],
+   "title": "Climate Narrative Hub",
+   "focus": "msg",
+   "assets": []
+  },
+  "The Local Food Project (Locavore)": {
+   "role": "media",
+   "scope": "national",
+   "title": "Locavore",
+   "focus": "msg",
+   "assets": [
+    "soil"
+   ]
+  },
+  "The Timbaktu Collective": {
+   "role": "impl",
+   "scope": "ns",
+   "users": [
+    "TC_1990"
+   ],
+   "title": "Timbaktu",
+   "focus": "rural",
+   "assets": [
+    "soil",
+    "biodiversity"
+   ]
+  },
+  "Transform Rural India Foundation (TRIF)": {
+   "role": "impl",
+   "scope": "ns",
+   "title": "\\bTRIF?\\b|Transform Rural India",
+   "focus": "rural",
+   "assets": []
+  },
+  "Living Landscapes": {
+   "role": "net",
+   "scope": "ns",
+   "title": "Living Landscapes",
+   "focus": "rural",
+   "assets": []
+  },
+  "Platform for Commons": {
+   "role": "tech",
+   "scope": "ns",
+   "title": "Platform for Commons",
+   "focus": "rural",
+   "assets": [
+    "soil"
+   ]
+  },
+  "Sahjeevan": {
+   "role": "impl",
+   "scope": "ns",
+   "users": [
+    "Sahjeevan"
+   ],
+   "title": "Sahjeevan",
+   "focus": "cons",
+   "assets": [
+    "biodiversity"
+   ]
+  },
+  "Shivganga Samagra Gramvikas Parishad": {
+   "role": "impl",
+   "scope": "ns",
+   "users": [
+    "Shivganga2007"
+   ],
+   "title": "Shivganga",
+   "focus": "rural",
+   "assets": [
+    "water",
+    "biodiversity"
+   ]
+  },
+  "Shola Trust": {
+   "role": "impl",
+   "scope": "ns",
+   "users": [
+    "TheSholaTrust"
+   ],
+   "title": "Shola Trust",
+   "focus": "cons",
+   "assets": [
+    "biodiversity"
+   ]
+  },
+  "Sustainable Futures Collective": {
+   "role": "res",
+   "scope": "national",
+   "users": [
+    "SFC"
+   ],
+   "title": "Sustainable Futures Collaborative",
+   "focus": "cross",
+   "assets": [
+    "energy"
+   ]
+  },
+  "Udyam Foundation": {
+   "role": "impl",
+   "scope": "ns",
+   "title": "Udhyam|Udyam",
+   "focus": "rural",
+   "assets": []
+  },
+  "Vidhi – Center for Legal Policy": {
+   "role": "res",
+   "scope": "ns",
+   "users": [
+    "environmentvclp",
+    "tarika_vidhi"
+   ],
+   "title": "Vidhi|Green Mandate",
+   "focus": "cross",
+   "assets": [
+    "biodiversity"
+   ]
+  },
+  "WCS, India": {
+   "role": "impl",
+   "scope": "national",
+   "users": [
+    "wcsindia"
+   ],
+   "title": "WCS-India",
+   "focus": "cons",
+   "assets": [
+    "biodiversity"
+   ]
+  },
+  "A Rocha India": {
+   "role": "impl",
+   "scope": "ns",
+   "title": "A Rocha",
+   "focus": "cons",
+   "assets": [
+    "biodiversity"
+   ]
+  },
+  "All Living Things Environmental Film Festival (ALT EFF)": {
+   "role": "media",
+   "scope": "national",
+   "users": [
+    "alt.eff"
+   ],
+   "title": "ALT EFF|All Living Things Environmental Film Festival",
+   "focus": "msg",
+   "assets": []
+  },
+  "Ashoka Trust for Research in Ecology and the Environment (ATREE)": {
+   "role": "res",
+   "scope": "ns",
+   "title": "\\bATREE\\b",
+   "focus": "cons",
+   "assets": [
+    "biodiversity"
+   ]
+  },
+  "Biodiversity Collaborative": {
+   "role": "net",
+   "scope": "ns",
+   "title": "Biodiversity Collaborative",
+   "focus": "cons",
+   "assets": [
+    "biodiversity"
+   ]
+  },
+  "Climate RISE Alliance": {
+   "role": "net",
+   "scope": "national",
+   "users": [
+    "ClimateRISE"
+   ],
+   "title": "ClimateRISE",
+   "focus": "rural",
+   "assets": []
+  },
+  "ComMutiny": {
+   "role": "edu",
+   "scope": "national",
+   "users": [
+    "ComMutiny"
+   ],
+   "title": "ComMutiny",
+   "focus": "msg",
+   "assets": []
+  },
+  "Council on Energy, Environment and Water (CEEW)": {
+   "role": "res",
+   "scope": "national",
+   "title": "\\bCEEW\\b",
+   "focus": "cross",
+   "assets": [
+    "water",
+    "energy",
+    "air"
+   ]
+  },
+  "Goonj": {
+   "role": "impl",
+   "scope": "national",
+   "users": [
+    "Arundhati.goonj"
+   ],
+   "title": "\\bGoonj\\b",
+   "focus": "rural",
+   "assets": [
+    "materials"
+   ]
+  },
+  "Gram Vikas": {
+   "role": "impl",
+   "scope": "ns",
+   "users": [
+    "gram_vikas"
+   ],
+   "title": "Gram Vikas(?! Natyamanch)",
+   "focus": "rural",
+   "assets": []
+  },
+  "Gurukula Botanical Sanctuary": {
+   "role": "impl",
+   "scope": "ns",
+   "users": [
+    "GBS"
+   ],
+   "title": "Gurukula Botanical",
+   "focus": "cons",
+   "assets": [
+    "biodiversity"
+   ]
+  },
+  "India climate collaborative": {
+   "role": "fund",
+   "scope": "national",
+   "users": [
+    "ICC"
+   ],
+   "title": "India Climate Collaborative",
+   "focus": "cross",
+   "assets": []
+  },
+  "India Development Review (IDR)": {
+   "role": "media",
+   "scope": "national",
+   "title": "India Development Review",
+   "focus": "msg",
+   "assets": []
+  },
+  "Jagriti Seva Sansthan": {
+   "role": "impl",
+   "scope": "ns",
+   "users": [
+    "BioregionalCoE-2025",
+    "jagriti2023"
+   ],
+   "title": "Jagriti|\\bJECP\\b",
+   "focus": "rural",
+   "assets": [
+    "materials",
+    "biodiversity"
+   ]
+  },
+  "M.S. Swaminathan Research Foundation": {
+   "role": "res",
+   "scope": "ns",
+   "title": "\\bMSSRF\\b|Swaminathan Research",
+   "focus": "rural",
+   "assets": [
+    "soil",
+    "biodiversity",
+    "water"
+   ]
+  },
+  "Nature Conservation Foundation": {
+   "role": "res",
+   "scope": "national",
+   "users": [
+    "Nature_Conservation"
+   ],
+   "title": "Nature Conservation Foundation",
+   "focus": "cons",
+   "assets": [
+    "biodiversity"
+   ]
+  },
+  "Palluyir Trust": {
+   "role": "edu",
+   "scope": "ns",
+   "users": [
+    "Palluyir_Trust"
+   ],
+   "title": "Palluyir",
+   "focus": "msg",
+   "assets": [
+    "biodiversity"
+   ]
+  },
+  "Rang De": {
+   "role": "fund",
+   "scope": "ns",
+   "title": "Rang De",
+   "focus": "rural",
+   "assets": []
+  },
+  "Socratus": {
+   "role": "civic",
+   "scope": "ns",
+   "title": "Socratus",
+   "focus": "urban",
+   "assets": []
+  },
+  "Swami Vivekananda Youth Movement (SVYM)": {
+   "role": "impl",
+   "scope": "ns",
+   "title": "\\bSVYM\\b",
+   "focus": "rural",
+   "assets": []
+  },
+  "Vaagdhara": {
+   "role": "impl",
+   "scope": "ns",
+   "users": [
+    "vaagdhara"
+   ],
+   "title": "Vaagdhara|VAAGDHARA",
+   "focus": "rural",
+   "assets": [
+    "soil"
+   ]
+  },
+  "WELL Lab": {
+   "role": "res",
+   "scope": "ns",
+   "title": "WELL Labs",
+   "focus": "rural",
+   "assets": [
+    "water",
+    "soil"
+   ]
+  },
+  "Wetlands International South Asia": {
+   "role": "res",
+   "scope": "region",
+   "users": [
+    "RaviPrakashWISA"
+   ],
+   "title": "Wetlands International",
+   "focus": "cons",
+   "assets": [
+    "water",
+    "biodiversity"
+   ]
+  },
+  "WRI India": {
+   "role": "res",
+   "scope": "national",
+   "users": [
+    "WRI_India"
+   ],
+   "title": "WRI India",
+   "focus": "urban",
+   "assets": [
+    "soil",
+    "energy",
+    "water"
+   ]
+  },
+  "ACT Grants": {
+   "role": "fund",
+   "scope": "national",
+   "title": "ACT Grants",
+   "focus": "cross",
+   "assets": []
+  },
+  "Biome Environmental Trust": {
+   "role": "impl",
+   "scope": "ns",
+   "users": [
+    "BiomeTrust"
+   ],
+   "title": "Biome (Environmental )?Trust",
+   "focus": "urban",
+   "assets": [
+    "water"
+   ]
+  },
+  "Buzz Women": {
+   "role": "impl",
+   "scope": "ns",
+   "title": "Buzz Women",
+   "focus": "rural",
+   "assets": []
+  },
+  "Civis": {
+   "role": "civic",
+   "scope": "ns",
+   "title": "\\bCIVIS\\b|\\bCivis\\b",
+   "focus": "cross",
+   "assets": []
+  },
+  "CSTEP": {
+   "role": "res",
+   "scope": "ns",
+   "users": [
+    "CSTEP"
+   ],
+   "title": "\\bCSTEP\\b",
+   "focus": "cross",
+   "assets": []
+  },
+  "Energy Swaraj Foundation": {
+   "role": "edu",
+   "scope": "ns",
+   "title": "Energy Swaraj",
+   "focus": "msg",
+   "assets": [
+    "energy"
+   ]
+  },
+  "Farmers for Forests": {
+   "role": "impl",
+   "scope": "ns",
+   "title": "Farmers for Forests",
+   "focus": "cons",
+   "assets": [
+    "biodiversity",
+    "soil"
+   ]
+  },
+  "Himalaya Unnati Mission": {
+   "role": "net",
+   "scope": "region",
+   "title": "\\bHUM\\b|Himalaya Unnati",
+   "focus": "cons",
+   "assets": [
+    "biodiversity"
+   ]
+  },
+  "Hume Centre for Ecology and Wildlife Biology": {
+   "role": "res",
+   "scope": "ns",
+   "title": "\\bHume\\b",
+   "focus": "cons",
+   "assets": [
+    "biodiversity"
+   ]
+  },
+  "IndusTree": {
+   "role": "impl",
+   "scope": "ns",
+   "users": [
+    "IndustreeFoundation"
+   ],
+   "title": "Industree",
+   "focus": "rural",
+   "assets": [
+    "materials"
+   ]
+  },
+  "Lipok Social Foundation (LSF)": {
+   "role": "impl",
+   "scope": "ns",
+   "users": [
+    "lipok"
+   ],
+   "title": "Lipok",
+   "focus": "rural",
+   "assets": []
+  },
+  "PARI": {
+   "role": "media",
+   "scope": "national",
+   "users": [
+    "PARI"
+   ],
+   "title": "\\bPARI\\b|People's Archive of Rural India",
+   "focus": "msg",
+   "assets": []
+  },
+  "PRADAN": {
+   "role": "impl",
+   "scope": "ns",
+   "users": [
+    "PRADAN"
+   ],
+   "title": "\\bPRADAN\\b",
+   "focus": "rural",
+   "assets": []
+  },
+  "RCRC": {
+   "role": "net",
+   "scope": "national",
+   "title": "\\bRCRC\\b",
+   "focus": "rural",
+   "assets": [
+    "soil"
+   ]
+  },
+  "Saahas": {
+   "role": "impl",
+   "scope": "ns",
+   "users": [
+    "Saahas_Updates"
+   ],
+   "title": "Saahas",
+   "focus": "rural",
+   "assets": [
+    "materials"
+   ]
+  },
+  "SlamOutLoud": {
+   "role": "edu",
+   "scope": "ns",
+   "title": "Slam Out Loud",
+   "focus": "msg",
+   "assets": []
+  },
+  "Solid Waste Management Round Table (SWMRT)": {
+   "role": "net",
+   "scope": "ns",
+   "users": [
+    "SWMRT"
+   ],
+   "title": "\\bSWMRT\\b",
+   "focus": "urban",
+   "assets": [
+    "materials"
+   ]
+  },
+  "Tech4Good Community": {
+   "role": "tech",
+   "scope": "ns",
+   "users": [
+    "Tech4GoodCommunity"
+   ],
+   "title": "Tech4Good|\\bT4G\\b",
+   "focus": "cross",
+   "assets": []
+  },
+  "Veditum": {
+   "role": "res",
+   "scope": "ns",
+   "title": "Veditum",
+   "focus": "cons",
+   "assets": [
+    "water"
+   ]
+  },
+  "Wassan": {
+   "role": "impl",
+   "scope": "ns",
+   "users": [
+    "Gijivisha_WASSAN"
+   ],
+   "title": "\\bWASSAN\\b",
+   "focus": "rural",
+   "assets": [
+    "soil"
+   ]
+  },
+  "Dakshin Foundation": {
+   "role": "impl",
+   "scope": "ns",
+   "title": "Dakshin Foundation",
+   "focus": "cons",
+   "assets": [
+    "water",
+    "biodiversity"
+   ]
+  },
+  "Fields of View": {
+   "role": "res",
+   "scope": "ns",
+   "users": [
+    "fieldsofview.in"
+   ],
+   "title": "Fields of View",
+   "focus": "cross",
+   "assets": []
+  },
+  "GROW+": {
+   "role": "fund",
+   "scope": "ns",
+   "title": "GROW\\+",
+   "focus": "cross",
+   "assets": []
+  },
+  "India Civic Summit (Oorvani Foundation)": {
+   "role": "civic",
+   "scope": "ns",
+   "title": "Oorvani",
+   "focus": "urban",
+   "assets": []
+  },
+  "Janaagraha": {
+   "role": "civic",
+   "scope": "ns",
+   "users": [
+    "Janaagraha"
+   ],
+   "title": "Janaagraha",
+   "focus": "urban",
+   "assets": []
+  },
+  "Nrityagram": {
+   "role": "media",
+   "scope": "ns",
+   "title": "Nrityagram",
+   "focus": "msg",
+   "assets": [
+    "water",
+    "energy"
+   ]
+  },
+  "Punarchith": {
+   "role": "impl",
+   "scope": "ns",
+   "users": [
+    "Punarchith"
+   ],
+   "title": "Punarchith",
+   "focus": "cons",
+   "assets": [
+    "biodiversity",
+    "soil"
+   ]
+  },
+  "ReapBenefit": {
+   "role": "civic",
+   "scope": "ns",
+   "title": "Reap Benefit",
+   "focus": "urban",
+   "assets": []
+  },
+  "Sauramandala Foundation": {
+   "role": "impl",
+   "scope": "ns",
+   "users": [
+    "Sauramandala"
+   ],
+   "title": "Sauramandala",
+   "focus": "rural",
+   "assets": []
+  },
+  "SayTrees": {
+   "role": "impl",
+   "scope": "ns",
+   "title": "SayTrees",
+   "focus": "cons",
+   "assets": [
+    "biodiversity",
+    "soil"
+   ]
+  },
+  "Technology for Wildlife Foundation": {
+   "role": "tech",
+   "scope": "ns",
+   "title": "Technology for Wildlife",
+   "focus": "cons",
+   "assets": [
+    "biodiversity"
+   ]
+  },
+  "Uttarayan": {
+   "role": "impl",
+   "scope": "ns",
+   "users": [
+    "uttarayanwl"
+   ],
+   "title": "UTTARAYAN|Uttarayan",
+   "focus": "cons",
+   "assets": [
+    "biodiversity",
+    "soil"
+   ]
+  },
+  "Waste Warriors": {
+   "role": "impl",
+   "scope": "region",
+   "users": [
+    "WasteWarriors"
+   ],
+   "title": "Waste Warriors",
+   "focus": "cross",
+   "assets": [
+    "materials"
+   ]
+  },
+  "Wild Shaale @ Centre for Wildlife Studies": {
+   "role": "res",
+   "scope": "region",
+   "users": [
+    "cwsindia"
+   ],
+   "title": "\\bCWS\\b|Centre for Wildlife Studies",
+   "focus": "cons",
+   "assets": [
+    "biodiversity"
+   ]
+  }
+ }
+}

@@ -1,0 +1,1782 @@
+{
+ "refreshed": "2026-11-25T12:44:58Z",
+ "partners": [
+  {
+   "name": "Asar",
+   "website": "https://asar.co.in/",
+   "partner_since": 2026,
+   "focus_area": "Cross-cutting: policy, funding, data",
+   "role": "Network and backbone",
+   "natural_assets": [
+    "Air",
+    "Energy"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Chandigarh",
+    "Delhi",
+    "Goa",
+    "Haryana",
+    "Jammu and Kashmir",
+    "Jharkhand",
+    "Karnataka",
+    "Maharashtra",
+    "Odisha",
+    "Punjab",
+    "Tamil Nadu",
+    "Telangana",
+    "Uttarakhand",
+    "West Bengal"
+   ],
+   "office_city": "Bengaluru",
+   "office_state": "Karnataka",
+   "office_source": "https://asar.co.in/contact-us/",
+   "latest_grove_update": "2026-11-05",
+   "latest_grove_url": "https://grove.rainmatter.org/t/asar-arts-and-culture-engagement-at-the-emergence-festival-goa/5346/1"
+  },
+  {
+   "name": "Climate Trends",
+   "website": "https://climatetrends.in/",
+   "partner_since": 2026,
+   "focus_area": "Messaging",
+   "role": "Media, arts and narrative",
+   "natural_assets": [
+    "Air",
+    "Energy"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "",
+   "latest_grove_url": ""
+  },
+  {
+   "name": "Indian Institute for Human Settlements (IIHS)",
+   "website": "https://iihs.co.in/",
+   "partner_since": 2026,
+   "focus_area": "Urban",
+   "role": "Research and policy",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2026-10-22",
+   "latest_grove_url": "https://grove.rainmatter.org/t/accelerating-sustainable-and-super-efficient-real-estate-assure-iihs/4574/3"
+  },
+  {
+   "name": "Sattva Consulting",
+   "website": "https://www.sattva.co.in/",
+   "partner_since": 2026,
+   "focus_area": "Cross-cutting: policy, funding, data",
+   "role": "Research and policy",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "Bengaluru",
+   "office_state": "Karnataka",
+   "office_source": "https://www.sattva.co.in/contact/",
+   "latest_grove_update": "",
+   "latest_grove_url": ""
+  },
+  {
+   "name": "Youth Conservation Action Network (YouCAN)",
+   "website": "https://www.youcan.in",
+   "partner_since": 2026,
+   "focus_area": "Messaging",
+   "role": "Education and youth",
+   "natural_assets": [
+    "Biodiversity"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "Pudukkottai",
+   "office_state": "Tamil Nadu",
+   "office_source": "https://www.youcan.in/connect",
+   "latest_grove_update": "2025-05-25",
+   "latest_grove_url": "https://grove.rainmatter.org/t/what-does-it-mean-to-educate-for-a-healthy-planet/3998/1"
+  },
+  {
+   "name": "Akshayakalpa Foundation",
+   "website": "https://akshayakalpa.org",
+   "partner_since": 2025,
+   "focus_area": "Rural",
+   "role": "Community implementer",
+   "natural_assets": [
+    "Soil"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "Tiptur",
+   "office_state": "Karnataka",
+   "office_source": "https://akshayakalpa.org",
+   "latest_grove_update": "",
+   "latest_grove_url": ""
+  },
+  {
+   "name": "B.PAC (Bangalore Political Action Committee)",
+   "website": "https://bpac.in/",
+   "partner_since": 2025,
+   "focus_area": "Urban",
+   "role": "Civic and governance practice",
+   "natural_assets": [],
+   "states_stated": [
+    "Karnataka"
+   ],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2026-05-26",
+   "latest_grove_url": "https://grove.rainmatter.org/t/b-pac-climate-friendly-political-leadership/4263/20"
+  },
+  {
+   "name": "Bridgespan India",
+   "website": "https://www.bridgespan.org/insights/community-driven-change-africa-and-india",
+   "partner_since": 2025,
+   "focus_area": "Cross-cutting: policy, funding, data",
+   "role": "Funding and capacity intermediary",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "Mumbai",
+   "office_state": "Maharashtra",
+   "office_source": "https://www.bridgespan.org/contact-us",
+   "latest_grove_update": "",
+   "latest_grove_url": ""
+  },
+  {
+   "name": "CoRE Stack (CommonsTech Foundation)",
+   "website": "https://core-stack.org/",
+   "partner_since": 2025,
+   "focus_area": "Cross-cutting: policy, funding, data",
+   "role": "Data and technology",
+   "natural_assets": [
+    "Biodiversity"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2024-02-05",
+   "latest_grove_url": "https://grove.rainmatter.org/t/first-quarter-update-core-stack/2977/1"
+  },
+  {
+   "name": "Ethos Foundation",
+   "website": "https://ethosfoundation.in/arcause/",
+   "partner_since": 2025,
+   "focus_area": "Urban",
+   "role": "Education and youth",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Bihar",
+    "Delhi",
+    "Goa",
+    "Gujarat",
+    "Karnataka",
+    "Kerala",
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Odisha",
+    "Tamil Nadu",
+    "Uttar Pradesh"
+   ],
+   "office_city": "Bengaluru",
+   "office_state": "Karnataka",
+   "office_source": "https://ethosfoundation.in/",
+   "latest_grove_update": "2026-11-25",
+   "latest_grove_url": "https://grove.rainmatter.org/t/what-s-brewing-at-ethos-foundation/4289/112"
+  },
+  {
+   "name": "Kalpavriksh",
+   "website": "https://kalpavriksh.org/",
+   "partner_since": 2025,
+   "focus_area": "Cross-cutting: policy, funding, data",
+   "role": "Network and backbone",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Ladakh"
+   ],
+   "office_city": "Pune",
+   "office_state": "Maharashtra",
+   "office_source": "https://kalpavriksh.org/",
+   "latest_grove_update": "2026-06-30",
+   "latest_grove_url": "https://grove.rainmatter.org/t/alternatives-courses-and-decentres/4361/4"
+  },
+  {
+   "name": "Malabar Awareness and Rescue Center for Wildlife (MARC)",
+   "website": "https://marcforwildlife.com",
+   "partner_since": 2025,
+   "focus_area": "Conservation and Restoration",
+   "role": "Community implementer",
+   "natural_assets": [
+    "Biodiversity"
+   ],
+   "states_stated": [
+    "Kerala"
+   ],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "",
+   "latest_grove_url": ""
+  },
+  {
+   "name": "Paani Foundation",
+   "website": "https://www.paanifoundation.in/",
+   "partner_since": 2025,
+   "focus_area": "Rural",
+   "role": "Community implementer",
+   "natural_assets": [
+    "Water",
+    "Soil"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2026-10-22",
+   "latest_grove_url": "https://grove.rainmatter.org/t/the-26-7-crore-secret-hiding-in-ten-leaves/5305/1"
+  },
+  {
+   "name": "Praja",
+   "website": "https://www.praja.org/",
+   "partner_since": 2025,
+   "focus_area": "Urban",
+   "role": "Civic and governance practice",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Assam",
+    "Bihar",
+    "Chhattisgarh",
+    "Delhi",
+    "Gujarat",
+    "Haryana",
+    "Jharkhand",
+    "Karnataka",
+    "Kerala",
+    "Nagaland",
+    "Odisha",
+    "Tamil Nadu",
+    "Telangana",
+    "Uttar Pradesh"
+   ],
+   "office_city": "Mumbai",
+   "office_state": "Maharashtra",
+   "office_source": "https://www.praja.org/contact_us",
+   "latest_grove_update": "2026-11-24",
+   "latest_grove_url": "https://grove.rainmatter.org/t/praja-foundation-making-democracy-work/4211/15"
+  },
+  {
+   "name": "Saath Charitable Trust",
+   "website": "https://saath.org/",
+   "partner_since": 2025,
+   "focus_area": "Urban",
+   "role": "Community implementer",
+   "natural_assets": [
+    "Materials"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "Ahmedabad",
+   "office_state": "Gujarat",
+   "office_source": "https://saath.org/",
+   "latest_grove_update": "2026-06-02",
+   "latest_grove_url": "https://grove.rainmatter.org/t/urban-collaboration-for-resilience-and-scale-for-informal-sector/4202/7"
+  },
+  {
+   "name": "Shakti Foundation",
+   "website": "https://shaktifoundation.in/",
+   "partner_since": 2025,
+   "focus_area": "Cross-cutting: policy, funding, data",
+   "role": "Funding and capacity intermediary",
+   "natural_assets": [
+    "Energy"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Assam"
+   ],
+   "office_city": "New Delhi",
+   "office_state": "Delhi",
+   "office_source": "https://shaktifoundation.in/",
+   "latest_grove_update": "2026-05-25",
+   "latest_grove_url": "https://grove.rainmatter.org/t/strengthening-subnational-climate-resilience-mainstreaming-bioregionalism-in-india/4903/1"
+  },
+  {
+   "name": "The Climate Narrative Hub",
+   "website": "https://climatenarrativehub.notion.site/The-Climate-Narrative-Hub-225f08c9056080188df0f02d7aaf3779",
+   "partner_since": 2025,
+   "focus_area": "Messaging",
+   "role": "Media, arts and narrative",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Karnataka",
+    "Madhya Pradesh",
+    "Tamil Nadu"
+   ],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2026-06-19",
+   "latest_grove_url": "https://grove.rainmatter.org/t/climate-narrative-hub-amplifying-stories-on-local-rural-economies/4984/1"
+  },
+  {
+   "name": "The Local Food Project (Locavore)",
+   "website": "https://www.thelocavore.in/",
+   "partner_since": 2025,
+   "focus_area": "Messaging",
+   "role": "Media, arts and narrative",
+   "natural_assets": [
+    "Soil"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "Ernakulam",
+   "office_state": "Kerala",
+   "office_source": "https://www.thelocavore.in/contact-us/",
+   "latest_grove_update": "",
+   "latest_grove_url": ""
+  },
+  {
+   "name": "The Timbaktu Collective",
+   "website": "https://timbaktu.org/",
+   "partner_since": 2025,
+   "focus_area": "Rural",
+   "role": "Community implementer",
+   "natural_assets": [
+    "Soil",
+    "Biodiversity"
+   ],
+   "states_stated": [
+    "Andhra Pradesh"
+   ],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Karnataka",
+    "Tamil Nadu"
+   ],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2026-10-09",
+   "latest_grove_url": "https://grove.rainmatter.org/t/fourth-quarter-grove-update-of-sri-project-output-4-promotion-of-ethical-sustainable-and-viable-business-enterprises/5280/1"
+  },
+  {
+   "name": "Transform Rural India Foundation (TRIF)",
+   "website": "https://trif.org",
+   "partner_since": 2025,
+   "focus_area": "Rural",
+   "role": "Community implementer",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2025-11-20",
+   "latest_grove_url": "https://grove.rainmatter.org/t/tris-participation-at-cop30/4429/1"
+  },
+  {
+   "name": "Living Landscapes",
+   "website": "https://livinglandscapes.in/",
+   "partner_since": 2024,
+   "focus_area": "Rural",
+   "role": "Network and backbone",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "Hyderabad",
+   "office_state": "Telangana",
+   "office_source": "https://livinglandscapes.in/",
+   "latest_grove_update": "",
+   "latest_grove_url": ""
+  },
+  {
+   "name": "Platform for Commons",
+   "website": "https://platformforcommons.org/",
+   "partner_since": 2024,
+   "focus_area": "Rural",
+   "role": "Data and technology",
+   "natural_assets": [
+    "Soil"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "",
+   "latest_grove_url": ""
+  },
+  {
+   "name": "Sahjeevan",
+   "website": "https://sahjeevan.org",
+   "partner_since": 2024,
+   "focus_area": "Conservation and Restoration",
+   "role": "Community implementer",
+   "natural_assets": [
+    "Biodiversity"
+   ],
+   "states_stated": [
+    "Gujarat"
+   ],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2025-10-07",
+   "latest_grove_url": "https://grove.rainmatter.org/t/salim-node-certificate-course-on-sustainable-pastoral-ecosystems-of-banni-learning-from-the-land-to-lead-for-the-land/4341/1"
+  },
+  {
+   "name": "Shivganga Samagra Gramvikas Parishad",
+   "website": "https://new.shivgangajhabua.org",
+   "partner_since": 2024,
+   "focus_area": "Rural",
+   "role": "Community implementer",
+   "natural_assets": [
+    "Water",
+    "Biodiversity"
+   ],
+   "states_stated": [
+    "Madhya Pradesh"
+   ],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Delhi",
+    "Gujarat",
+    "Maharashtra"
+   ],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2026-11-10",
+   "latest_grove_url": "https://grove.rainmatter.org/t/october-2026-activities-at-shivganga-jhabua/5353/1"
+  },
+  {
+   "name": "Shola Trust",
+   "website": "https://www.thesholatrust.org/",
+   "partner_since": 2024,
+   "focus_area": "Conservation and Restoration",
+   "role": "Community implementer",
+   "natural_assets": [
+    "Biodiversity"
+   ],
+   "states_stated": [
+    "Tamil Nadu"
+   ],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2026-09-15",
+   "latest_grove_url": "https://grove.rainmatter.org/t/the-below-summarythis-summary-talks-about-the-removal-of-lantana-camara-in-nbr-at-scale-it-also-talks-about-the-circular-process-from-removal-to-restoration-of-grassy-understory-in-lantana-cleared-sites/5233/1"
+  },
+  {
+   "name": "Sustainable Futures Collective",
+   "website": "https://www.sustainablefutures.org/",
+   "partner_since": 2024,
+   "focus_area": "Cross-cutting: policy, funding, data",
+   "role": "Research and policy",
+   "natural_assets": [
+    "Energy"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Delhi"
+   ],
+   "office_city": "New Delhi",
+   "office_state": "Delhi",
+   "office_source": "https://www.sustainablefutures.org/contact-us",
+   "latest_grove_update": "2026-09-24",
+   "latest_grove_url": "https://grove.rainmatter.org/t/sfcs-annual-report-2025-26-the-year-our-questions-converged/5254/1"
+  },
+  {
+   "name": "Udyam Foundation",
+   "website": "https://udym.org",
+   "partner_since": 2024,
+   "focus_area": "Rural",
+   "role": "Community implementer",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "New Delhi",
+   "office_state": "Delhi",
+   "office_source": "https://udym.org",
+   "latest_grove_update": "",
+   "latest_grove_url": ""
+  },
+  {
+   "name": "Vidhi – Center for Legal Policy",
+   "website": "https://vidhilegalpolicy.in",
+   "partner_since": 2024,
+   "focus_area": "Cross-cutting: policy, funding, data",
+   "role": "Research and policy",
+   "natural_assets": [
+    "Biodiversity"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Andhra Pradesh",
+    "Bihar",
+    "Delhi",
+    "Gujarat",
+    "Karnataka",
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Rajasthan",
+    "Tamil Nadu",
+    "Uttar Pradesh",
+    "Uttarakhand"
+   ],
+   "office_city": "New Delhi",
+   "office_state": "Delhi",
+   "office_source": "https://vidhilegalpolicy.in/contact/",
+   "latest_grove_update": "2026-06-30",
+   "latest_grove_url": "https://grove.rainmatter.org/t/updates-from-vidhis-climate-ecosystems-team/4012/4"
+  },
+  {
+   "name": "WCS, India",
+   "website": "https://india.wcs.org",
+   "partner_since": 2024,
+   "focus_area": "Conservation and Restoration",
+   "role": "Community implementer",
+   "natural_assets": [
+    "Biodiversity"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Goa",
+    "Karnataka",
+    "Maharashtra",
+    "Tamil Nadu",
+    "Uttarakhand"
+   ],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2026-11-20",
+   "latest_grove_url": "https://grove.rainmatter.org/t/collaborations-for-conservation/3923/30"
+  },
+  {
+   "name": "A Rocha India",
+   "website": "https://www.arocha.in/",
+   "partner_since": 2023,
+   "focus_area": "Conservation and Restoration",
+   "role": "Community implementer",
+   "natural_assets": [
+    "Biodiversity"
+   ],
+   "states_stated": [
+    "Karnataka",
+    "Tamil Nadu"
+   ],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2025-07-23",
+   "latest_grove_url": "https://grove.rainmatter.org/t/introducing-a-rocha-india/3149/9"
+  },
+  {
+   "name": "All Living Things Environmental Film Festival (ALT EFF)",
+   "website": "https://www.alteff.in/",
+   "partner_since": 2023,
+   "focus_area": "Messaging",
+   "role": "Media, arts and narrative",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Goa",
+    "Karnataka",
+    "Maharashtra",
+    "Tamil Nadu"
+   ],
+   "office_city": "Panchgani",
+   "office_state": "Maharashtra",
+   "office_source": "https://www.alteff.in/",
+   "latest_grove_update": "2026-04-30",
+   "latest_grove_url": "https://grove.rainmatter.org/t/alt-eff-updates-festival-report/4850/1"
+  },
+  {
+   "name": "Ashoka Trust for Research in Ecology and the Environment (ATREE)",
+   "website": "https://www.atree.org/",
+   "partner_since": 2023,
+   "focus_area": "Conservation and Restoration",
+   "role": "Research and policy",
+   "natural_assets": [
+    "Biodiversity"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "Bengaluru",
+   "office_state": "Karnataka",
+   "office_source": "https://www.atree.org/contact-us/",
+   "latest_grove_update": "2024-04-22",
+   "latest_grove_url": "https://grove.rainmatter.org/t/atree-updates-thread/3200/2"
+  },
+  {
+   "name": "Biodiversity Collaborative",
+   "website": "https://www.biodiversitycollaborative.org/",
+   "partner_since": 2023,
+   "focus_area": "Conservation and Restoration",
+   "role": "Network and backbone",
+   "natural_assets": [
+    "Biodiversity"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "Bengaluru",
+   "office_state": "Karnataka",
+   "office_source": "https://www.biodiversitycollaborative.org/",
+   "latest_grove_update": "2024-08-20",
+   "latest_grove_url": "https://grove.rainmatter.org/t/biodiversity-collaborative-updates-for-rainmatter-partners/3495/1"
+  },
+  {
+   "name": "Climate RISE Alliance",
+   "website": "https://climaterise.in/",
+   "partner_since": 2023,
+   "focus_area": "Rural",
+   "role": "Network and backbone",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Assam",
+    "Karnataka",
+    "Maharashtra",
+    "Uttar Pradesh"
+   ],
+   "office_city": "Mumbai",
+   "office_state": "Maharashtra",
+   "office_source": "https://climaterise.in/",
+   "latest_grove_update": "2026-11-19",
+   "latest_grove_url": "https://grove.rainmatter.org/t/updates-for-climaterise-alliance-april-2026-september-2026/5383/1"
+  },
+  {
+   "name": "ComMutiny",
+   "website": "https://commutiny.in/",
+   "partner_since": 2023,
+   "focus_area": "Messaging",
+   "role": "Education and youth",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Delhi",
+    "Gujarat",
+    "Jammu and Kashmir",
+    "Jharkhand",
+    "Madhya Pradesh",
+    "Odisha",
+    "Rajasthan",
+    "Tamil Nadu",
+    "West Bengal"
+   ],
+   "office_city": "New Delhi",
+   "office_state": "Delhi",
+   "office_source": "https://commutiny.in/",
+   "latest_grove_update": "2026-11-11",
+   "latest_grove_url": "https://grove.rainmatter.org/t/climate-chakraview-festival-2026-bringing-climate-closer-to-everyday-life/5359/1"
+  },
+  {
+   "name": "Council on Energy, Environment and Water (CEEW)",
+   "website": "https://www.ceew.in/",
+   "partner_since": 2023,
+   "focus_area": "Cross-cutting: policy, funding, data",
+   "role": "Research and policy",
+   "natural_assets": [
+    "Water",
+    "Energy",
+    "Air"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2024-04-04",
+   "latest_grove_url": "https://grove.rainmatter.org/t/ceew-catalysing-sustainability-transitions/3154/1"
+  },
+  {
+   "name": "Goonj",
+   "website": "https://goonj.org/",
+   "partner_since": 2023,
+   "focus_area": "Rural",
+   "role": "Community implementer",
+   "natural_assets": [
+    "Materials"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Delhi",
+    "Odisha",
+    "Rajasthan"
+   ],
+   "office_city": "New Delhi",
+   "office_state": "Delhi",
+   "office_source": "https://goonj.org/our-offices/",
+   "latest_grove_update": "2025-01-06",
+   "latest_grove_url": "https://grove.rainmatter.org/t/goonj-reigniting-the-swabhimaan-of-indian-villages/2548/11"
+  },
+  {
+   "name": "Gram Vikas",
+   "website": "https://www.gramvikas.org/",
+   "partner_since": 2023,
+   "focus_area": "Rural",
+   "role": "Community implementer",
+   "natural_assets": [],
+   "states_stated": [
+    "Odisha"
+   ],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Himachal Pradesh",
+    "Jharkhand",
+    "Kerala"
+   ],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2026-10-12",
+   "latest_grove_url": "https://grove.rainmatter.org/t/swaraj-a-village-that-has-managed-its-own-water-system-for-20-years-tells-us-something-about-self-governance/5286/1"
+  },
+  {
+   "name": "Gurukula Botanical Sanctuary",
+   "website": "https://www.gbsanctuary.org/",
+   "partner_since": 2023,
+   "focus_area": "Conservation and Restoration",
+   "role": "Community implementer",
+   "natural_assets": [
+    "Biodiversity"
+   ],
+   "states_stated": [
+    "Kerala"
+   ],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Tamil Nadu"
+   ],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2026-06-11",
+   "latest_grove_url": "https://grove.rainmatter.org/t/school-of-ecological-nurturance-update-october-2025-april-2026/4947/1"
+  },
+  {
+   "name": "India climate collaborative",
+   "website": "https://indiaclimatecollaborative.org/",
+   "partner_since": 2023,
+   "focus_area": "Cross-cutting: policy, funding, data",
+   "role": "Funding and capacity intermediary",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Delhi",
+    "Maharashtra"
+   ],
+   "office_city": "Mumbai",
+   "office_state": "Maharashtra",
+   "office_source": "https://indiaclimatecollaborative.org/",
+   "latest_grove_update": "2026-06-15",
+   "latest_grove_url": "https://grove.rainmatter.org/t/india-climate-collaborative-introduction-and-updates/3271/13"
+  },
+  {
+   "name": "India Development Review (IDR)",
+   "website": "https://idronline.org",
+   "partner_since": 2023,
+   "focus_area": "Messaging",
+   "role": "Media, arts and narrative",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Mizoram",
+    "Nagaland"
+   ],
+   "office_city": "Mumbai",
+   "office_state": "Maharashtra",
+   "office_source": "https://idronline.org/contact/",
+   "latest_grove_update": "2026-02-17",
+   "latest_grove_url": "https://grove.rainmatter.org/t/strengthening-climate-narratives-and-knowledge-access/4667/1"
+  },
+  {
+   "name": "Jagriti Seva Sansthan",
+   "website": "https://jecp.in/",
+   "partner_since": 2023,
+   "focus_area": "Rural",
+   "role": "Community implementer",
+   "natural_assets": [
+    "Materials",
+    "Biodiversity"
+   ],
+   "states_stated": [
+    "Uttar Pradesh"
+   ],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2025-06-16",
+   "latest_grove_url": "https://grove.rainmatter.org/t/green-incubation-program-overview-16-06-25/4035/1"
+  },
+  {
+   "name": "M.S. Swaminathan Research Foundation",
+   "website": "https://mssrf.org/",
+   "partner_since": 2023,
+   "focus_area": "Rural",
+   "role": "Research and policy",
+   "natural_assets": [
+    "Soil",
+    "Biodiversity",
+    "Water"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "",
+   "latest_grove_url": ""
+  },
+  {
+   "name": "Nature Conservation Foundation",
+   "website": "https://www.ncf-india.org/",
+   "partner_since": 2023,
+   "focus_area": "Conservation and Restoration",
+   "role": "Research and policy",
+   "natural_assets": [
+    "Biodiversity"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Andhra Pradesh",
+    "Arunachal Pradesh",
+    "Himachal Pradesh",
+    "Ladakh",
+    "Lakshadweep",
+    "Tamil Nadu",
+    "West Bengal"
+   ],
+   "office_city": "Mysuru",
+   "office_state": "Karnataka",
+   "office_source": "https://www.ncf-india.org/contact-us",
+   "latest_grove_update": "2026-11-25",
+   "latest_grove_url": "https://grove.rainmatter.org/t/nature-conservation-foundation-ncf-updates/4549/10"
+  },
+  {
+   "name": "Palluyir Trust",
+   "website": "https://palluyirtrust.org/",
+   "partner_since": 2023,
+   "focus_area": "Messaging",
+   "role": "Education and youth",
+   "natural_assets": [
+    "Biodiversity"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "Chennai",
+   "office_state": "Tamil Nadu",
+   "office_source": "https://palluyirtrust.org/contact-us/",
+   "latest_grove_update": "2026-10-30",
+   "latest_grove_url": "https://grove.rainmatter.org/t/local-nature-based-learning-in-chennais-corporation-schools/2749/61"
+  },
+  {
+   "name": "Rang De",
+   "website": "https://rangde.in/",
+   "partner_since": 2023,
+   "focus_area": "Rural",
+   "role": "Funding and capacity intermediary",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "Bengaluru",
+   "office_state": "Karnataka",
+   "office_source": "https://rangde.in/contact",
+   "latest_grove_update": "2026-11-03",
+   "latest_grove_url": "https://grove.rainmatter.org/t/rang-de-enabling-last-mile-financial-inclusion/4789/2"
+  },
+  {
+   "name": "Socratus",
+   "website": "https://socratus.org/",
+   "partner_since": 2023,
+   "focus_area": "Urban",
+   "role": "Civic and governance practice",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Odisha"
+   ],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2025-09-01",
+   "latest_grove_url": "https://grove.rainmatter.org/t/socratus-the-proximity-project/4236/2"
+  },
+  {
+   "name": "Swami Vivekananda Youth Movement (SVYM)",
+   "website": "https://www.svym.org/",
+   "partner_since": 2023,
+   "focus_area": "Rural",
+   "role": "Community implementer",
+   "natural_assets": [],
+   "states_stated": [
+    "Karnataka"
+   ],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "",
+   "latest_grove_url": ""
+  },
+  {
+   "name": "Vaagdhara",
+   "website": "https://vaagdhara.org",
+   "partner_since": 2023,
+   "focus_area": "Rural",
+   "role": "Community implementer",
+   "natural_assets": [
+    "Soil"
+   ],
+   "states_stated": [
+    "Gujarat",
+    "Madhya Pradesh",
+    "Rajasthan"
+   ],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2026-09-06",
+   "latest_grove_url": "https://grove.rainmatter.org/t/annual-report/5208/1"
+  },
+  {
+   "name": "WELL Lab",
+   "website": "https://welllabs.org/",
+   "partner_since": 2023,
+   "focus_area": "Rural",
+   "role": "Research and policy",
+   "natural_assets": [
+    "Water",
+    "Soil"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Jharkhand",
+    "Odisha"
+   ],
+   "office_city": "Chennai",
+   "office_state": "Tamil Nadu",
+   "office_source": "https://welllabs.org/contact-us/",
+   "latest_grove_update": "2025-04-08",
+   "latest_grove_url": "https://grove.rainmatter.org/t/updates-of-green-rural-economy-well-labs-2024-25/3895/1"
+  },
+  {
+   "name": "Wetlands International South Asia",
+   "website": "https://south-asia.wetlands.org/",
+   "partner_since": 2023,
+   "focus_area": "Conservation and Restoration",
+   "role": "Research and policy",
+   "natural_assets": [
+    "Water",
+    "Biodiversity"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "New Delhi",
+   "office_state": "Delhi",
+   "office_source": "https://south-asia.wetlands.org/contact/",
+   "latest_grove_update": "2024-05-21",
+   "latest_grove_url": "https://grove.rainmatter.org/t/introduction-and-updates-wetlands-international-south-asia/3098/4"
+  },
+  {
+   "name": "WRI India",
+   "website": "https://www.wri-india.org/",
+   "partner_since": 2023,
+   "focus_area": "Urban",
+   "role": "Research and policy",
+   "natural_assets": [
+    "Soil",
+    "Energy",
+    "Water"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Gujarat",
+    "Karnataka",
+    "Maharashtra",
+    "Punjab",
+    "Tamil Nadu",
+    "Telangana",
+    "Uttar Pradesh"
+   ],
+   "office_city": "Mumbai",
+   "office_state": "Maharashtra",
+   "office_source": "https://www.wri-india.org/",
+   "latest_grove_update": "2026-10-30",
+   "latest_grove_url": "https://grove.rainmatter.org/t/transforming-indias-city-regions/4976/18"
+  },
+  {
+   "name": "ACT Grants",
+   "website": "https://actgrants.in/",
+   "partner_since": 2022,
+   "focus_area": "Cross-cutting: policy, funding, data",
+   "role": "Funding and capacity intermediary",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "Bengaluru",
+   "office_state": "Karnataka",
+   "office_source": "https://actgrants.in/",
+   "latest_grove_update": "",
+   "latest_grove_url": ""
+  },
+  {
+   "name": "Biome Environmental Trust",
+   "website": "https://biometrust.org",
+   "partner_since": 2022,
+   "focus_area": "Urban",
+   "role": "Community implementer",
+   "natural_assets": [
+    "Water"
+   ],
+   "states_stated": [
+    "Karnataka"
+   ],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Maharashtra",
+    "Telangana"
+   ],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2026-10-19",
+   "latest_grove_url": "https://grove.rainmatter.org/t/biome-environmental-trust-advancing-integrated-urban-water-management/4432/10"
+  },
+  {
+   "name": "Buzz Women",
+   "website": "https://www.buzzwomen.org/",
+   "partner_since": 2022,
+   "focus_area": "Rural",
+   "role": "Community implementer",
+   "natural_assets": [],
+   "states_stated": [
+    "Karnataka"
+   ],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2026-10-16",
+   "latest_grove_url": "https://grove.rainmatter.org/t/buzz-women-enabling-rural-women-to-become-climate-champions-in-villages-of-rural-karnataka-partnering-with-rainmatter-foundation-since-2022/1552/103"
+  },
+  {
+   "name": "Civis",
+   "website": "https://www.civis.vote",
+   "partner_since": 2022,
+   "focus_area": "Cross-cutting: policy, funding, data",
+   "role": "Civic and governance practice",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Karnataka",
+    "Maharashtra",
+    "Tamil Nadu"
+   ],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2023-09-05",
+   "latest_grove_url": "https://grove.rainmatter.org/t/civis-updates-a-primer-on-participating-in-environmental-and-climate-consultations/1012/13"
+  },
+  {
+   "name": "CSTEP",
+   "website": "https://www.cstep.in/",
+   "partner_since": 2022,
+   "focus_area": "Cross-cutting: policy, funding, data",
+   "role": "Research and policy",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Assam",
+    "Himachal Pradesh",
+    "Karnataka"
+   ],
+   "office_city": "Bengaluru",
+   "office_state": "Karnataka",
+   "office_source": "https://www.cstep.in/",
+   "latest_grove_update": "2026-10-21",
+   "latest_grove_url": "https://grove.rainmatter.org/t/cstep-updates-from-august-to-october-2026/5301/1"
+  },
+  {
+   "name": "Energy Swaraj Foundation",
+   "website": "https://www.energyswaraj.org/",
+   "partner_since": 2022,
+   "focus_area": "Messaging",
+   "role": "Education and youth",
+   "natural_assets": [
+    "Energy"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "",
+   "latest_grove_url": ""
+  },
+  {
+   "name": "Farmers for Forests",
+   "website": "https://www.farmersforforests.org",
+   "partner_since": 2022,
+   "focus_area": "Conservation and Restoration",
+   "role": "Community implementer",
+   "natural_assets": [
+    "Biodiversity",
+    "Soil"
+   ],
+   "states_stated": [
+    "Maharashtra"
+   ],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2025-12-02",
+   "latest_grove_url": "https://grove.rainmatter.org/t/farmers-for-forests-updates-thread/554/15"
+  },
+  {
+   "name": "Himalaya Unnati Mission",
+   "website": "https://savehimalayas.org",
+   "partner_since": 2022,
+   "focus_area": "Conservation and Restoration",
+   "role": "Network and backbone",
+   "natural_assets": [
+    "Biodiversity"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "Bengaluru",
+   "office_state": "Karnataka",
+   "office_source": "https://himalayunnatimission.ssrdp.org/contacts/",
+   "latest_grove_update": "2026-01-19",
+   "latest_grove_url": "https://grove.rainmatter.org/t/hum-soth-update-2024-25/4569/1"
+  },
+  {
+   "name": "Hume Centre for Ecology and Wildlife Biology",
+   "website": "http://www.humecentre.in/",
+   "partner_since": 2022,
+   "focus_area": "Conservation and Restoration",
+   "role": "Research and policy",
+   "natural_assets": [
+    "Biodiversity"
+   ],
+   "states_stated": [
+    "Kerala"
+   ],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Maharashtra"
+   ],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2026-03-13",
+   "latest_grove_url": "https://grove.rainmatter.org/t/hume-updates/4708/1"
+  },
+  {
+   "name": "IndusTree",
+   "website": "https://www.industree.org.in",
+   "partner_since": 2022,
+   "focus_area": "Rural",
+   "role": "Community implementer",
+   "natural_assets": [
+    "Materials"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Andhra Pradesh",
+    "Arunachal Pradesh",
+    "Jharkhand",
+    "Karnataka",
+    "Nagaland",
+    "Odisha",
+    "Telangana",
+    "Tripura"
+   ],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2026-10-06",
+   "latest_grove_url": "https://grove.rainmatter.org/t/building-the-next-phase-of-nagalands-bamboo-economy/5268/1"
+  },
+  {
+   "name": "Lipok Social Foundation (LSF)",
+   "website": "https://lipok.org/",
+   "partner_since": 2022,
+   "focus_area": "Rural",
+   "role": "Community implementer",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Haryana",
+    "Rajasthan",
+    "Tamil Nadu",
+    "Uttar Pradesh"
+   ],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2026-10-23",
+   "latest_grove_url": "https://grove.rainmatter.org/t/lipok-social-foundation-partners-with-rainmatter-foundation-for-a-green-economy/1005/56"
+  },
+  {
+   "name": "PARI",
+   "website": "https://ruralindiaonline.org/en/",
+   "partner_since": 2022,
+   "focus_area": "Messaging",
+   "role": "Media, arts and narrative",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Assam",
+    "Delhi",
+    "Gujarat",
+    "Himachal Pradesh",
+    "Jammu and Kashmir",
+    "Ladakh",
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Odisha",
+    "Punjab",
+    "Rajasthan",
+    "Tamil Nadu",
+    "West Bengal"
+   ],
+   "office_city": "Mumbai",
+   "office_state": "Maharashtra",
+   "office_source": "https://ruralindiaonline.org/en/contact-us",
+   "latest_grove_update": "2025-09-09",
+   "latest_grove_url": "https://grove.rainmatter.org/t/peoples-archive-of-rural-india-introduction-and-updates/1244/12"
+  },
+  {
+   "name": "PRADAN",
+   "website": "https://www.pradan.net/",
+   "partner_since": 2022,
+   "focus_area": "Rural",
+   "role": "Community implementer",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "New Delhi",
+   "office_state": "Delhi",
+   "office_source": "https://pradan.net/contact-us/",
+   "latest_grove_update": "2026-09-21",
+   "latest_grove_url": "https://grove.rainmatter.org/t/progress-updates/5242/1"
+  },
+  {
+   "name": "RCRC",
+   "website": "https://www.rcrc.in/",
+   "partner_since": 2022,
+   "focus_area": "Rural",
+   "role": "Network and backbone",
+   "natural_assets": [
+    "Soil"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "New Delhi",
+   "office_state": "Delhi",
+   "office_source": "https://www.rcrc.in/",
+   "latest_grove_update": "",
+   "latest_grove_url": ""
+  },
+  {
+   "name": "Saahas",
+   "website": "http://www.saahas.org/",
+   "partner_since": 2022,
+   "focus_area": "Rural",
+   "role": "Community implementer",
+   "natural_assets": [
+    "Materials"
+   ],
+   "states_stated": [
+    "Karnataka"
+   ],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Telangana"
+   ],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2025-03-06",
+   "latest_grove_url": "https://grove.rainmatter.org/t/implementation-of-solid-waste-management-program-by-saahas-with-the-funding-support-from-rainmatter-foundation/998/45"
+  },
+  {
+   "name": "SlamOutLoud",
+   "website": "https://slamoutloud.com",
+   "partner_since": 2022,
+   "focus_area": "Messaging",
+   "role": "Education and youth",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Delhi",
+    "Karnataka",
+    "Maharashtra",
+    "Punjab"
+   ],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2025-08-06",
+   "latest_grove_url": "https://grove.rainmatter.org/t/slam-out-loud-academic-year-begins/4174/1"
+  },
+  {
+   "name": "Solid Waste Management Round Table (SWMRT)",
+   "website": "https://www.swmrt.com",
+   "partner_since": 2022,
+   "focus_area": "Urban",
+   "role": "Network and backbone",
+   "natural_assets": [
+    "Materials"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2026-03-15",
+   "latest_grove_url": "https://grove.rainmatter.org/t/swmrt-update/4712/1"
+  },
+  {
+   "name": "Tech4Good Community",
+   "website": "https://tech4goodcommunity.com/",
+   "partner_since": 2022,
+   "focus_area": "Cross-cutting: policy, funding, data",
+   "role": "Data and technology",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Assam",
+    "Chhattisgarh",
+    "Delhi",
+    "Goa",
+    "Karnataka",
+    "Kerala",
+    "Maharashtra",
+    "Tamil Nadu"
+   ],
+   "office_city": "Bengaluru",
+   "office_state": "Karnataka",
+   "office_source": "https://www.tech4goodcommunity.com/contact-4",
+   "latest_grove_update": "2026-10-14",
+   "latest_grove_url": "https://grove.rainmatter.org/t/tech4good-community-updates/1096/31"
+  },
+  {
+   "name": "Veditum",
+   "website": "https://www.veditum.org/",
+   "partner_since": 2022,
+   "focus_area": "Conservation and Restoration",
+   "role": "Research and policy",
+   "natural_assets": [
+    "Water"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "Kolkata",
+   "office_state": "West Bengal",
+   "office_source": "https://www.veditum.org/",
+   "latest_grove_update": "2025-08-01",
+   "latest_grove_url": "https://grove.rainmatter.org/t/veditum-sand-mining-monitoring-updates-thread/967/10"
+  },
+  {
+   "name": "Wassan",
+   "website": "https://www.wassan.org",
+   "partner_since": 2022,
+   "focus_area": "Rural",
+   "role": "Community implementer",
+   "natural_assets": [
+    "Soil"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Himachal Pradesh",
+    "Karnataka",
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Uttar Pradesh"
+   ],
+   "office_city": "Hyderabad",
+   "office_state": "Telangana",
+   "office_source": "https://www.wassan.org/",
+   "latest_grove_update": "2026-02-12",
+   "latest_grove_url": "https://grove.rainmatter.org/t/wassan-innovation-guild-updates/3948/4"
+  },
+  {
+   "name": "Dakshin Foundation",
+   "website": "https://www.dakshin.org/",
+   "partner_since": 2021,
+   "focus_area": "Conservation and Restoration",
+   "role": "Community implementer",
+   "natural_assets": [
+    "Water",
+    "Biodiversity"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Karnataka"
+   ],
+   "office_city": "Bengaluru",
+   "office_state": "Karnataka",
+   "office_source": "https://dakshin.org/contact/",
+   "latest_grove_update": "2026-04-20",
+   "latest_grove_url": "https://grove.rainmatter.org/t/dakshin-foundation-updates/1589/14"
+  },
+  {
+   "name": "Fields of View",
+   "website": "http://fieldsofview.in/",
+   "partner_since": 2021,
+   "focus_area": "Cross-cutting: policy, funding, data",
+   "role": "Research and policy",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Goa",
+    "Karnataka",
+    "Maharashtra"
+   ],
+   "office_city": "Bengaluru",
+   "office_state": "Karnataka",
+   "office_source": "http://fieldsofview.in/",
+   "latest_grove_update": "2024-08-06",
+   "latest_grove_url": "https://grove.rainmatter.org/t/fields-of-views-first-quarterly-updates-2024/3459/1"
+  },
+  {
+   "name": "GROW+",
+   "website": "https://edelgive-growfund.org/",
+   "partner_since": 2021,
+   "focus_area": "Cross-cutting: policy, funding, data",
+   "role": "Funding and capacity intermediary",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Jharkhand",
+    "Rajasthan"
+   ],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2026-11-20",
+   "latest_grove_url": "https://grove.rainmatter.org/t/grow-climate-communities-capacity/4862/13"
+  },
+  {
+   "name": "India Civic Summit (Oorvani Foundation)",
+   "website": "https://oorvani.org/civic-summit",
+   "partner_since": 2021,
+   "focus_area": "Urban",
+   "role": "Civic and governance practice",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Tamil Nadu"
+   ],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2026-05-13",
+   "latest_grove_url": "https://grove.rainmatter.org/t/oorvani-in-april-2026/4877/1"
+  },
+  {
+   "name": "Janaagraha",
+   "website": "https://www.janaagraha.org/",
+   "partner_since": 2021,
+   "focus_area": "Urban",
+   "role": "Civic and governance practice",
+   "natural_assets": [],
+   "states_stated": [
+    "Assam"
+   ],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Uttar Pradesh"
+   ],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2026-10-31",
+   "latest_grove_url": "https://grove.rainmatter.org/t/transforming-how-assam-s-cities-plan-govern-and-grow-janaagraha-s-partnership-with-rainmatter-foundation/5328/1"
+  },
+  {
+   "name": "Nrityagram",
+   "website": "https://nrityagram.org/",
+   "partner_since": 2021,
+   "focus_area": "Messaging",
+   "role": "Media, arts and narrative",
+   "natural_assets": [
+    "Water",
+    "Energy"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "Bengaluru",
+   "office_state": "Karnataka",
+   "office_source": "https://nrityagram.org/",
+   "latest_grove_update": "2023-08-04",
+   "latest_grove_url": "https://grove.rainmatter.org/t/nrityagram-dancers-for-sustainable-living/2321/1"
+  },
+  {
+   "name": "Punarchith",
+   "website": "http://www.punarchith.org/",
+   "partner_since": 2021,
+   "focus_area": "Conservation and Restoration",
+   "role": "Community implementer",
+   "natural_assets": [
+    "Biodiversity",
+    "Soil"
+   ],
+   "states_stated": [
+    "Karnataka"
+   ],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Tamil Nadu"
+   ],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2024-05-28",
+   "latest_grove_url": "https://grove.rainmatter.org/t/punarchith/929/9"
+  },
+  {
+   "name": "ReapBenefit",
+   "website": "https://reapbenefit.org",
+   "partner_since": 2021,
+   "focus_area": "Urban",
+   "role": "Civic and governance practice",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Andhra Pradesh",
+    "Bihar",
+    "Delhi",
+    "Haryana",
+    "Himachal Pradesh",
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Odisha",
+    "Rajasthan",
+    "Tamil Nadu",
+    "Uttar Pradesh"
+   ],
+   "office_city": "Bengaluru",
+   "office_state": "Karnataka",
+   "office_source": "https://reapbenefit.org",
+   "latest_grove_update": "2025-04-04",
+   "latest_grove_url": "https://grove.rainmatter.org/t/reap-benefit-hyperlocal-changemaking-in-nanded/3890/1"
+  },
+  {
+   "name": "Sauramandala Foundation",
+   "website": "https://www.sauramandala.org/",
+   "partner_since": 2021,
+   "focus_area": "Rural",
+   "role": "Community implementer",
+   "natural_assets": [],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "Shillong",
+   "office_state": "Meghalaya",
+   "office_source": "https://www.sauramandala.org/",
+   "latest_grove_update": "2023-09-03",
+   "latest_grove_url": "https://grove.rainmatter.org/t/sauramandala-foundation-centre-for-accelerated-developement/843/8"
+  },
+  {
+   "name": "SayTrees",
+   "website": "https://www.saytrees.org",
+   "partner_since": 2021,
+   "focus_area": "Conservation and Restoration",
+   "role": "Community implementer",
+   "natural_assets": [
+    "Biodiversity",
+    "Soil"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "Bengaluru",
+   "office_state": "Karnataka",
+   "office_source": "https://www.saytrees.org/contact",
+   "latest_grove_update": "",
+   "latest_grove_url": ""
+  },
+  {
+   "name": "Technology for Wildlife Foundation",
+   "website": "https://www.techforwildlife.com/",
+   "partner_since": 2021,
+   "focus_area": "Conservation and Restoration",
+   "role": "Data and technology",
+   "natural_assets": [
+    "Biodiversity"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Bihar",
+    "Goa",
+    "Karnataka",
+    "Ladakh",
+    "Madhya Pradesh",
+    "Odisha"
+   ],
+   "office_city": "Goa",
+   "office_state": "Goa",
+   "office_source": "https://www.techforwildlife.com/",
+   "latest_grove_update": "2023-04-17",
+   "latest_grove_url": "https://grove.rainmatter.org/t/technology-for-wildlife-foundation-updates-thread/728/5"
+  },
+  {
+   "name": "Uttarayan",
+   "website": "https://uttarayanwildlife.org/",
+   "partner_since": 2021,
+   "focus_area": "Conservation and Restoration",
+   "role": "Community implementer",
+   "natural_assets": [
+    "Biodiversity",
+    "Soil"
+   ],
+   "states_stated": [
+    "West Bengal"
+   ],
+   "states_declared": [],
+   "states_named_in_grove_updates": [],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2026-09-10",
+   "latest_grove_url": "https://grove.rainmatter.org/t/uttarayan-wildlife-partner-update-april24-onwards/3180/41"
+  },
+  {
+   "name": "Waste Warriors",
+   "website": "https://wastewarriors.org",
+   "partner_since": 2021,
+   "focus_area": "Cross-cutting: policy, funding, data",
+   "role": "Community implementer",
+   "natural_assets": [
+    "Materials"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Assam",
+    "Ladakh"
+   ],
+   "office_city": "Dehradun",
+   "office_state": "Uttarakhand",
+   "office_source": "https://wastewarriors.org/get-involved/",
+   "latest_grove_update": "2026-07-02",
+   "latest_grove_url": "https://grove.rainmatter.org/t/waste-warriors-building-knowledge-growing-an-ecosystem-scaling-solutions-apr-25-to-mar-26/5035/1"
+  },
+  {
+   "name": "Wild Shaale @ Centre for Wildlife Studies",
+   "website": "https://cwsindia.org",
+   "partner_since": 2021,
+   "focus_area": "Conservation and Restoration",
+   "role": "Research and policy",
+   "natural_assets": [
+    "Biodiversity"
+   ],
+   "states_stated": [],
+   "states_declared": [],
+   "states_named_in_grove_updates": [
+    "Karnataka"
+   ],
+   "office_city": "",
+   "office_state": "",
+   "office_source": "",
+   "latest_grove_update": "2026-11-05",
+   "latest_grove_url": "https://grove.rainmatter.org/t/into-the-wild-with-cws/3334/34"
+  }
+ ]
+}

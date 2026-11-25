@@ -1,0 +1,346 @@
+{
+ "Adilabad|Telangana": [
+  19.6759,
+  78.534
+ ],
+ "Agatti|Lakshadweep": [
+  10.9479,
+  72.3177
+ ],
+ "Ahmedabad|Gujarat": [
+  23.0215,
+  72.5801
+ ],
+ "Ahmednagar|Maharashtra": [
+  19.093,
+  74.7493
+ ],
+ "Alappuzha|Kerala": [
+  9.5003,
+  76.4123
+ ],
+ "Anantapur|Andhra Pradesh": [
+  14.6783,
+  77.6065
+ ],
+ "Andaman and Nicobar Islands|Andaman and Nicobar Islands": [
+  12.6112,
+  92.8317
+ ],
+ "Andhra Pradesh|Andhra Pradesh": [
+  15.9241,
+  80.1864
+ ],
+ "Assam|Assam": [
+  26.4074,
+  93.2551
+ ],
+ "Banda|Uttar Pradesh": [
+  25.4439,
+  80.5595
+ ],
+ "Bangalore|Karnataka": [
+  12.9768,
+  77.5901
+ ],
+ "Bankura|West Bengal": [
+  23.1324,
+  87.2082
+ ],
+ "Bannerghatta|Karnataka": [
+  12.5319,
+  77.547
+ ],
+ "Banswara|Rajasthan": [
+  23.4915,
+  74.3502
+ ],
+ "Barwani|Madhya Pradesh": [
+  21.7514,
+  74.8916
+ ],
+ "Bengaluru|Karnataka": [
+  12.9768,
+  77.5901
+ ],
+ "Bhimashankar|Maharashtra": [
+  19.072,
+  73.5358
+ ],
+ "Bhopal|Madhya Pradesh": [
+  23.2585,
+  77.402
+ ],
+ "Bihar|Bihar": [
+  25.6441,
+  85.9065
+ ],
+ "Chamarajanagar|Karnataka": [
+  11.9544,
+  77.1069
+ ],
+ "Chennai|Tamil Nadu": [
+  13.0801,
+  80.2808
+ ],
+ "Darjeeling|West Bengal": [
+  27.0378,
+  88.2632
+ ],
+ "Dehradun|Uttarakhand": [
+  30.3256,
+  78.0437
+ ],
+ "Dhamtari|Chhattisgarh": [
+  20.5326,
+  81.7156
+ ],
+ "Dharamshala|Himachal Pradesh": [
+  32.2143,
+  76.3197
+ ],
+ "Dindori|Madhya Pradesh": [
+  22.9071,
+  80.8847
+ ],
+ "Ernakulam|Kerala": [
+  9.9837,
+  76.274
+ ],
+ "Gadchiroli|Maharashtra": [
+  19.7591,
+  80.1623
+ ],
+ "Gangtok|Sikkim": [
+  27.329,
+  88.6123
+ ],
+ "Ganjam|Odisha": [
+  19.609,
+  84.7081
+ ],
+ "Goa|Goa": [
+  15.3005,
+  74.0855
+ ],
+ "Gujarat|Gujarat": [
+  22.385,
+  71.7453
+ ],
+ "Gumla|Jharkhand": [
+  23.1604,
+  84.46
+ ],
+ "Guwahati|Assam": [
+  26.1806,
+  91.7539
+ ],
+ "Hazaribagh|Jharkhand": [
+  24.0867,
+  85.4912
+ ],
+ "Hesaraghatta|Karnataka": [
+  13.1042,
+  77.473
+ ],
+ "Hosur|Tamil Nadu": [
+  12.7183,
+  77.8229
+ ],
+ "Hyderabad|Telangana": [
+  17.3606,
+  78.4741
+ ],
+ "Itanagar|Arunachal Pradesh": [
+  27.098,
+  93.6237
+ ],
+ "Jammu|Jammu and Kashmir": [
+  32.7186,
+  74.8581
+ ],
+ "Jhabua|Madhya Pradesh": [
+  22.887,
+  74.7243
+ ],
+ "Jharkhand|Jharkhand": [
+  23.456,
+  85.2557
+ ],
+ "Kannur|Kerala": [
+  11.8764,
+  75.3738
+ ],
+ "Karnataka|Karnataka": [
+  14.9562,
+  75.7897
+ ],
+ "Kaziranga|Assam": [
+  26.5893,
+  93.4085
+ ],
+ "Khambhalia|Gujarat": [
+  22.229,
+  69.5709
+ ],
+ "Kolkata|West Bengal": [
+  22.5726,
+  88.3639
+ ],
+ "Koraput|Odisha": [
+  18.7232,
+  82.6101
+ ],
+ "Kutch|Gujarat": [
+  23.5833,
+  70.0
+ ],
+ "Madhya Pradesh|Madhya Pradesh": [
+  23.8143,
+  77.5341
+ ],
+ "Maharashtra|Maharashtra": [
+  19.567,
+  76.4165
+ ],
+ "Malkangiri|Odisha": [
+  18.2745,
+  81.952
+ ],
+ "Malvan|Maharashtra": [
+  16.0606,
+  73.4669
+ ],
+ "Manipur|Manipur": [
+  24.7209,
+  93.9229
+ ],
+ "Marathwada|Maharashtra": [
+  19.2421,
+  76.7835
+ ],
+ "Meghalaya|Meghalaya": [
+  25.5379,
+  91.2999
+ ],
+ "Mumbai|Maharashtra": [
+  19.055,
+  72.8692
+ ],
+ "Muzaffarpur|Bihar": [
+  26.1483,
+  85.3316
+ ],
+ "Mysuru|Karnataka": [
+  12.3041,
+  76.653
+ ],
+ "Narmada|Gujarat": [
+  21.7393,
+  73.6262
+ ],
+ "New Delhi|Delhi": [
+  28.6139,
+  77.209
+ ],
+ "Nilgiris|Tamil Nadu": [
+  11.445,
+  76.6975
+ ],
+ "Nilgiri|Tamil Nadu": [
+  11.3836,
+  76.4751
+ ],
+ "Odisha|Odisha": [
+  20.5431,
+  84.6897
+ ],
+ "Panchgani|Maharashtra": [
+  17.924,
+  73.7993
+ ],
+ "Pudukkottai|Tamil Nadu": [
+  10.2903,
+  78.8174
+ ],
+ "Pune|Maharashtra": [
+  18.5214,
+  73.8545
+ ],
+ "Punjab|Punjab": [
+  30.9293,
+  75.5005
+ ],
+ "Purvanchal|Uttar Pradesh": [
+  25.8317,
+  82.6801
+ ],
+ "Raichur|Karnataka": [
+  16.0547,
+  76.9004
+ ],
+ "Rajasthan|Rajasthan": [
+  26.8106,
+  73.7685
+ ],
+ "Rishikesh|Uttarakhand": [
+  30.1087,
+  78.2916
+ ],
+ "Shadnagar|Telangana": [
+  17.0672,
+  78.2046
+ ],
+ "Shillong|Meghalaya": [
+  25.576,
+  91.8828
+ ],
+ "Shimla|Himachal Pradesh": [
+  31.104,
+  77.1708
+ ],
+ "Siddipet|Telangana": [
+  18.0056,
+  78.8961
+ ],
+ "Sikkim|Sikkim": [
+  27.6015,
+  88.4546
+ ],
+ "Tamil Nadu|Tamil Nadu": [
+  11.3324,
+  78.6099
+ ],
+ "Tiptur|Karnataka": [
+  13.2586,
+  76.4738
+ ],
+ "Tirunelveli|Tamil Nadu": [
+  8.5495,
+  77.5805
+ ],
+ "Tumakuru|Karnataka": [
+  13.4193,
+  76.881
+ ],
+ "Udaipur|Rajasthan": [
+  24.5787,
+  73.6863
+ ],
+ "Visakhapatnam|Andhra Pradesh": [
+  17.6936,
+  83.2921
+ ],
+ "Wayanad|Kerala": [
+  11.7151,
+  76.1271
+ ],
+ "West Bengal|West Bengal": [
+  22.9965,
+  87.6856
+ ],
+ "Yadgir|Karnataka": [
+  16.5744,
+  76.9254
+ ]
+}

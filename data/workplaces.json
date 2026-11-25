@@ -1,0 +1,621 @@
+{
+ "_note": "Where each partner says it works on the ground, read from the partner's own website on 2026-11-25. One line per state, with the first place the site names and a short quote. Left out on purpose: story datelines, events, research about a state, blog region menus and anything the reader could only summarise rather than quote. A partner missing here said only 'across India', named no place, or its site did not load.",
+ "places": {
+  "B.PAC (Bangalore Political Action Committee)": [
+   {
+    "state": "Karnataka",
+    "place": "Bengaluru",
+    "source": "https://bpac.in/",
+    "quote": "aims to improve governance in Bengaluru"
+   }
+  ],
+  "Paani Foundation": [
+   {
+    "state": "Maharashtra",
+    "place": "",
+    "source": "https://www.paanifoundation.in/",
+    "quote": "Farmer Cup (2022 - Ongoing) 351 Talukas 34 Districts"
+   }
+  ],
+  "The Timbaktu Collective": [
+   {
+    "state": "Andhra Pradesh",
+    "place": "Anantapur",
+    "source": "https://timbaktu.org/",
+    "quote": "spread across 10 mandals of Sri Satya Sai and Anantapuramu districts"
+   }
+  ],
+  "Shola Trust": [
+   {
+    "state": "Tamil Nadu",
+    "place": "Nilgiris",
+    "source": "https://www.thesholatrust.org/",
+    "quote": "We were inspired by the unique Shola forests of the Nilgiri Biosphere Reserve"
+   },
+   {
+    "state": "Kerala",
+    "place": "Wayanad",
+    "source": "https://www.thesholatrust.org/",
+    "quote": "Human-elephant work at Gudalur and Wayanad"
+   },
+   {
+    "state": "Karnataka",
+    "place": "Mysuru",
+    "source": "https://www.thesholatrust.org/",
+    "quote": "pyrolysis plant converts Lantana biomass harvested by indigenous communities"
+   }
+  ],
+  "Goonj": [
+   {
+    "state": "Maharashtra",
+    "place": "Mumbai",
+    "source": "https://goonj.org/",
+    "quote": "Maharashtra Operations"
+   },
+   {
+    "state": "Tamil Nadu",
+    "place": "",
+    "source": "https://goonj.org/state-reports/",
+    "quote": "state report Tamil Nadu"
+   }
+  ],
+  "Vaagdhara": [
+   {
+    "state": "Rajasthan",
+    "place": "Banswara",
+    "source": "https://vaagdhara.org/",
+    "quote": "Vagad, which is the tribal region of Rajasthan bordering Gujarat"
+   },
+   {
+    "state": "Madhya Pradesh",
+    "place": "",
+    "source": "https://vaagdhara.org/",
+    "quote": "across three states - Rajasthan, Madhya Pradesh, and Gujarat."
+   },
+   {
+    "state": "Gujarat",
+    "place": "",
+    "source": "https://vaagdhara.org/",
+    "quote": "across three states - Rajasthan, Madhya Pradesh, and Gujarat."
+   }
+  ],
+  "Buzz Women": [
+   {
+    "state": "Karnataka",
+    "place": "Tumakuru",
+    "source": "https://www.buzzwomen.org/where-we-work/india/",
+    "quote": "Buzz Women India is reaching across Karnataka state (15 districts listed)"
+   }
+  ],
+  "Saahas": [
+   {
+    "state": "Karnataka",
+    "place": "Kalaburagi",
+    "source": "http://www.saahas.org/",
+    "quote": "implementing the SWM program in Kollur (M) Grama Panchayat"
+   },
+   {
+    "state": "Assam",
+    "place": "Kaziranga",
+    "source": "https://saahas.org/our-work/",
+    "quote": "SWM in Kaziranga"
+   },
+   {
+    "state": "Gujarat",
+    "place": "Khambhalia",
+    "source": "https://saahas.org/our-work/",
+    "quote": "Swachh Halar Khambhalia"
+   }
+  ],
+  "Dakshin Foundation": [
+   {
+    "state": "Andaman and Nicobar Islands",
+    "place": "",
+    "source": "https://www.dakshin.org/",
+    "quote": "Andaman Nicobar Environment Team"
+   },
+   {
+    "state": "Odisha",
+    "place": "",
+    "source": "https://www.dakshin.org/",
+    "quote": "Our Field Stations: Odisha"
+   },
+   {
+    "state": "Lakshadweep",
+    "place": "Agatti",
+    "source": "https://www.dakshin.org/",
+    "quote": "Agatti, Lakshadweep"
+   },
+   {
+    "state": "Maharashtra",
+    "place": "Malvan",
+    "source": "https://www.dakshin.org/",
+    "quote": "Our Field Stations: Malvan"
+   },
+   {
+    "state": "Tamil Nadu",
+    "place": "",
+    "source": "https://www.dakshin.org/",
+    "quote": "Our Field Stations: Tamil Nadu"
+   }
+  ],
+  "Waste Warriors": [
+   {
+    "state": "Uttarakhand",
+    "place": "Dehradun",
+    "source": "https://wastewarriors.org",
+    "quote": "empowering the youth in Dehradun to tackle crucial issues of waste management"
+   },
+   {
+    "state": "Himachal Pradesh",
+    "place": "Dharamshala",
+    "source": "https://wastewarriors.org",
+    "quote": "support their efforts in Dehradun and Dharamshala"
+   }
+  ],
+  "Praja": [
+   {
+    "state": "Maharashtra",
+    "place": "Mumbai",
+    "source": "https://www.praja.org/",
+    "quote": "BMC decided to build 200 community toilets"
+   }
+  ],
+  "Ashoka Trust for Research in Ecology and the Environment (ATREE)": [
+   {
+    "state": "Kerala",
+    "place": "Alappuzha",
+    "source": "https://www.atree.org/",
+    "quote": "to conserve the lake, a Ramsar site in Allapuzha district, Kerala"
+   },
+   {
+    "state": "Karnataka",
+    "place": "Chamarajanagar",
+    "source": "https://www.atree.org/",
+    "quote": "set up in 1992 in Chamrajanagara district, Karnataka, to engage with the Soliga community"
+   },
+   {
+    "state": "Tamil Nadu",
+    "place": "Tirunelveli",
+    "source": "https://www.atree.org/",
+    "quote": "Agasthyamalai landscape in southern Tamil Nadu"
+   },
+   {
+    "state": "West Bengal",
+    "place": "Darjeeling",
+    "source": "https://www.atree.org/",
+    "quote": "works in the Darjeeling and Kalimpong districts in the Eastern Himalayan range"
+   }
+  ],
+  "Gram Vikas": [
+   {
+    "state": "Odisha",
+    "place": "Ganjam",
+    "source": "https://www.gramvikas.org/",
+    "quote": "Kalahandi, Nayagarh, Keonjhar, Ganjam, Gajapati and Khordha are named on the site"
+   }
+  ],
+  "WELL Lab": [
+   {
+    "state": "Karnataka",
+    "place": "Raichur",
+    "source": "https://welllabs.org/",
+    "quote": "across Raichur district in Karnataka"
+   }
+  ],
+  "ReapBenefit": [
+   {
+    "state": "Karnataka",
+    "place": "Bengaluru",
+    "source": "https://reapbenefit.org/impact",
+    "quote": "helped 581 marginalized residents of Bapujinagar, Bangalore to register to vote"
+   },
+   {
+    "state": "Punjab",
+    "place": "",
+    "source": "https://reapbenefit.org/impact",
+    "quote": "to prevent air pollution on 10,500 acres in Punjab"
+   },
+   {
+    "state": "Assam",
+    "place": "",
+    "source": "https://reapbenefit.org/impact",
+    "quote": "Mobilised a grassroots movement in rural Assam"
+   }
+  ],
+  "CoRE Stack (CommonsTech Foundation)": [
+   {
+    "state": "Jharkhand",
+    "place": "",
+    "source": "https://core-stack.org/",
+    "quote": "the use of Commons Connect by PRADAN in Jharkhand"
+   },
+   {
+    "state": "Madhya Pradesh",
+    "place": "",
+    "source": "https://core-stack.org/",
+    "quote": "Field Observations from Waterbody Rejuvenation in Madhya Pradesh"
+   },
+   {
+    "state": "Maharashtra",
+    "place": "",
+    "source": "https://core-stack.org/",
+    "quote": "Pest and disease forecasting across Maharashtra"
+   }
+  ],
+  "Saath Charitable Trust": [
+   {
+    "state": "Gujarat",
+    "place": "Ahmedabad",
+    "source": "https://saath.org/impact",
+    "quote": "migrated to Ahmedabad in 2019 to work as daily-wage labourers"
+   }
+  ],
+  "Palluyir Trust": [
+   {
+    "state": "Tamil Nadu",
+    "place": "Chennai",
+    "source": "https://palluyirtrust.org/",
+    "quote": "ecological advocacy and documentation in Chennai and Tamil Nadu"
+   }
+  ],
+  "Wetlands International South Asia": [
+   {
+    "state": "Andhra Pradesh",
+    "place": "",
+    "source": "https://south-asia.wetlands.org/",
+    "quote": "School Outreach Programmes in Andhra Pradesh and Maharashtra"
+   },
+   {
+    "state": "Maharashtra",
+    "place": "",
+    "source": "https://south-asia.wetlands.org/",
+    "quote": "School Outreach Programmes in Andhra Pradesh and Maharashtra"
+   }
+  ],
+  "Lipok Social Foundation (LSF)": [
+   {
+    "state": "Maharashtra",
+    "place": "Marathwada",
+    "source": "https://lipok.org/water-conservation",
+    "quote": "sustainable livelihoods for small farmers in the drought-prone Marathwada region"
+   }
+  ],
+  "Solid Waste Management Round Table (SWMRT)": [
+   {
+    "state": "Karnataka",
+    "place": "Bengaluru",
+    "source": "https://www.swmrt.com/programs",
+    "quote": "with farmers in and around Bengaluru"
+   },
+   {
+    "state": "Telangana",
+    "place": "Siddipet",
+    "source": "https://www.swmrt.com/programs",
+    "quote": "Swachh Badi, Siddipet, Telanagana set up in 2020"
+   }
+  ],
+  "Sauramandala Foundation": [
+   {
+    "state": "Meghalaya",
+    "place": "",
+    "source": "https://www.sauramandala.org/projects",
+    "quote": "solar electrification and equipping 442 health centres across Meghalaya"
+   }
+  ],
+  "Shakti Foundation": [
+   {
+    "state": "Bihar",
+    "place": "",
+    "source": "https://shaktifoundation.in/about-us/",
+    "quote": "Engaged with the Bihar Government to advance low-carbon development pathways"
+   },
+   {
+    "state": "Sikkim",
+    "place": "",
+    "source": "https://shaktifoundation.in/about-us/",
+    "quote": "Spearheaded the Sikkim GHG inventory and MRV system"
+   },
+   {
+    "state": "Rajasthan",
+    "place": "",
+    "source": "https://shaktifoundation.in/about-us/",
+    "quote": "Supported the pilot of Rajasthan's largest Demand Response programme of the time"
+   }
+  ],
+  "SayTrees": [
+   {
+    "state": "Karnataka",
+    "place": "Bengaluru",
+    "source": "https://www.saytrees.org",
+    "quote": "Urban lake restoration and rejuvenation projects in Bangalore"
+   }
+  ],
+  "Youth Conservation Action Network (YouCAN)": [
+   {
+    "state": "Tamil Nadu",
+    "place": "Nilgiris",
+    "source": "https://www.youcan.in/",
+    "quote": "community learning centre at Hulical, Nilgiris, India"
+   }
+  ],
+  "Kalpavriksh": [
+   {
+    "state": "Maharashtra",
+    "place": "Bhimashankar",
+    "source": "https://kalpavriksh.org/",
+    "quote": "Community-Led Conservation at Bhimashankar Wildlife Sanctuary"
+   }
+  ],
+  "Sahjeevan": [
+   {
+    "state": "Gujarat",
+    "place": "Bhuj",
+    "source": "https://sahjeevan.org/",
+    "quote": "active in six blocks: Bhuj, Nakhatrana, Rapar, Bhachau, Abdasa, and Lakhpat"
+   }
+  ],
+  "Farmers for Forests": [
+   {
+    "state": "Maharashtra",
+    "place": "Gadchiroli",
+    "source": "https://www.farmersforforests.org",
+    "quote": "Farmers for Forests, ITDP Bhamragad, and ITDP Gadchiroli"
+   }
+  ],
+  "PRADAN": [
+   {
+    "state": "Jharkhand",
+    "place": "Hazaribagh",
+    "source": "https://www.pradan.net/",
+    "quote": "by Shilpi Roy, Churchu, Jharkhand"
+   },
+   {
+    "state": "Madhya Pradesh",
+    "place": "Dindori",
+    "source": "https://www.pradan.net/",
+    "quote": "Kutela Gram in Dindori District in Madhya Pradesh"
+   },
+   {
+    "state": "Chhattisgarh",
+    "place": "Dhamtari",
+    "source": "https://www.pradan.net/",
+    "quote": "by Shubham Fulmali, Dhamtari, Chhattisgarh"
+   }
+  ],
+  "Veditum": [
+   {
+    "state": "Madhya Pradesh",
+    "place": "Bhopal",
+    "source": "https://www.veditum.org/",
+    "quote": "Meetings, Talks & Workshops Across MP, India Sand Watch"
+   },
+   {
+    "state": "Bihar",
+    "place": "",
+    "source": "https://www.veditum.org/",
+    "quote": "Bihar Floods Monitoring"
+   },
+   {
+    "state": "West Bengal",
+    "place": "Kolkata",
+    "source": "https://www.veditum.org/",
+    "quote": "Kolkata Change Makers"
+   }
+  ],
+  "Janaagraha": [
+   {
+    "state": "Odisha",
+    "place": "",
+    "source": "https://www.janaagraha.org/",
+    "quote": "1.6 million citizens in 2,900 urban poor settlements in Odisha"
+   },
+   {
+    "state": "Karnataka",
+    "place": "Bengaluru",
+    "source": "https://www.janaagraha.org/",
+    "quote": "INR 120 crores allocated by Bengaluru through MyCityMyBudget"
+   }
+  ],
+  "Akshayakalpa Foundation": [
+   {
+    "state": "Karnataka",
+    "place": "Tiptur",
+    "source": "https://akshayakalpa.org",
+    "quote": "Farm Visit in Tiptur"
+   },
+   {
+    "state": "Tamil Nadu",
+    "place": "Chennai",
+    "source": "https://akshayakalpa.org",
+    "quote": "Farm Visit in Pooriyambakkam - Chennai"
+   },
+   {
+    "state": "Telangana",
+    "place": "Shadnagar",
+    "source": "https://akshayakalpa.org",
+    "quote": "Farm Visit in Shadnagar - Hyderabad"
+   }
+  ],
+  "A Rocha India": [
+   {
+    "state": "Karnataka",
+    "place": "Bannerghatta",
+    "source": "https://www.arocha.in/about-a-rocha-india/landscape-we-work-in/",
+    "quote": "from Bannerghatta National Park in South Karnataka"
+   },
+   {
+    "state": "Tamil Nadu",
+    "place": "Hosur",
+    "source": "https://www.arocha.in/about-a-rocha-india/landscape-we-work-in/",
+    "quote": "to the North Cauvery Wildlife Sanctuary in North Tamil Nadu and Hosur"
+   }
+  ],
+  "Jagriti Seva Sansthan": [
+   {
+    "state": "Uttar Pradesh",
+    "place": "Deoria",
+    "source": "https://jecp.in/jecp/network-offices",
+    "quote": "Our presence across Purvanchal: Deoria, Kushinagar, Gorakhpur, Ballia, Mau, Sant Kabir Nagar, Maharajganj"
+   }
+  ],
+  "Swami Vivekananda Youth Movement (SVYM)": [
+   {
+    "state": "Karnataka",
+    "place": "Mysuru",
+    "source": "https://www.svym.org/",
+    "quote": "in Mysuru, Hassan, Bengaluru, Dharwad and Saragur"
+   }
+  ],
+  "Biome Environmental Trust": [
+   {
+    "state": "Karnataka",
+    "place": "Bengaluru",
+    "source": "https://biometrust.org",
+    "quote": "Million Wells for Bengaluru"
+   }
+  ],
+  "Himalaya Unnati Mission": [
+   {
+    "state": "Jammu and Kashmir",
+    "place": "Jammu",
+    "source": "https://himalayunnatimission.ssrdp.org/about-us/our-presence/",
+    "quote": "Knowledge Centres and Temples of Knowledge all across the Himalayas"
+   },
+   {
+    "state": "Himachal Pradesh",
+    "place": "Shimla",
+    "source": "https://himalayunnatimission.ssrdp.org/about-us/our-presence/",
+    "quote": "Shimla, Solan, Kullu, Dharamshala"
+   },
+   {
+    "state": "Uttarakhand",
+    "place": "Rishikesh",
+    "source": "https://himalayunnatimission.ssrdp.org/about-us/our-presence/",
+    "quote": "Rishikesh, Tehri Garhwal, Dehradun"
+   },
+   {
+    "state": "Sikkim",
+    "place": "Gangtok",
+    "source": "https://himalayunnatimission.ssrdp.org/about-us/our-presence/",
+    "quote": "Gangtok"
+   },
+   {
+    "state": "Arunachal Pradesh",
+    "place": "Itanagar",
+    "source": "https://himalayunnatimission.ssrdp.org/about-us/our-presence/",
+    "quote": "Itanagar"
+   },
+   {
+    "state": "Assam",
+    "place": "Guwahati",
+    "source": "https://himalayunnatimission.ssrdp.org/about-us/our-presence/",
+    "quote": "Guwahati, Karbi Anglong"
+   },
+   {
+    "state": "Meghalaya",
+    "place": "",
+    "source": "https://himalayunnatimission.ssrdp.org/about-us/our-presence/",
+    "quote": "Meghalaya"
+   },
+   {
+    "state": "Manipur",
+    "place": "",
+    "source": "https://himalayunnatimission.ssrdp.org/about-us/our-presence/",
+    "quote": "Manipur"
+   }
+  ],
+  "RCRC": [
+   {
+    "state": "Uttar Pradesh",
+    "place": "Banda",
+    "source": "https://www.rcrc.in/our-outreach",
+    "quote": "Banda, Chitrakoot, Bahraich, Barabanki, Mahoba, Hamirpur"
+   },
+   {
+    "state": "Bihar",
+    "place": "Muzaffarpur",
+    "source": "https://www.rcrc.in/our-outreach",
+    "quote": "Muzaffarpur, Samastipur, Gaya, Rohtas, Banka, Bhagalpur"
+   },
+   {
+    "state": "Madhya Pradesh",
+    "place": "Barwani",
+    "source": "https://www.rcrc.in/our-outreach",
+    "quote": "Barwani, Dhar, Jhabua, Alirajpur, Mandla, Chhatarpur"
+   },
+   {
+    "state": "Odisha",
+    "place": "Koraput",
+    "source": "https://www.rcrc.in/our-outreach",
+    "quote": "Koraput, Malkangiri, Rayagada, Nabarangpur, Nuapada, Keonjhar"
+   },
+   {
+    "state": "Rajasthan",
+    "place": "Udaipur",
+    "source": "https://www.rcrc.in/our-outreach",
+    "quote": "Udaipur, Bhilwara, Dungarpur, Dholpur, Alwar, Pratapgarh"
+   },
+   {
+    "state": "Jharkhand",
+    "place": "Gumla",
+    "source": "https://www.rcrc.in/our-outreach",
+    "quote": "Gumla, Khunti, Hazaribagh, Dumka, Godda, West Singhbhum"
+   },
+   {
+    "state": "Gujarat",
+    "place": "Narmada",
+    "source": "https://www.rcrc.in/our-outreach",
+    "quote": "Narmada, Tapi, Dangs, Surat, Mehsana, Morbi"
+   },
+   {
+    "state": "Maharashtra",
+    "place": "Ahmednagar",
+    "source": "https://www.rcrc.in/our-outreach",
+    "quote": "Ahmednagar, Aurangabad, Jalna, Beed, Gadchiroli, Yavatmal"
+   }
+  ],
+  "Wassan": [
+   {
+    "state": "Odisha",
+    "place": "Malkangiri",
+    "source": "https://www.wassan.org",
+    "quote": "in districts of Malkangiri, Koraput, Rayagada, Nuapada and Gajapati"
+   },
+   {
+    "state": "Telangana",
+    "place": "Adilabad",
+    "source": "https://www.wassan.org",
+    "quote": "in the districts of Adilabad and Vikarabad"
+   },
+   {
+    "state": "Andhra Pradesh",
+    "place": "Visakhapatnam",
+    "source": "https://www.wassan.org",
+    "quote": "11 villages of Anandapuram mandal of Visakhapatnam district"
+   },
+   {
+    "state": "Jharkhand",
+    "place": "",
+    "source": "https://www.wassan.org",
+    "quote": "High Impact Mega Watershed Project in Jharkhand"
+   }
+  ],
+  "Nrityagram": [
+   {
+    "state": "Karnataka",
+    "place": "Hesaraghatta",
+    "source": "https://nrityagram.org/",
+    "quote": "Nrityagram, Hessaraghatta Post, Kodihalli Village, Bangalore"
+   }
+  ],
+  "Uttarayan": [
+   {
+    "state": "West Bengal",
+    "place": "Bankura",
+    "source": "https://uttarayanwildlife.org/",
+    "quote": "different parts of Hooghly, Bankura, Birbhum, Purulia, Kolkata"
+   }
+  ]
+ }
+}

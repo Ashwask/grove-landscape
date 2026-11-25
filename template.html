@@ -1,0 +1,615 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Grove Landscape</title>
+<meta name="description" content="What the Rainmatter Foundation's listed partners are doing, state by state, from their own posts on The Grove: the work, who it is with, what it means for the place, and who could work together on what.">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.min.js"></script>
+<style>
+:root{
+ --ink:#0f2440; --ink2:#31456a; --mut:#62718a; --line:#dce3ee; --line2:#eef2f8;
+ --bg:#f6f8fc; --card:#ffffff; --accent:#0d6079; --c0:#eef2f8; --on:#0f2440; --onink:#ffffff;
+ --shadow:0 1px 2px rgba(15,36,64,.04),0 6px 24px rgba(15,36,64,.06);
+}
+@media (prefers-color-scheme: dark){:root{
+ --ink:#e8eef8; --ink2:#bcc8dc; --mut:#8e9bb3; --line:#283448; --line2:#1e2838;
+ --bg:#0e1522; --card:#151e2e; --accent:#82c4d6; --c0:#1c2638; --on:#e8eef8; --onink:#0e1522;
+ --shadow:0 1px 2px rgba(0,0,0,.3);
+}}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+ background:var(--bg); color:var(--ink); font-size:14px; line-height:1.45; -webkit-font-smoothing:antialiased}
+.wrap{max-width:1320px; margin:0 auto; padding:26px 20px 80px}
+h1{font-size:24px; margin:0 0 4px; letter-spacing:-.02em; font-weight:700}
+.sub{color:var(--ink2); font-size:14px; margin:0; max-width:900px}
+.prov{color:var(--mut); font-size:12px; margin:8px 0 0}
+a{color:var(--accent)}
+.live{display:inline-block; width:8px; height:8px; border-radius:50%; background:var(--accent); margin-right:6px; vertical-align:1px}
+.strip{display:flex; gap:10px; flex-wrap:wrap; margin:18px 0 6px}
+.stat{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:11px 14px; min-width:128px; flex:1 1 128px; box-shadow:var(--shadow)}
+.stat .n{font-size:22px; font-weight:700; letter-spacing:-.02em; line-height:1.05}
+.stat .n small{font-size:13px; font-weight:500; color:var(--mut)}
+.stat .l{color:var(--mut); font-size:11px; margin-top:5px; text-transform:uppercase; letter-spacing:.04em}
+.filters{padding:12px 0 0; margin:0}
+.frow{display:flex; gap:6px; flex-wrap:wrap; align-items:center; margin:4px 0}
+.flab{font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:var(--mut); font-weight:600; min-width:62px}
+.fb{font:inherit; font-size:12px; border:1px solid var(--line); background:var(--card); color:var(--ink2); padding:4px 10px; border-radius:16px; cursor:pointer}
+.fb:hover{border-color:var(--accent)}
+.fb.on{background:var(--on); color:var(--onink); border-color:var(--on)}
+.fb .c{color:var(--mut); margin-left:4px; font-size:11px}
+.fb.on .c{color:inherit; opacity:.7}
+.fnow{font-size:12.5px; color:var(--ink2); margin-top:6px}
+.fnow button, .link{font:inherit; font-size:12px; background:none; border:0; color:var(--accent); cursor:pointer; padding:0; text-decoration:underline}
+input.q{font:inherit; font-size:12.5px; padding:5px 10px; border:1px solid var(--line); border-radius:8px; background:var(--card); color:var(--ink); width:220px}
+.grid{display:grid; grid-template-columns:minmax(0,1.25fr) minmax(0,1fr); gap:16px; align-items:start; margin-top:14px}
+.grid.even{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+@media(max-width:980px){.grid,.grid.even{grid-template-columns:minmax(0,1fr)} .wrap{padding:20px 16px 60px}}
+.card{background:var(--card); border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow); min-width:0}
+.card h2{font-size:13px; text-transform:uppercase; letter-spacing:.05em; color:var(--ink2); margin:0; padding:13px 16px; border-bottom:1px solid var(--line2)}
+.card h2 span{text-transform:none; letter-spacing:0; font-weight:400; color:var(--mut); margin-left:6px}
+.pad{padding:14px 16px}
+.note{color:var(--mut); font-size:12px; margin:0 0 10px}
+.sect{margin:34px 0 0}
+.sect>h3{font-size:18px; margin:0 0 2px; letter-spacing:-.01em}
+.sect>p{color:var(--ink2); margin:0; max-width:900px; font-size:13.5px}
+.lens{display:flex; gap:6px; flex-wrap:wrap; padding:12px 16px 0; align-items:center}
+svg.map{width:100%; height:auto; display:block; max-height:640px}
+.st{stroke:var(--card); stroke-width:.8; cursor:pointer}
+.st:hover{stroke:var(--ink); stroke-width:1.5}
+.st.sel{stroke:var(--ink); stroke-width:2.2}
+.slab{font-size:10px; pointer-events:none; text-anchor:middle; font-weight:600}
+.legend{display:flex; align-items:center; gap:8px; flex-wrap:wrap; padding:6px 16px 12px; font-size:11.5px; color:var(--mut)}
+.legend .box{width:22px; height:11px; display:inline-block}
+.tiles{display:flex; gap:8px; flex-wrap:wrap; padding:0 16px 14px}
+.tile{flex:1 1 150px; border:1px solid var(--line); border-radius:10px; padding:8px 10px; cursor:pointer; background:var(--card); font:inherit; color:inherit; text-align:left}
+.tile:hover{border-color:var(--accent)} .tile.on{border-color:var(--ink); box-shadow:inset 0 0 0 1px var(--ink)}
+.tile b{font-size:18px; display:block} .tile span{font-size:11.5px; color:var(--mut)}
+.dh{font-size:18px; font-weight:700; margin-bottom:2px}
+.kv{display:flex; gap:20px; margin:8px 0 6px; flex-wrap:wrap}
+.kv .k{color:var(--mut); font-size:11px; text-transform:uppercase; letter-spacing:.03em}
+.kv .v{font-size:17px; font-weight:700}
+.t{font-size:11px; text-transform:uppercase; letter-spacing:.04em; color:var(--ink2); font-weight:600; margin:14px 0 6px}
+.bar{display:grid; grid-template-columns:minmax(120px,38%) 1fr 34px; gap:8px; align-items:center; font-size:12.5px; padding:2px 0; cursor:default}
+.bar.click{cursor:pointer} .bar.click:hover .bl{text-decoration:underline}
+.bar .bl{white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.bar .bt{height:12px; background:var(--c0); border-radius:0 4px 4px 0}
+.bar .bf{height:12px; background:var(--accent); border-radius:0 4px 4px 0; min-width:2px}
+.bar .bn{text-align:right; font-variant-numeric:tabular-nums; color:var(--ink2)}
+.bar.zero .bl,.bar.zero .bn{color:var(--mut)} .bar.zero .bf{display:none}
+.bar.sel .bl{font-weight:700}
+.plist{list-style:none; margin:0; padding:0; max-height:330px; overflow:auto}
+.plist li{padding:7px 0; border-bottom:1px solid var(--line2); font-size:13px}
+.plist li:last-child{border:0}
+.plist .m{color:var(--mut); font-size:11.5px}
+.chip{display:inline-block; font-size:11px; padding:1px 7px; border-radius:6px; background:var(--c0); color:var(--ink2); border:1px solid var(--line); margin:1px 2px 1px 0; white-space:nowrap}
+.chip.g{border-style:dashed}
+.tw{overflow-x:auto}
+table{border-collapse:collapse; width:100%; font-size:12.5px}
+th,td{padding:6px 8px; text-align:left; border-bottom:1px solid var(--line2); vertical-align:top}
+th{font-size:11px; text-transform:uppercase; letter-spacing:.04em; color:var(--mut); font-weight:600; white-space:nowrap; background:var(--card)}
+th.s{cursor:pointer} th.s:hover{color:var(--ink)}
+td.n,th.n{text-align:right; font-variant-numeric:tabular-nums}
+table.mx td,table.mx th{text-align:center; padding:0; border:2px solid var(--card)}
+table.mx thead th{padding:6px 2px; font-size:11px; line-height:1.15; vertical-align:bottom; writing-mode:vertical-rl; transform:rotate(180deg); text-align:left; white-space:nowrap; text-transform:none; letter-spacing:0; color:var(--ink2); font-weight:500}
+table.mx th.r{text-align:left; white-space:nowrap; font-size:12px; text-transform:none; letter-spacing:0; color:var(--ink2); font-weight:500; vertical-align:middle}
+table.mx td .cell{display:block; min-width:28px; padding:7px 4px; font-variant-numeric:tabular-nums; font-weight:600; font-size:12.5px; border-radius:3px; cursor:pointer; border:0; width:100%; font-family:inherit}
+table.mx td .cell.z{color:var(--mut); font-weight:400; background:var(--c0); cursor:default}
+table.mx td .cell.sel{outline:2px solid var(--ink); outline-offset:-2px}
+.dot{display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:6px; vertical-align:0; border:1px solid var(--line)}
+.stack{display:flex; height:22px; border-radius:5px; overflow:hidden; gap:2px; margin:6px 0 10px}
+.stack div{min-width:2px}
+.lg{display:flex; gap:14px; flex-wrap:wrap; font-size:12px; color:var(--ink2)}
+svg.cols{width:100%; height:170px; display:block}
+svg.cols text{font-size:10px; fill:var(--mut)}
+svg.cols .v{fill:var(--ink2); font-weight:600}
+details.more{margin-top:10px} details.more summary{cursor:pointer; color:var(--accent); font-size:12.5px}
+#tip{position:fixed; pointer-events:none; background:var(--on); color:var(--onink); font-size:12px; padding:6px 9px; border-radius:7px; max-width:300px; z-index:20; display:none; line-height:1.35}
+.foot{margin-top:36px; color:var(--mut); font-size:12px; border-top:1px solid var(--line); padding-top:16px}
+.foot h4{color:var(--ink2); font-size:12px; text-transform:uppercase; letter-spacing:.05em; margin:14px 0 4px}
+.foot ul{margin:4px 0; padding-left:18px} .foot li{margin:3px 0}
+label.tg{font-size:12px; color:var(--ink2); display:inline-flex; gap:6px; align-items:center; cursor:pointer}
+
+.tabs{display:flex; gap:2px; flex-wrap:wrap; border-bottom:1px solid var(--line); margin:18px 0 0}
+.tabs button{font:inherit; font-size:13.5px; background:none; border:0; border-bottom:2px solid transparent; color:var(--mut); padding:9px 14px; cursor:pointer; margin-bottom:-1px}
+.tabs button:hover{color:var(--ink)}
+.tabs button.on{color:var(--ink); border-bottom-color:var(--ink); font-weight:600}
+.tab{display:none; margin-top:16px} .tab.on{display:block}
+.tab .grid{margin-top:0} .tab .grid+.grid{margin-top:16px}
+.lead{color:var(--ink2); font-size:14px; max-width:860px; margin:0 0 14px}
+.find{display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:14px}
+.fc{background:var(--card); border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow); padding:16px 18px; display:flex; flex-direction:column; gap:8px}
+.fc .k{font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:var(--mut); font-weight:600}
+.fc .h{font-size:16.5px; font-weight:700; letter-spacing:-.01em; line-height:1.3}
+.fc .b{font-size:13px; color:var(--ink2); flex:1}
+.fc .b b{color:var(--ink)}
+.fc .go{align-self:flex-start; font:inherit; font-size:12.5px; background:none; border:1px solid var(--line); border-radius:8px; padding:5px 10px; color:var(--accent); cursor:pointer}
+.fc .go:hover{border-color:var(--accent)}
+select.f{font:inherit; font-size:12.5px; padding:5px 8px; border:1px solid var(--line); border-radius:8px; background:var(--card); color:var(--ink); max-width:230px}
+.filters{display:none} .filters.on{display:block}
+
+.pc{background:var(--card); border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow); padding:15px 17px; display:flex; flex-direction:column; gap:8px; min-width:0}
+.pc h4{margin:0; font-size:16px; letter-spacing:-.01em}
+.pc h4 small{font-size:12px; font-weight:400; color:var(--mut); margin-left:6px}
+.pc .row{font-size:13px; padding:5px 0; border-top:1px solid var(--line2)}
+.pc .row .m{color:var(--mut); font-size:11.5px}
+.pc .x{font-size:12.5px; color:var(--ink2); background:var(--c0); border-radius:8px; padding:7px 10px}
+.cards{display:grid; grid-template-columns:repeat(auto-fit,minmax(330px,1fr)); gap:14px}
+.h3{font-size:17px; font-weight:700; margin:26px 0 2px; letter-spacing:-.01em} .h3:first-child{margin-top:0}
+.h3+.lead{margin-bottom:12px}
+.grp{font-size:11px; text-transform:uppercase; letter-spacing:.04em; color:var(--mut); font-weight:600; margin-top:4px}
+.item{padding:11px 0; border-top:1px solid var(--line2)} .item:first-child{border-top:0; padding-top:0}
+.item .w{font-size:11.5px; color:var(--mut)} .item .ti{font-weight:600; font-size:13.5px} .item .ex{font-size:12.5px; color:var(--ink2); margin:3px 0 5px}
+.btn{display:inline-block; font:inherit; font-size:12.5px; border:1px solid var(--line); border-radius:8px; padding:4px 10px; color:var(--accent); background:var(--card); cursor:pointer; text-decoration:none}
+.btn:hover{border-color:var(--accent)}
+.sentence{font-size:16px; line-height:1.55; border-left:3px solid var(--accent); padding:4px 0 4px 14px; margin:0 0 14px; color:var(--ink)}
+.about h4{font-size:12px; text-transform:uppercase; letter-spacing:.05em; color:var(--ink2); margin:20px 0 6px}
+.about ul{margin:4px 0; padding-left:18px} .about li{margin:4px 0} .about{font-size:13.5px; color:var(--ink2); max-width:900px}
+
+#map{height:600px; background:var(--bg); border-radius:0}
+@media(max-width:980px){#map{height:460px}}
+.maplibregl-popup-content{font-size:12px; padding:6px 9px; color:#0f2440; line-height:1.35}
+.maplibregl-popup{pointer-events:none}
+.intro{border-left:3px solid var(--accent); margin-top:14px}
+.intro p{margin:0 0 8px} .intro p:last-child{margin:0}
+.intro .l1{font-size:15px; line-height:1.5; color:var(--ink)}
+.intro .l2{font-size:13px; line-height:1.55; color:var(--ink2)}
+.key{display:inline-block; width:11px; height:11px; border-radius:50%; border:2px solid #0a4a61; vertical-align:-1px; margin:0 4px 0 2px}
+.key.w{background:#0a4a61} .key.o{background:#fff}
+@media (prefers-color-scheme: dark){.key{border-color:#d3eef5} .key.w{background:#d3eef5} .key.o{background:#0e1522}}
+.filters{display:block; padding:14px 0 0}
+.back{float:right}
+.take{display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:12px; margin:16px 0 4px}
+.tk{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:13px 15px; box-shadow:var(--shadow); cursor:pointer; text-align:left; font:inherit; color:inherit; display:flex; flex-direction:column; gap:5px}
+.tk:hover{border-color:var(--accent)}
+.tk .k{font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:var(--mut); font-weight:600}
+.tk .h{font-size:15px; font-weight:700; line-height:1.3}
+.tk .b{font-size:12.5px; color:var(--ink2)} .tk .g{font-size:12.5px; color:var(--accent); margin-top:auto}
+.mean{font-size:13.5px; line-height:1.55; color:var(--ink); margin:8px 0 0}
+.mean p{margin:0 0 7px}
+.mean ul{margin:0; padding-left:18px} .mean li{margin:0 0 4px}
+.act{list-style:none; margin:0; padding:0; counter-reset:a}
+.act li{counter-increment:a; position:relative; padding:8px 0 8px 30px; border-top:1px solid var(--line2); font-size:13px}
+.act li:first-child{border-top:0}
+.act li::before{content:counter(a); position:absolute; left:0; top:8px; width:20px; height:20px; border-radius:50%; background:var(--on); color:var(--onink); font-size:11px; font-weight:700; display:flex; align-items:center; justify-content:center}
+.act .why{color:var(--mut); font-size:12px; display:block; margin-top:2px}
+.arow{display:grid; grid-template-columns:96px 1fr; gap:8px; padding:6px 0; border-top:1px solid var(--line2); font-size:12.5px}
+.arow:first-of-type{border-top:0} .arow b{font-size:12.5px}
+.arow .ind{color:var(--mut); font-size:11.5px; display:block; margin-top:2px}
+.feed{padding:7px 0; border-top:1px solid var(--line2); font-size:12.5px} .feed:first-of-type{border-top:0}
+.feed .ex{color:var(--ink2); margin-top:2px}
+.wk{display:grid; grid-template-columns:repeat(auto-fit,minmax(340px,1fr)); gap:0 26px}
+.wg{break-inside:avoid; margin-bottom:6px}
+.wg h5{font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:var(--ink2); margin:14px 0 4px; padding-bottom:5px; border-bottom:2px solid var(--line)}
+.wi{padding:6px 0; border-bottom:1px solid var(--line2); font-size:13px}
+.wi summary{cursor:pointer; list-style:none} .wi summary::-webkit-details-marker{display:none}
+.wi summary::before{content:'+'; display:inline-block; width:14px; color:var(--mut)} .wi[open] summary::before{content:'\2212'}
+.wi[open]{padding-bottom:10px}
+.wi .st{font-weight:700} .wi .pp{color:var(--mut); font-size:12px}
+.wi .wh{margin:3px 0; color:var(--ink2)}
+.wi .ln{font-size:12px; color:var(--ink2); margin-top:2px} .wi .ln b{color:var(--ink); font-weight:600}
+.wi .ask{background:var(--c0); border-left:3px solid var(--accent); padding:4px 8px; border-radius:0 6px 6px 0; margin-top:4px; font-size:12px}
+.read{font-size:11px; color:var(--mut); font-weight:400; text-transform:none; letter-spacing:0; margin-left:6px}
+.cb{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:13px 16px; margin-bottom:10px; display:grid; grid-template-columns:minmax(0,1.1fr) minmax(0,1fr); gap:6px 24px}
+@media(max-width:860px){.cb{grid-template-columns:minmax(0,1fr)}}
+.cb .hd{grid-column:1/-1; display:flex; gap:8px; align-items:baseline; flex-wrap:wrap}
+.cb .hd b{font-size:15px} .cb .hd .w{color:var(--mut); font-size:12px}
+.tag{font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; font-weight:700; padding:2px 7px; border-radius:5px; border:1px solid var(--ink2); color:var(--ink2)}
+.tag.c{background:var(--on); color:var(--onink); border-color:var(--on)}
+.cb .pt{font-size:12.5px; padding:2px 0} .cb .pt span{color:var(--ink2)}
+.cb .lb{font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--mut); font-weight:600; margin-bottom:2px}
+.cb .af{font-size:13.5px; font-weight:600} .cb .so{font-size:12.5px; color:var(--ink2); margin-top:3px}
+</style></head><body>
+<div class="wrap">
+<h1>The Grove Landscape</h1>
+<p class="prov"><span class="live"></span>Refreshed <b id="fetched"></b> from public pages. Independent, not a Rainmatter Foundation publication. <a href="#tab=about" id="mlink">Method</a></p>
+<div class="card intro"><div class="pad">
+<p class="l1">The Rainmatter Foundation's <span id="iN"></span> listed partners and what they report on The Grove, on one map. Click a state for what is happening there and what to do next.</p>
+<details class="more" style="margin-top:6px"><summary>How to read it</summary>
+<p class="l2" style="margin-top:8px"><span class="key w"></span>Filled pin: a place a partner works, from the Foundation's page or the partner's website (<span id="iW"></span> partners). <span class="key o"></span>Hollow pin: an office only (<span id="iO"></span>). <span id="iX"></span> partners have neither and are listed, not guessed.</p>
+<p class="l2">Partners are grouped by the Foundation's own focus areas and natural assets. An empty state means "not in public sources", not "no work here".</p>
+</details>
+</div></div>
+
+<div class="take" id="take"></div>
+<div class="filters" id="filters"></div>
+<div class="grid" id="hero">
+ <div class="card"><h2>Where <span id="mapsub"></span></h2>
+  <div class="lens" id="lens"></div>
+  <div id="map" role="application" aria-label="Map of India with partner locations"></div>
+  <div class="legend" id="legend"></div>
+  <div class="tiles" id="tiles"></div>
+ </div>
+ <div class="card"><h2 id="dtitle">Selection</h2><div class="pad" id="detail"></div></div>
+</div>
+<div id="wide"></div>
+<nav class="tabs" id="tabs" aria-label="Sections" style="margin-top:28px"></nav>
+
+<section class="tab" data-tab="together">
+ <p class="lead"><b>Complementing:</b> each has what the other lacks, so one hands to the other. <b>Intersecting:</b> they do similar work, so they can share something. Each row names the artefact: the concrete thing they would make together.</p>
+ <div class="lens" id="colPick" style="padding:0 0 12px"></div>
+ <div id="collabs"></div>
+ <div class="h3">Unfilled roles by natural asset</div>
+ <p class="lead">A dot is a role no listed partner fills for that asset.</p>
+ <div class="card"><div class="pad"><div class="tw" id="mx"></div></div></div>
+</section>
+
+<section class="tab" data-tab="open">
+ <div class="grid">
+  <div class="card"><h2>What partners are asking for <span id="waitSub"></span></h2><div class="pad" id="wait"></div></div>
+  <div class="card"><h2>Calls, jobs and events <span id="openSub"></span></h2><div class="pad" id="openList"></div></div>
+ </div>
+</section>
+
+<section class="tab" data-tab="partners">
+ <div class="card"><h2>Partner directory <span>click a column to sort; hover a name for the Foundation's description</span></h2><div class="pad"><div class="tw" id="dir"></div></div></div>
+</section>
+
+<section class="tab" data-tab="about"><div class="card"><div class="pad about">
+<p class="sentence">This page sits between <b>partners who work in the same place or on the same natural asset</b>, and between them and <b>people who can help</b> (funders, researchers, practitioners, job seekers), so that they can find each other without waiting for an introduction. It is a diagnostic, and it is meant to be temporary.</p>
+<p>That sentence follows the Foundation's own test for a shared tool, set out in its <a href="https://rainmatter.org/practice">practice notes</a>: name the sides, say what crosses, and say how long it lives. The same notes ask to "measure the gaps actually crossed, not the count of partners", which is why the headline numbers here are about exchanges and replies.</p>
+
+<h4>How partners are grouped</h4>
+<ul>
+<li><b>Focus area:</b> the four the Foundation names (Urban, Rural, Conservation and Restoration, Messaging), plus one cross-cutting bucket for policy, funding and data organisations.</li>
+<li><b>Natural assets:</b> the six the Foundation names (air, water, soil, biodiversity, energy, materials). A partner carries an asset only when the Foundation's description of it points to one; <span id="noAsset"></span> partners carry none.</li>
+<li><b>Role</b> (eight kinds of organisation), rolled up into four contributions that loosely follow the Foundation's three kinds of capital: place-based, narrative (social), connective (network) and financial.</li>
+<li>All three are an editorial reading of the Foundation's description of each partner, kept in one open file, <code>data/registry.json</code>. They are a way to find people, not an official taxonomy.</li>
+</ul>
+
+<h4>Where a partner is placed</h4>
+<ul>
+<li><b>Stated (filled pin):</b> the partner's name or the Foundation's description names the state or a place inside it. The pin sits on the named place, or in the middle of the state when only the state is named.</li>
+<li><b>Stated on the partner's own website (filled pin):</b> one line per state, with the first place the site names and a short quote, kept with its source page in <code>data/workplaces.json</code>. Story datelines, events and research about a state are left out. This is a one-time read, not refreshed daily.</li>
+<li><b>Office (hollow pin):</b> the main office given on the partner's own website, looked up only for partners with no stated place, with the source page linked on each partner's card. Offices are not counted as places of work anywhere on this page.</li>
+<li><b>Declared:</b> the partner has corrected its own entry, with a public link. <span id="declN"></span></li>
+<li><b>Indicative (✳, off by default):</b> states named at least <span id="minM"></span> times in the partner's own Grove posts. This is where a partner writes about, which is not always where it works.</li>
+<li>Partners described as national, regional or with no place stated are never spread across states.</li>
+<li>The base map is OpenStreetMap data, served without a key by OpenFreeMap and limited to India. Place names are located with OpenStreetMap's Nominatim. Pins that share a town are fanned out in a ring so each can be clicked.</li>
+</ul>
+
+<h4>Correct or add to it</h4>
+<ul>
+<li>If you work at a listed partner and your place, assets or role are wrong or missing, <a id="issue" target="_blank" rel="noopener">open a correction</a> with a public link that supports it. <span id="nsN"></span> partners have no place stated today; those are the most useful to fill.</li>
+<li>The data is open to reuse: <a href="partners.csv">partners.csv</a> and <a href="partners.json">partners.json</a> are rebuilt with the page.</li>
+<li>Contributors so far: <span id="contrib"></span>.</li>
+</ul>
+
+<h4>How the numbers are made</h4>
+<ul>
+<li><b>Update threads</b> in The Grove's Partner Updates category are matched to partners by the account that opened the thread, or by the organisation's name in the title. An account whose matched threads all belong to one partner is treated as that partner's.</li>
+<li><b>What is happening:</b> partners' own posts on The Grove since 2024 were read for the work they describe: what is done, the numbers, who it is done with (collaborators, government bodies, funders) and what is asked for. Each item links to its post and carries a verbatim quote. Posts were read up to their first 4,000 characters. Replies and reply counts are not used anywhere.</li>
+<li><b>Readings and collaborations</b> are written from those items and are interpretation. A collaboration is a proposal, not something the partners have agreed.</li>
+<li><b>Calls, jobs and events:</b> topics started in the last <span id="openD"></span> days in the Funding, Collaboration, Small grants, Green Jobs and Events categories, from accounts past the forum's new-user level. Dates of the events themselves are not read.</li>
+</ul>
+
+<h4>The state of the place</h4>
+<ul id="indList"></ul>
+<p>These are read next to partner presence, never combined into a score. A next action is suggested only from a rule that is written down: a shared asset with no exchange, an update with no reply, a stressed asset with no partner, or a partner based in a state with no stated place of work.</p>
+
+<h4>Limits</h4>
+<ul>
+<li>Only public, unauthenticated pages are read. No funding amounts appear because none are published on those pages.</li>
+<li>A dot, a missing kind or an unshaded state means "not in these public sources", not "no work happens here".</li>
+<li><span id="othN"></span> threads in Partner Updates match no organisation on the list as fetched and are left out. <details class="more" style="display:inline"><summary style="display:inline">List them</summary><div id="oth"></div></details></li>
+<li>If this proves useful, its natural home is The Grove or rainmatter.org rather than a separate site. If it does not, it should be retired.</li>
+</ul>
+
+<h4>Sources</h4>
+<ul><li><a href="https://rainmatter.org/partners">Rainmatter Foundation: Partnerships and grants</a>, <a href="https://rainmatter.org/">home page</a>, <a href="https://rainmatter.org/about">About</a> and <a href="https://rainmatter.org/practice">Practice</a> (focus areas, natural assets, kinds of capital)</li><li><a href="https://grove.rainmatter.org/">The Grove</a>: public topic lists and the <a href="https://grove.rainmatter.org/c/updates/21">Rainmatter Partner Updates</a> category and its threads</li></ul>
+</div></div></section>
+</div>
+<div id="tip"></div>
+<script>
+const M=/*MODEL*/null;
+const GEO=/*GEO*/null;
+const MINM=/*MINM*/3;
+const REPO=/*REPO*/"";
+const $=id=>document.getElementById(id);
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const by=a=>Object.fromEntries(a.map(x=>[x.id,x]));
+const FOCUS=by(M.focus),ASSET=by(M.assets),GROUP=by(M.groups),ROLE=by(M.roles),P=M.partners;
+const SCOPE={national:'National or across India',region:'Regional, states not named',ns:'Place not stated'};
+const dark=()=>matchMedia('(prefers-color-scheme: dark)').matches;
+const RAMP=()=>dark()?['#1c4a5a','#21667b','#2b869e','#4fa6bd','#82c4d6','#b8e0ea']:['#cfe5eb','#9fcbd7','#6aaec0','#3a8fa6','#17708a','#0a4a61'];
+const F={kind:null,pid:null,tab:'together',focus:null,asset:null,role:null,geo:null,q:'',ext:false,lens:'n',sort:'name',dir:1};
+const TABS=[['together','Who could work together'],['open','Open now'],['partners','Partners'],['about','About and contribute']];
+const CROSS=new Set(M.cross.map(c=>c[0]+'-'+c[1]));
+const crossed=(a,b)=>CROSS.has(Math.min(a,b)+'-'+Math.max(a,b));
+const known=p=>p.sRF.concat(p.sDecl,p.sWeb);
+const pStates=p=>F.ext?known(p).concat(p.sGrove):known(p);
+const pGeoKey=p=>pStates(p).length?null:'@'+(p.scope==='place'||p.scope==='multi'?'ns':p.scope);
+function match(p,skip){
+  skip=skip||'';
+  if(!skip.includes('focus')&&F.focus&&p.focus!==F.focus)return false;
+  if(!skip.includes('asset')&&F.asset&&!p.assets.includes(F.asset))return false;
+  if(!skip.includes('role')&&F.role&&p.role!==F.role)return false;
+  if(!skip.includes('geo')&&F.geo){ if(F.geo[0]==='@'){ if(pGeoKey(p)!==F.geo)return false; } else if(!pStates(p).includes(F.geo))return false; }
+  if(F.q){const q=F.q.toLowerCase(); if(!(p.name+' '+p.desc).toLowerCase().includes(q))return false;}
+  return true;
+}
+const sel=skip=>P.filter(p=>match(p,skip));
+const geoLabel=g=>!g?'All India':g[0]==='@'?SCOPE[g.slice(1)]:g;
+function lum(hex){const n=parseInt(hex.slice(1),16),r=n>>16,g=n>>8&255,b=n&255;return (.299*r+.587*g+.114*b)/255}
+function shade(v,max){if(!v)return null;const R=RAMP();return R[Math.min(R.length-1,Math.max(0,Math.ceil(v/max*R.length)-1))]}
+function set(k,v){F[k]=(F[k]===v?null:v);if(k==='geo')F.pid=null;render()}
+function go(tab,f){if(tab==='places'){Object.assign(F,f||{});F.pid=null;render();scrollTo({top:$('hero').offsetTop-8,behavior:'smooth'});return}F.tab=tab;if(f)Object.assign(F,f);render();scrollTo({top:$('tabs').offsetTop-8,behavior:'smooth'})}
+const plink=p=>`<a href="${esc(p.url)}" target="_blank" rel="noopener" data-tip="${esc(p.desc)}">${esc(p.name)}</a>`;
+const chips=a=>a.map(x=>`<span class="chip">${esc(x)}</span>`).join('');
+const rl=p=>ROLE[p.role]?ROLE[p.role].label:'Unclassified';
+
+/* ---------- shared-place maths ---------- */
+function places(){const S={};P.forEach(p=>known(p).forEach(s=>(S[s]=S[s]||[]).push(p)));return Object.entries(S).filter(e=>e[1].length>1).sort((a,b)=>b[1].length-a[1].length||a[0].localeCompare(b[0]))}
+function pairsOf(a){const o=[];a.forEach((x,i)=>a.slice(i+1).forEach(y=>o.push([x,y])));return o}
+
+/* ---------- header ---------- */
+const IND=M.indicators||[];
+const inState=s=>P.filter(p=>known(p).includes(s));
+const STATES_ALL=GEO.features.map(f=>f.properties.st_nm);
+function rankOf(ind,s){const e=Object.entries(ind.values).filter(x=>x[1]!=null).sort((a,b)=>b[1]-a[1]);const i=e.findIndex(x=>x[0]===s);return i<0?null:{r:i+1,n:e.length,v:e[i][1],high:i<e.length/3}}
+const srcShort=i=>{const t=i.short||i.source.split(',')[0];return t.includes(i.year)?t:t+', '+i.year};
+const fmt=v=>Number(v).toLocaleString('en-IN',{maximumFractionDigits:1});
+function sharedCells(){const C={};P.forEach(p=>known(p).forEach(s=>p.assets.forEach(a=>(C[s+'|'+a]=C[s+'|'+a]||[]).push(p))));
+  return Object.entries(C).filter(e=>e[1].length>1).map(e=>{const [st,a]=e[0].split('|');return {st,a,ps:e[1]}}).sort((x,y)=>y.ps.length-x.ps.length||x.st.localeCompare(y.st))}
+function stressGaps(){const out=[];IND.filter(i=>i.reads==='stress').forEach(ind=>Object.keys(ind.values).forEach(s=>{const rk=rankOf(ind,s);if(rk&&rk.high&&!inState(s).some(p=>p.assets.includes(ind.asset)))out.push({ind,s,rk})}));return out.sort((a,b)=>a.rk.r-b.rk.r)}
+function allAsks(){const o=[];Object.entries(M.work||{}).forEach(([st,W])=>W.items.forEach(it=>{if(it.asks)o.push([st,it])}));return o.sort((a,b)=>b[1].date.localeCompare(a[1].date))}
+function strip(){
+  const sc=sharedCells(),gaps=stressGaps();
+  const empty=STATES_ALL.filter(s=>!inState(s).length);
+  const T=[];
+  const cols=[];Object.entries(M.work||{}).forEach(([st,W])=>(W.reading?W.reading.actions:[]).forEach(a=>{if(a.parties)cols.push([st,a])}));
+  if(cols.length){const c=cols[0];T.push(['Who could work together',`${cols.length} collaborations across ${Object.keys(M.work).length} states, each with an artefact`,`For example, ${esc(c[0])}: ${esc(c[1].artefact.charAt(0).toLowerCase()+c[1].artefact.slice(1))}.`,'See them all',()=>go('together',{geo:null,kind:null})])}
+  if(gaps.length){const g=gaps[0];T.push(['Where the need has no partner',`${g.s}: ${g.ind.label.toLowerCase()} ${fmt(g.rk.v)}${g.ind.unit.startsWith('%')?'%':''}, no listed ${ASSET[g.ind.asset].label.toLowerCase()} partner`,`Rank ${g.rk.r} of ${g.rk.n}. ${gaps.length} such gaps in all.`,'Open the '+g.s+' brief',()=>go('places',{geo:g.s})])}
+  else T.push(['White space',`${empty.length} states and territories have no listed partner working in them`,esc(empty.slice(0,7).join(', '))+(empty.length>7?' and '+(empty.length-7)+' more':'')+'.','Shade the map by partners',()=>go('places',{geo:null,lens:'n'})]);
+  const asks=allAsks();
+  T.push(['What partners are asking for',`${asks.length} open asks in their own posts`,'Mentors, partners, funds, volunteers, feedback.','See the asks',()=>go('open')]);
+  $('take').innerHTML=T.map((t,i)=>`<button class="tk" data-i="${i}"><span class="k">${t[0]}</span><span class="h">${t[1]}</span><span class="b">${t[2]}</span><span class="g">${t[3]} →</span></button>`).join('');
+  $('take').querySelectorAll('.tk').forEach(b=>b.onclick=T[b.dataset.i][4]);
+  $('fetched').textContent=new Date(M.meta.fetchedAt).toLocaleString('en-IN',{timeZone:'Asia/Kolkata',day:'numeric',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'})+' IST';
+  $('mlink').onclick=e=>{e.preventDefault();go('about')};
+  $('iN').textContent=P.length;$('iW').textContent=P.filter(p=>known(p).length).length;$('iO').textContent=P.filter(p=>!known(p).length&&p.office).length;$('iX').textContent=P.filter(p=>!p.pins.length).length;
+}
+function tabs(){
+  $('tabs').innerHTML=TABS.map(t=>`<button class="${F.tab===t[0]?'on':''}" data-t="${t[0]}">${t[1]}</button>`).join('');
+  $('tabs').querySelectorAll('button').forEach(b=>b.onclick=()=>{F.tab=b.dataset.t;render()});
+  document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x.dataset.tab===F.tab));
+}
+function filters(){
+  const n=sel().length, any=F.focus||F.asset||F.role||F.geo||F.q;
+  const opt=(id,all,list,key,lab,cnt)=>`<select class="f" id="${id}" aria-label="${all}"><option value="">${all}</option>${list.map(x=>`<option value="${x.id}" ${F[key]===x.id?'selected':''}>${esc(x[lab])} (${cnt(x)})</option>`).join('')}</select>`;
+  let h='<div class="frow">'+opt('ff','All focus areas',M.focus,'focus','label',x=>sel('focus').filter(p=>p.focus===x.id).length)
+   +opt('fa','All natural assets',M.assets,'asset','label',x=>sel('asset').filter(p=>p.assets.includes(x.id)).length)
+   +opt('fr','All roles',M.roles,'role','label',x=>sel('role').filter(p=>p.role===x.id).length)
+   +`<input class="q" id="q" type="search" placeholder="Partner name or keyword" value="${esc(F.q)}" aria-label="Search partners">
+   <label class="tg" data-tip="Adds states named ${MINM} or more times in a partner's own Grove posts. Mentions, not confirmed presence."><input type="checkbox" id="ext" ${F.ext?'checked':''}> ✳ Add states named in Grove updates (indicative)</label></div>`;
+  h+=`<div class="fnow"><b>${n}</b> of ${P.length} partners · ${esc(geoLabel(F.geo))}${F.focus?' · '+esc(FOCUS[F.focus].label):''}${F.asset?' · '+esc(ASSET[F.asset].label):''}${F.role?' · '+esc(ROLE[F.role].label):''}${F.q?' · "'+esc(F.q)+'"':''} ${any?'<button id="clr">Clear all</button>':''}</div>`;
+  $('filters').innerHTML=h;
+  [['ff','focus'],['fa','asset'],['fr','role']].forEach(x=>$(x[0]).onchange=e=>{F[x[1]]=e.target.value||null;render()});
+  $('ext').onchange=e=>{F.ext=e.target.checked; if(F.geo&&F.geo[0]!=='@'&&!P.some(p=>pStates(p).includes(F.geo)))F.geo=null; render()};
+  const q=$('q'); q.oninput=()=>{F.q=q.value; const pos=q.selectionStart; render(); const nq=$('q'); nq.focus(); nq.setSelectionRange(pos,pos)};
+  if($('clr'))$('clr').onclick=()=>{F.focus=F.asset=F.role=F.geo=null;F.q='';render()};
+}
+
+/* ---------- who could work together ---------- */
+function together(){
+  const KIND={complement:'Complementing',intersect:'Intersecting'},FORM={plan:'a plan',data:'shared data',method:'a method',convening:'a convening',service:'a service'};
+  const all=[];Object.entries(M.work||{}).forEach(([st,W])=>(W.reading?W.reading.actions:[]).forEach(a=>{if(a.parties)all.push([st,a])}));
+  const n=k=>all.filter(x=>x[1].kind===k).length;
+  $('colPick').innerHTML=[[null,'All ('+all.length+')'],['complement','Complementing ('+n('complement')+')'],['intersect','Intersecting ('+n('intersect')+')']].map(o=>`<button class="fb ${F.kind===o[0]?'on':''}" data-k="${o[0]||''}">${o[1]}</button>`).join('')+(F.geo&&F.geo[0]!=='@'?`<span style="font-size:12.5px;color:var(--ink2);margin-left:8px">${esc(F.geo)} only · <button class="link" id="colAll">show all states</button></span>`:'');
+  $('colPick').querySelectorAll('.fb').forEach(b=>b.onclick=()=>{F.kind=b.dataset.k||null;together()});
+  if($('colAll'))$('colAll').onclick=()=>{F.geo=null;render();together()};
+  const pn=x=>{const p=P.find(q=>q.name===x);return p?`<a href="#" data-p="${p.id}">${esc(x)}</a>`:esc(x)};
+  const show=all.filter(x=>(!F.kind||x[1].kind===F.kind)&&(!F.geo||F.geo[0]==='@'||x[0]===F.geo));
+  $('collabs').innerHTML=show.map(([st,a])=>`<div class="cb"><div class="hd"><span class="tag ${a.kind==='complement'?'c':''}">${KIND[a.kind]||'Action'}</span><b>${esc(a.t)}</b><span class="w">${esc(st)}</span></div>
+    <div><div class="lb">Who brings what</div>${a.parties.map(p=>`<div class="pt">${pn(p.name)}: <span>${esc(p.brings)}</span></div>`).join('')}</div>
+    <div><div class="lb">Artefact (${esc(FORM[a.form]||a.form)})</div><div class="af">${esc(a.artefact)}</div><div class="so">So that: ${esc(a.why)}</div></div></div>`).join('')||'<p class="note">No collaboration written up for this selection yet.</p>';
+  $('collabs').querySelectorAll('a[data-p]').forEach(x=>x.onclick=e=>{e.preventDefault();F.pid=+x.dataset.p;render();scrollTo({top:$('hero').offsetTop-8,behavior:'smooth'})});
+  const rows=M.assets.map(a=>[a.label,P.filter(p=>p.assets.includes(a.id)),a.id]).concat([['No single asset',P.filter(p=>!p.assets.length),null]]);
+  let max=1;rows.forEach(r=>M.roles.forEach(ro=>{max=Math.max(max,r[1].filter(p=>p.role===ro.id).length)}));
+  let h='<table class="mx"><thead><tr><th></th>'+M.roles.map(r=>`<th data-tip="${esc(r.note)}">${esc(r.label)}</th>`).join('')+'<th>Roles filled</th></tr></thead><tbody>';
+  rows.forEach(r=>{let f=0;h+=`<tr><th class="r">${esc(r[0])}</th>`+M.roles.map(ro=>{const a=r[1].filter(p=>p.role===ro.id);if(a.length)f++;const tip=`<b>${esc(r[0])} × ${esc(ro.label)}</b><br>${esc(a.length?a.map(p=>p.name).sort().join(', '):'No listed partner')}`;
+    if(!a.length)return `<td><span class="cell z" data-tiph="${esc(tip)}">·</span></td>`;const c=shade(a.length,max);
+    return `<td><button class="cell" style="background:${c};color:${lum(c)>.55?'#0f2440':'#fff'}" data-a="${r[2]||''}" data-r="${ro.id}" data-tiph="${esc(tip)}">${a.length}</button></td>`}).join('')+`<td><span class="cell z" style="background:none;color:var(--ink2)">${f} of ${M.roles.length}</span></td></tr>`});
+  $('mx').innerHTML=h+'</tbody></table>';
+  $('mx').querySelectorAll('button.cell').forEach(b=>b.onclick=()=>go('partners',{asset:b.dataset.a||null,role:b.dataset.r,focus:null,geo:null,q:''}));
+}
+
+/* ---------- open now ---------- */
+function openNow(){
+  const asks=allAsks();
+  $('waitSub').textContent=asks.length+' asks, taken from their own posts';
+  $('wait').innerHTML=asks.map(([st,it])=>`<div class="item"><div class="w">${esc(it.partner)} · ${esc(st)} · ${esc(it.date)}</div><div class="ti">${esc(it.asks)}</div><div class="ex">${esc(it.strand)}</div><a class="btn" href="${esc(it.url)}" target="_blank" rel="noopener">Source post →</a></div>`).join('')||'<p class="note">No asks found.</p>';
+  const K=[['call','Calls for collaboration and funding'],['job','Jobs'],['event','Events and convenings']];
+  $('openSub').textContent='posted in the last '+M.meta.openDays+' days';
+  $('openList').innerHTML=K.map(k=>{const a=M.open.filter(o=>o.kind===k[0]);return `<div class="t" style="margin-top:${k[0]==='call'?0:18}px">${k[1]} (${a.length})</div>`+(a.length?a.map(o=>`<div class="item"><div class="w">${o.y} · ${esc(o.c)}${o.states.length?' · '+esc(o.states.join(', ')):''}${o.r?' · '+o.r+' replies':''}</div><a class="ti" href="${esc(o.u)}" target="_blank" rel="noopener">${esc(o.t)}</a></div>`).join(''):'<p class="note">Nothing posted in this window.</p>')}).join('');
+}
+
+/* ---------- map ---------- */
+const LENSES=[['n','Partners working here','partners working here'],['asset','Natural assets covered','natural assets'],['office','Partners based here','offices']];
+let MAP=null,READY=false,POP=null;
+function stateStats(){const A=sel('geo'),S={};const g=s=>S[s]||(S[s]={n:0,asset:new Set(),office:0});
+  A.forEach(p=>{pStates(p).forEach(s=>{const o=g(s);o.n++;p.assets.forEach(d=>o.asset.add(d))});if(p.office)g(p.office.state).office++});return {A,S}}
+function initMap(){
+  const bg=getComputedStyle(document.documentElement).getPropertyValue('--bg').trim();
+  MAP=new maplibregl.Map({container:'map',style:'https://tiles.openfreemap.org/styles/'+(dark()?'dark':'positron'),bounds:[[68.0,7.2],[97.5,36.8]],fitBoundsOptions:{padding:14},
+    maxBounds:[[56,0],[108,42]],minZoom:3,maxZoom:10,scrollZoom:false,dragRotate:false,pitchWithRotate:false,attributionControl:{compact:true}});
+  MAP.addControl(new maplibregl.NavigationControl({showCompass:false}),'top-left');MAP.touchZoomRotate.disableRotation();
+  POP=new maplibregl.Popup({closeButton:false,closeOnClick:false,offset:10});
+  MAP.on('load',()=>{
+    const holes=[];GEO.features.forEach(f=>(f.geometry.type==='Polygon'?[f.geometry.coordinates]:f.geometry.coordinates).forEach(p=>holes.push(p[0])));
+    MAP.addSource('mask',{type:'geojson',data:{type:'Feature',properties:{},geometry:{type:'Polygon',coordinates:[[[-180,-85],[180,-85],[180,85],[-180,85],[-180,-85]]].concat(holes)}}});
+    MAP.addLayer({id:'mask',type:'fill',source:'mask',paint:{'fill-color':bg,'fill-opacity':1,'fill-antialias':false}});
+    MAP.addSource('states',{type:'geojson',data:GEO});
+    MAP.addLayer({id:'states-fill',type:'fill',source:'states',paint:{'fill-color':['coalesce',['get','c'],'#ffffff'],'fill-opacity':['case',['has','c'],.55,0]}});
+    MAP.addLayer({id:'states-line',type:'line',source:'states',paint:{'line-color':dark()?'#9fb0c8':'#31456a','line-width':['case',['boolean',['get','on'],false],2.6,.7],'line-opacity':['case',['boolean',['get','on'],false],1,.6]}});
+    MAP.addSource('pins',{type:'geojson',data:{type:'FeatureCollection',features:[]}});
+    MAP.addLayer({id:'pins',type:'circle',source:'pins',paint:{'circle-radius':['case',['get','on'],9,6],'circle-color':['case',['get','work'],dark()?'#d3eef5':'#0a4a61',dark()?'#0e1522':'#ffffff'],'circle-stroke-color':['case',['get','on'],dark()?'#fb923c':'#c2410c',dark()?'#d3eef5':'#0a4a61'],'circle-stroke-width':['case',['get','on'],3,2]}});
+    MAP.on('click',e=>{const pin=MAP.queryRenderedFeatures(e.point,{layers:['pins']})[0];
+      if(pin){F.pid=F.pid===pin.properties.id?null:pin.properties.id;render();return}
+      const st=MAP.queryRenderedFeatures(e.point,{layers:['states-fill']})[0];if(st)set('geo',st.properties.st_nm)});
+    MAP.on('mousemove',e=>{const f=MAP.queryRenderedFeatures(e.point,{layers:['pins','states-fill']})[0];MAP.getCanvas().style.cursor=f?'pointer':'';
+      if(!f){POP.remove();return}POP.setLngLat(e.lngLat).setHTML(f.properties.tip).addTo(MAP)});
+    MAP.on('mouseout',()=>POP.remove());
+    READY=true;paint();
+  });
+}
+function paint(){
+  if(!READY)return;
+  const {A,S}=stateStats(), val=o=>!o?0:F.lens==='n'?o.n:F.lens==='asset'?o.asset.size:o.office, max=Math.max(1,...Object.values(S).map(val));
+  MAP.getSource('states').setData({type:'FeatureCollection',features:GEO.features.map(f=>{const n=f.properties.st_nm,o=S[n],c=shade(val(o),max),pr={st_nm:n,on:F.geo===n,
+    tip:`<b>${esc(n)}</b><br>${o&&o.n?o.n+' working here':'No partner named as working here'}${o&&o.office?'<br>'+o.office+' based here':''}`};if(c)pr.c=c;return {type:'Feature',properties:pr,geometry:f.geometry}})});
+  const pins=[];A.forEach(p=>p.pins.forEach(x=>pins.push([p,x])));
+  const grp={};pins.forEach(x=>{const k=x[1].ll.join(',');(grp[k]=grp[k]||[]).push(x)});
+  const feats=[];Object.values(grp).forEach(g=>g.forEach(([p,x],i)=>{let ll=x.ll;if(g.length>1){const r=Math.min(.38,.07+.013*g.length),a=2*Math.PI*i/g.length;ll=[x.ll[0]+r*Math.sin(a),x.ll[1]+r*Math.cos(a)/Math.cos(x.ll[0]*Math.PI/180)]}
+    const w=x.k==='work';feats.push({type:'Feature',geometry:{type:'Point',coordinates:[ll[1],ll[0]]},properties:{id:p.id,work:w,on:F.pid===p.id,
+      tip:`<b>${esc(p.name)}</b><br>${w?'Works here':'Office'}: ${esc(x.label)}${w&&!x.exact?' (state named, no place)':''}${w&&x.src==='web'?'<br>Source: partner website':''}`}})}));
+  feats.sort((a,b)=>a.properties.on-b.properties.on);
+  MAP.getSource('pins').setData({type:'FeatureCollection',features:feats});
+}
+function map(){
+  if(!MAP)initMap();
+  $('lens').innerHTML=LENSES.map(l=>`<button class="fb ${F.lens===l[0]?'on':''}" data-l="${l[0]}">${l[1]}</button>`).join('');
+  $('lens').querySelectorAll('button').forEach(b=>b.onclick=()=>{F.lens=b.dataset.l;render()});
+  const {A,S}=stateStats(), val=o=>!o?0:F.lens==='n'?o.n:F.lens==='asset'?o.asset.size:o.office, max=Math.max(1,...Object.values(S).map(val));
+  paint();
+  const L0=LENSES.find(l=>l[0]===F.lens);
+  $('legend').innerHTML=`<span><span class="key w"></span>works here (Foundation's page or partner's website)</span><span><span class="key o"></span>office, per the partner's website</span><span style="margin-left:6px">Shading: ${L0[2]} per state, 1</span>`+RAMP().map(c=>`<span class="box" style="background:${c}"></span>`).join('')+`<span>${max}</span>`;
+  $('mapsub').textContent=A.filter(p=>p.pins.length).length+' of '+A.length+' partners in this selection are on the map';
+  const cnt=k=>A.filter(p=>pGeoKey(p)===k).length;
+  $('tiles').innerHTML=`<button class="tile ${!F.geo?'on':''}" data-g=""><b>${A.length}</b><span>All India: every partner</span></button>`+Object.keys(SCOPE).map(k=>`<button class="tile ${F.geo==='@'+k?'on':''}" data-g="@${k}"><b>${cnt('@'+k)}</b><span>${SCOPE[k]}</span></button>`).join('');
+  $('tiles').querySelectorAll('.tile').forEach(t=>t.onclick=()=>{F.geo=t.dataset.g||null;F.pid=null;render()});
+}
+function partnerCard(p){
+  const st=known(p),near=P.filter(q=>q.id!==p.id&&known(q).some(s=>st.includes(s)));
+  const base=p.office?p.office.state:null,basedNear=P.filter(q=>q.id!==p.id&&!near.includes(q)&&((base&&((q.office&&q.office.state===base)||known(q).includes(base)))||(q.office&&st.includes(q.office.state))));
+  const kin=P.filter(q=>q.id!==p.id&&!near.includes(q)&&q.assets.some(a=>p.assets.includes(a))).sort((a,b)=>(a.group===p.group)-(b.group===p.group)||a.name.localeCompare(b.name));
+  const li=(q,why)=>`<li><a href="#" data-p="${q.id}">${esc(q.name)}</a> <span class="m">${esc(why)}</span></li>`;
+  let h=`<button class="btn back" id="back">Back to selection</button><div class="dh">${esc(p.name)}</div><div style="color:var(--mut);font-size:12.5px">${esc(FOCUS[p.focus]?FOCUS[p.focus].label:'')} · ${esc(rl(p))} · partner since ${p.year}</div>
+   <div style="margin:6px 0">${chips(p.assets.map(x=>ASSET[x].label))}</div><p style="font-size:13px;color:var(--ink2);margin:8px 0">${esc(p.desc)}</p>`;
+  h+='<div class="t">Where</div><div style="font-size:13px">'+(st.length?'<span class="key w"></span>Works in '+p.pins.filter(x=>x.k==='work').map(x=>esc(x.exact?x.label+', '+x.state:x.state)+(x.src==='web'?` <a href="${esc(p.web[x.state].source)}" target="_blank" rel="noopener" data-tip="${esc(p.web[x.state].quote)}" style="font-size:11.5px">own website</a>`:' <span style="color:var(--mut);font-size:11.5px">Foundation\'s page</span>')).join('; '):'<span style="color:var(--mut)">'+SCOPE[p.scope==='place'||p.scope==='multi'?'ns':p.scope]+' on the Foundation\'s page</span>')+'</div>';
+  if(p.office)h+=`<div style="font-size:13px;margin-top:4px"><span class="key o"></span>Office in ${esc(p.office.city)}, ${esc(p.office.state)} <span style="color:var(--mut)">(${esc(p.office.note)}; <a href="${esc(p.office.source)}" target="_blank" rel="noopener">source</a>)</span></div>`;
+  h+=`<div class="t">On The Grove</div><div style="font-size:13px">`+(p.latest?`<a href="${esc(p.latest.url)}" target="_blank" rel="noopener">${esc(p.latest.title)}</a> <span style="color:var(--mut)">${p.latest.date}</span>`:'<span style="color:var(--mut)">No update thread matched</span>')+'</div>';
+  if(near.length)h+=`<div class="t">Works in the same state (${near.length})</div><ul class="plist" style="max-height:none">`+near.map(q=>li(q,rl(q)+(q.assets.some(a=>p.assets.includes(a))?' · same natural asset':''))).join('')+'</ul>';
+  if(basedNear.length)h+=`<div class="t">Based nearby (${basedNear.length})</div><ul class="plist" style="max-height:150px">`+basedNear.slice(0,12).map(q=>li(q,rl(q))).join('')+'</ul>';
+  if(kin.length)h+=`<div class="t">Same natural asset, different strength (${kin.length})</div><ul class="plist" style="max-height:170px">`+kin.slice(0,12).map(q=>li(q,GROUP[q.group]?GROUP[q.group].label+' · '+rl(q):rl(q))).join('')+'</ul>';
+  h+=`<p style="margin-top:12px"><a class="btn" href="${esc(p.url)}" target="_blank" rel="noopener">Website →</a>${REPO?` <a class="btn" href="${esc(issueUrl(p))}" target="_blank" rel="noopener">Correct this entry</a>`:''}</p>`;
+  return h;
+}
+function bars(rows,max,key){return rows.map(r=>`<div class="bar ${r.n?'':'zero'} ${key?'click':''} ${key&&F[key]===r.id?'sel':''}" ${key?`data-k="${key}" data-v="${r.id}"`:''} data-tip="${esc(r.tip||r.label)}"><span class="bl">${esc(r.label)}</span><span class="bt"><span class="bf" style="width:${max?r.n/max*100:0}%;display:${r.n?'block':'none'}"></span></span><span class="bn">${r.n||'·'}</span></div>`).join('')}
+function brief(s){
+  const A=inState(s),based=P.filter(p=>p.office&&p.office.state===s&&!known(p).includes(s));
+  const mean=[],acts=[],names=a=>a.map(p=>p.name).join(', ');
+  const grp=M.groups.map(g=>[g,A.filter(p=>p.group===g.id).length]),as=M.assets.map(a=>[a,A.filter(p=>p.assets.includes(a.id))]);
+  if(A.length){
+    mean.push(`<b>${A.length} partner${A.length>1?'s':''}</b> work${A.length>1?'':'s'} here: ${grp.filter(x=>x[1]).map(x=>x[1]+' '+x[0].label.toLowerCase()).join(', ')}.`);
+    const noA=as.filter(x=>!x[1].length).map(x=>x[0].label.toLowerCase()),noG=grp.filter(x=>!x[1]).map(x=>x[0].label.toLowerCase());
+    if(noA.length||noG.length)mean.push('Missing: '+[noA.join(', '),noG.length?noG.join(' or ')+' partners':''].filter(Boolean).join('; ')+'.');
+  }else mean.push(`<b>No listed partner</b> is recorded as working in ${esc(s)}.`+(based.length?` ${based.length} ${based.length>1?'are':'is'} based here.`:''));
+  IND.filter(i=>i.reads==='stress').forEach(ind=>{const rk=rankOf(ind,s);if(!rk||!rk.high)return;const here=A.filter(p=>p.assets.includes(ind.asset)).length;
+    mean.push(`${esc(ind.label)}: <b>${fmt(rk.v)}${ind.unit.startsWith('%')?'%':''}</b>, rank ${rk.r} of ${rk.n}. ${here?here+' partner'+(here>1?'s':'')+' on '+ASSET[ind.asset].label.toLowerCase():'No '+ASSET[ind.asset].label.toLowerCase()+' partner'} here.`)});
+  as.filter(x=>x[1].length>1).sort((x,y)=>y[1].length-x[1].length).slice(0,2).forEach(x=>{const pr=pairsOf(x[1])[0];if(pr)acts.push({t:`Introduce ${pr[0].name} and ${pr[1].name}`,why:`Both work on ${x[0].label.toLowerCase()} here.`,kind:'intersect',ps:[pr[0],pr[1]]})});
+  IND.filter(i=>i.reads==='stress').forEach(ind=>{const rk=rankOf(ind,s);if(!rk||!rk.high||A.some(p=>p.assets.includes(ind.asset)))return;
+    const el=P.filter(p=>p.assets.includes(ind.asset)&&known(p).length&&(p.group==='place'||p.group==='network')).slice(0,3);
+    acts.push({t:`Bring ${ASSET[ind.asset].label.toLowerCase()} experience to ${s}`,why:`${ind.label} is ${fmt(rk.v)}${ind.unit.startsWith('%')?'%':''} (rank ${rk.r} of ${rk.n}) and no listed partner works on it here.`+(el.length?' Partners who do so elsewhere: '+el.map(p=>p.name+' ('+known(p)[0]+')').join(', ')+'.':''),ps:el})});
+  const noG=grp.filter(x=>!x[1]).map(x=>x[0].id),fit=based.filter(p=>noG.includes(p.group));
+  if(A.length&&fit.length)acts.push({t:`Ask ${fit.slice(0,3).map(p=>p.name).join(', ')} about ${s}`,why:`Based here; could bring what is missing (${[...new Set(fit.slice(0,3).map(p=>GROUP[p.group].label.toLowerCase()))].join(', ')}).`,ps:fit.slice(0,3)});
+  const unk=based.filter(p=>!known(p).length&&!fit.slice(0,3).includes(p));
+  if(unk.length)acts.push({t:`Confirm where ${unk.length} partner${unk.length>1?'s':''} based here work`,why:'Office here, no stated place of work.',ps:unk.slice(0,5)});
+  if(!A.length&&!acts.length)acts.push({t:'Nothing to act on from public sources',why:'No listed partner works or is based here. If that is wrong, correct an entry from the About tab.'});
+  const W=(M.work||{})[s];
+  if(W&&W.reading){return {A,based,mean:W.reading.meaning.map(esc),acts:W.reading.actions.map(a=>({t:a.t,why:a.why,kind:a.kind,artefact:a.artefact,ps:(a.partners||[]).map(n=>P.find(p=>p.name===n)).filter(Boolean)})),as,rule:{mean,acts:[]},curated:true,W};}
+  return {A,based,mean,acts:acts.slice(0,5),as,W};
+}
+const THEME_ORDER=['biodiversity','soil','water','air','energy','materials','none'];
+function wide(){
+  const s=F.geo,W=s&&s[0]!=='@'?(M.work||{})[s]:null,el=$('wide');
+  if(!W||F.pid!=null){el.innerHTML='';return}
+  const groups={};W.items.forEach(it=>{const k=it.asset&&ASSET[it.asset]?it.asset:'none';(groups[k]=groups[k]||[]).push(it)});
+  const pn=n=>{const p=P.find(x=>x.name===n);return p?`<a href="#" data-p="${p.id}">${esc(n)}</a>`:esc(n)};
+  const cc={};W.items.forEach(it=>(it.with||[]).forEach(x=>{const k=x.trim();if(k&&k.length<70)cc[k]=(cc[k]||0)+1}));
+  const topc=Object.entries(cc).sort((a,b)=>b[1]-a[1]).filter(e=>e[1]>1).slice(0,8);
+  let h=`<div class="card" style="margin-top:16px"><h2>What is happening in ${esc(s)} <span>${W.items.length} pieces of work from ${W.posts} posts. Click one for detail and source.</span></h2><div class="pad">${topc.length?`<p class="note" style="margin-bottom:4px"><b style="color:var(--ink2)">Named most often as collaborators, counterparts or funders:</b> ${topc.map(e=>esc(e[0])+' ('+e[1]+')').join(', ')}.</p>`:''}<div class="wk">`;
+  THEME_ORDER.filter(k=>groups[k]).forEach(k=>{h+=`<div class="wg"><h5>${k==='none'?'People, livelihoods and governance':esc(ASSET[k].label)} (${groups[k].length})</h5>`+groups[k].sort((a,b)=>b.date.localeCompare(a.date)).map(it=>`<details class="wi"><summary><span class="st">${esc(it.strand)}</span> <span class="pp">${esc(it.partner)}${it.places&&it.places.length?' · '+esc(it.places.slice(0,2).join(', ')):''}</span>${it.asks?' <span class="chip">asking</span>':''}</summary>
+     <div class="wh">${esc(it.what)}</div>${it.numbers&&it.numbers.length?`<div class="ln"><b>Numbers:</b> ${esc(it.numbers.slice(0,3).join('; '))}</div>`:''}${it.with&&it.with.length?`<div class="ln"><b>With:</b> ${esc(it.with.slice(0,5).join(', '))}</div>`:''}${it.next?`<div class="ln"><b>Next:</b> ${esc(it.next)}</div>`:''}${it.asks?`<div class="ask"><b>Asking for:</b> ${esc(it.asks)}</div>`:''}
+     <div class="ln">${pn(it.partner)} · <a href="${esc(it.url)}" target="_blank" rel="noopener">Source post, ${esc(it.date)}</a></div></details>`).join('')+'</div>'});
+  el.innerHTML=h+'</div></div></div>';
+  el.querySelectorAll('a[data-p]').forEach(a=>a.onclick=e=>{e.preventDefault();F.pid=+a.dataset.p;render();scrollTo({top:$('hero').offsetTop-8,behavior:'smooth'})});
+}
+function briefText(s,b){const strip=h=>h.replace(/<[^>]+>/g,'');return `${s}: place brief (The Grove Landscape)\n\n`+b.mean.map(strip).join('\n')+((M.work||{})[s]?'\n\nWhat is happening\n'+M.work[s].items.map(it=>`- ${it.partner}: ${it.strand}. ${it.what}`).join('\n'):'')+'\n\nNext actions\n'+b.acts.map((a,i)=>`${i+1}. ${a.t}. ${a.why}`).join('\n')+`\n\nFrom public pages, refreshed ${M.meta.fetchedAt.slice(0,10)}. ${location.href.split('#')[0]}#geo=${encodeURIComponent(s)}`}
+function national(){
+  const sc=sharedCells(),empty=STATES_ALL.filter(s=>!inState(s).length),noPlace=P.filter(p=>!known(p).length);
+  let h=`<div class="dh">All India</div><div class="mean"><p><b>${P.filter(p=>known(p).length).length} of ${P.length} listed partners</b> have a stated place of work, across ${STATES_ALL.length-empty.length} states and territories. ${noPlace.length} work nationally or state no place.</p><p>${sc.length} overlaps exist where two or more partners work on the same natural asset in the same state.</p><p>No listed partner is recorded in ${empty.length}: ${esc(empty.join(', '))}.</p></div>`;
+  h+='<div class="t">Where to look first</div><ol class="act">'+sc.slice(0,5).map(c=>`<li><a href="#" data-g="${esc(c.st)}"><b>${esc(c.st)}: ${esc(ASSET[c.a].label)}</b></a><span class="why">${c.ps.length} partners: ${esc(c.ps.map(p=>p.name).join(', '))}</span></li>`).join('')+'</ol>';
+  h+='<p class="note" style="margin-top:12px">Click any state on the map for its brief.</p>';
+  $('detail').innerHTML=h;$('detail').querySelectorAll('a[data-g]').forEach(a=>a.onclick=e=>{e.preventDefault();set('geo',a.dataset.g)});
+}
+function detail(){
+  const sp=F.pid!=null?P[F.pid]:null;$('dtitle').textContent=sp?'Partner':F.geo&&F.geo[0]!=='@'?'Place brief':'Selection';
+  const wire=()=>$('detail').querySelectorAll('a[data-p]').forEach(a=>a.onclick=e=>{e.preventDefault();F.pid=+a.dataset.p;render()});
+  if(sp){$('detail').innerHTML=partnerCard(sp);$('back').onclick=()=>{F.pid=null;render()};wire();return}
+  if(!F.geo&&!F.focus&&!F.asset&&!F.role&&!F.q){national();return}
+  const pl=p=>`<a href="#" data-p="${p.id}">${esc(p.name)}</a>`;
+  if(F.geo&&F.geo[0]!=='@'){
+    const s=F.geo,b=brief(s),shown=new Set(sel().map(p=>p.id));
+    let h=`<button class="btn back" id="copy">Copy brief</button><div class="dh">${esc(s)}</div><div class="t" style="margin-top:8px">What it means for this place${b.curated?'<span class="read">a reading, not a finding</span>':''}</div><div class="mean"><ul>${b.mean.map(x=>`<li>${x}</li>`).join('')}</ul></div>`;
+    if(b.curated&&b.rule)b.acts=b.acts.concat(b.rule.acts);
+    h+='<div class="t">Next actions</div><ol class="act">'+b.acts.map(a=>`<li><b>${esc(a.t)}</b>${a.kind?` <span class="tag ${a.kind==='complement'?'c':''}" style="font-size:9.5px">${a.kind==='complement'?'Complementing':'Intersecting'}</span>`:''}${a.artefact?`<span class="why"><b style="color:var(--ink2)">Artefact:</b> ${esc(a.artefact)}</span>`:''}<span class="why">${esc(a.why)}</span>${a.url?`<a class="btn" style="margin-top:5px" href="${esc(a.url)}" target="_blank" rel="noopener">Open on The Grove →</a>`:''}${a.ps&&a.ps.length?'<span class="why">'+a.ps.map(pl).join(' · ')+'</span>':''}</li>`).join('')+'</ol>';
+    const wp=a=>b.W?[...new Set(b.W.items.filter(it=>it.asset===a).map(it=>it.partner))].map(n=>P.find(p=>p.name===n)).filter(Boolean):[];
+    h+='<div class="t">Who works on what here</div>'+M.assets.map(a=>{const x=[...new Set(b.A.filter(p=>p.assets.includes(a.id)).concat(wp(a.id)))],ind=IND.filter(i=>i.asset===a.id).map(i=>{const rk=rankOf(i,s);return rk?`<a href="${esc(i.url)}" target="_blank" rel="noopener" data-tip="${esc(i.source+', '+i.year+'. Rank '+rk.r+' of '+rk.n+'.')}">${esc(i.label)}: ${fmt(rk.v)}${i.unit.startsWith('%')?'%':''}</a>`:''}).filter(Boolean);
+      return `<div class="arow"><b>${esc(a.label)}</b><span>${x.length?x.map(p=>pl(p)+(p.pins.find(q=>q.state===s&&q.exact)?' <span style="color:var(--mut)">'+esc(p.pins.find(q=>q.state===s&&q.exact).label)+'</span>':'')).join(', '):'<span style="color:var(--mut)">No listed partner</span>'}${ind.length?'<span class="ind">'+ind.join('<br>')+'</span>':''}</span></div>`}).join('');
+    const other=b.A.filter(p=>!p.assets.length&&!M.assets.some(a=>wp(a.id).includes(p)));if(other.length)h+=`<div class="arow"><b>No single asset</b><span>${other.map(pl).join(', ')}</span></div>`;
+    const ups=[];b.A.forEach(p=>{if(p.ups[0])ups.push([p,p.ups[0]])});ups.sort((x,y)=>y[1].date.localeCompare(x[1].date));
+    if(ups.length&&!b.W)h+='<div class="t">What partners here are saying</div>'+ups.slice(0,4).map(([p,u])=>`<div class="feed"><a href="${esc(u.url)}" target="_blank" rel="noopener">${esc(u.title)}</a> <span style="color:var(--mut)">${esc(p.name)}, ${u.date}</span><div class="ex">${esc(u.excerpt)}${u.excerpt.length>=200?'…':''}</div></div>`).join('');
+    const bs=b.based.filter(p=>!b.W||!b.W.items.some(it=>it.partner===p.name));
+    if(bs.length)h+=`<div class="t">Based here, no work here on record (${bs.length})</div><div style="font-size:12.5px">${bs.map(pl).join(', ')}</div>`;
+    if(b.W)h+=`<p class="note" style="margin-top:12px">The work itself is listed under the map.</p>`;else h+=`<p class="note" style="margin-top:12px">Counts only. Posts have been read for ${Object.keys(M.work||{}).join(' and ')||'no state'} so far.</p>`;
+    $('detail').innerHTML=h;wire();
+    $('copy').onclick=()=>{const t=briefText(s,b);(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>{$('copy').textContent='Copied'},()=>{prompt('Copy the brief',t)})};
+    return;
+  }
+  const A=sel(),ar=M.assets.map(a=>({id:a.id,label:a.label,n:A.filter(p=>p.assets.includes(a.id)).length}));
+  const gr=M.groups.map(g=>({id:g.id,label:g.label,tip:g.note,n:A.filter(p=>p.group===g.id).length}));
+  let h=`<div class="dh">${esc(geoLabel(F.geo))}</div><div class="kv"><div><div class="k">Partners</div><div class="v">${A.length}</div></div></div>`;
+  if(!A.length)h+='<p class="note">No listed partner matches this combination in the public sources.</p>';
+  h+='<div class="t">Natural assets</div>'+bars(ar,Math.max(1,...ar.map(d=>d.n)),'asset')+'<div class="t">Who brings what</div>'+bars(gr,Math.max(1,...gr.map(d=>d.n)));
+  h+=`<div class="t">Partners (${A.length})</div><ul class="plist">`+A.slice().sort((a,b)=>a.name.localeCompare(b.name)).map(p=>`<li>${pl(p)} <span class="m">${esc(rl(p))} · ${esc(FOCUS[p.focus]?FOCUS[p.focus].label:'')}</span><br>${chips(p.assets.map(x=>ASSET[x].label))}</li>`).join('')+'</ul>';
+  $('detail').innerHTML=h;wire();
+  $('detail').querySelectorAll('.bar.click').forEach(b=>b.onclick=()=>set(b.dataset.k,b.dataset.v));
+}
+
+/* ---------- directory ---------- */
+function geoText(p){const a=p.sRF.map(s=>`<span class="chip">${esc(s)}</span>`).concat(p.sDecl.map(s=>`<span class="chip" data-tip="Declared by the partner">${esc(s)} ◆</span>`),p.sWeb.map(s=>`<span class="chip" data-tip="${esc('Partner website: '+p.web[s].quote)}">${esc(s)}</span>`),F.ext?p.sGrove.map(s=>`<span class="chip g" data-tip="Named in this partner's Grove posts. Indicative.">${esc(s)} ✳</span>`):[]);
+  return a.length?a.join(''):`<span style="color:var(--mut)">${SCOPE[p.scope]||SCOPE.ns}</span>${p.scope==='ns'&&REPO?` <a href="${esc(issueUrl(p))}" target="_blank" rel="noopener" style="font-size:11.5px">add</a>`:''}`}
+const issueUrl=p=>REPO+'/issues/new?title='+encodeURIComponent('Correction: '+(p?p.name:''))+'&body='+encodeURIComponent('Organisation: '+(p?p.name:'')+'\nWhat should change (states, natural assets, role, focus area):\n\nPublic link that supports it:\n');
+function dir(){
+  const cols=[['name','Partner'],['year','Since','n'],['focus','Focus area'],['role','Role'],['asset','Natural assets'],['geo','Works in'],['off','Office'],['last','Latest on The Grove']];
+  const key={name:p=>p.name.toLowerCase(),year:p=>p.year,focus:p=>FOCUS[p.focus]?FOCUS[p.focus].label:'',role:p=>rl(p),asset:p=>p.assets[0]||'~',geo:p=>(pStates(p)[0]||'~'+p.scope),off:p=>p.office?p.office.city:'~',last:p=>p.latest?p.latest.date:''}[F.sort];
+  const A=sel().sort((a,b)=>{const x=key(a),y=key(b);return (x<y?-1:x>y?1:a.name.localeCompare(b.name))*F.dir});
+  let h='<table><thead><tr>'+cols.map(c=>`<th class="s ${c[2]||''}" data-s="${c[0]}">${c[1]}${F.sort===c[0]?(F.dir>0?' ▲':' ▼'):''}</th>`).join('')+'</tr></thead><tbody>';
+  h+=A.map(p=>`<tr><td>${plink(p)} <a href="#" data-p="${p.id}" style="font-size:11.5px;white-space:nowrap">on map</a></td><td class="n">${p.year}</td><td>${esc(FOCUS[p.focus]?FOCUS[p.focus].label:'Unclassified')}</td><td>${esc(rl(p))}</td><td>${chips(p.assets.map(x=>ASSET[x].label))}</td><td>${geoText(p)}</td><td>${p.office?`<a href="${esc(p.office.source)}" target="_blank" rel="noopener" data-tip="${esc(p.office.address)}">${esc(p.office.city)}</a>`:'<span style="color:var(--mut)">·</span>'}</td><td>${p.latest?`<a href="${esc(p.latest.url)}" target="_blank" rel="noopener" data-tip="${esc(p.latest.title)}">${p.latest.date}</a>`:'<span style="color:var(--mut)">No thread matched</span>'}</td></tr>`).join('');
+  $('dir').innerHTML=h+'</tbody></table>'+(A.length?'':'<p class="note">No partner in this selection.</p>');
+  $('dir').querySelectorAll('a[data-p]').forEach(a=>a.onclick=e=>{e.preventDefault();F.pid=+a.dataset.p;render();scrollTo({top:$('hero').offsetTop-8,behavior:'smooth'})});
+  $('dir').querySelectorAll('th.s').forEach(t=>t.onclick=()=>{if(F.sort===t.dataset.s)F.dir=-F.dir;else{F.sort=t.dataset.s;F.dir=['last','year'].includes(F.sort)?-1:1}dir()});
+}
+function about(){
+  $('minM').textContent=MINM;$('openD').textContent=M.meta.openDays;
+  $('noAsset').textContent=P.filter(p=>!p.assets.length).length;$('nsN').textContent=P.filter(p=>!known(p).length&&p.scope==='ns').length;
+  const d=P.filter(p=>p.sDecl.length).length;$('declN').textContent=d?d+' partners have done so.':'None yet.';
+  $('contrib').textContent=M.contributors.map(c=>c.name+' ('+c.role.toLowerCase()+')').join(', ');
+  const is=$('issue');if(REPO)is.href=issueUrl(null);else{is.removeAttribute('href');is.style.textDecoration='none';is.style.color='inherit'}
+  $('indList').innerHTML=IND.map(i=>`<li><b>${esc(i.label)}</b> (${esc(i.unit)}, ${esc(i.year)}), read against ${esc(ASSET[i.asset].label.toLowerCase())}: <a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.source)}</a></li>`).join('');
+  $('othN').textContent=M.otherThreads.length;
+  $('oth').innerHTML='<ul>'+M.otherThreads.map(t=>`<li><a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.title)}</a> <span style="color:var(--mut)">${t.created}</span></li>`).join('')+'</ul>';
+}
+
+/* ---------- plumbing ---------- */
+function hash(){const p=[];if(F.tab!=='together')p.push('tab='+F.tab);if(F.focus)p.push('focus='+F.focus);if(F.asset)p.push('asset='+F.asset);if(F.role)p.push('role='+F.role);if(F.geo)p.push('geo='+encodeURIComponent(F.geo));if(F.ext)p.push('ext');if(F.lens!=='n')p.push('lens='+F.lens);if(F.pid!=null)p.push('partner='+F.pid);history.replaceState(null,'',p.length?'#'+p.join('&'):location.pathname+location.search)}
+function readHash(){location.hash.slice(1).split('&').forEach(kv=>{const [k,v]=kv.split('=');if(k==='tab'&&TABS.some(t=>t[0]===v))F.tab=v;if(k==='focus'&&FOCUS[v])F.focus=v;if(k==='asset'&&ASSET[v])F.asset=v;if(k==='role'&&ROLE[v])F.role=v;if(k==='geo'&&v)F.geo=decodeURIComponent(v);if(k==='ext')F.ext=true;if(k==='lens'&&LENSES.some(l=>l[0]===v))F.lens=v;if(k==='partner'&&P[+v])F.pid=+v})}
+function render(){hash();tabs();filters();map();detail();wide();dir();together()}
+const tip=$('tip');
+document.addEventListener('mousemove',e=>{const t=e.target.closest&&e.target.closest('[data-tip],[data-tiph]');if(!t){tip.style.display='none';return}
+  if(t.dataset.tiph)tip.innerHTML=t.dataset.tiph;else tip.textContent=t.dataset.tip;tip.style.display='block';const w=tip.offsetWidth,hh=tip.offsetHeight;
+  tip.style.left=Math.min(innerWidth-w-8,e.clientX+14)+'px';tip.style.top=(e.clientY+hh+24>innerHeight?e.clientY-hh-10:e.clientY+16)+'px'});
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change',()=>location.reload());
+readHash();strip();openNow();about();render();
+</script>
+</body></html>

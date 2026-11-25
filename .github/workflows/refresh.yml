@@ -1,0 +1,42 @@
+name: Refresh from public pages
+
+# Re-reads The Grove and the Rainmatter Foundation partner list once a day and
+# rebuilds index.html. It only commits when the page actually changes.
+on:
+  schedule:
+    - cron: "30 0 * * *" # every day, 06:00 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Restore the thread cache
+        uses: actions/cache@v4
+        with:
+          path: data/raw
+          key: raw-${{ github.run_id }}
+          restore-keys: raw-
+      - name: Fetch public data
+        run: python3 scripts/fetch.py
+      - name: Build
+        run: python3 build.py
+      - name: Commit if the page changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html partners.json partners.csv data/geocode.json
+          git diff --cached --quiet || git commit -m "Refresh data $(date -u +%Y-%m-%d)"
+          git push
