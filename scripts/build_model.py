@@ -286,6 +286,7 @@ def main():
             "web": {s: {"place": web[s]["place"], "source": web[s]["source"], "quote": web[s]["quote"]} for s in st_web},
             "ups": ups, "num": numbers.get(p["name"], {}).get("figures", []),
             "report": numbers.get(p["name"], {}).get("report"),
+            "rep": numbers.get(p["name"], {}).get("report_figures", []),
             "sGrove": sorted(s for s, n in grove_states.items() if n >= GROVE_MIN_MENTIONS and s not in known),
             "pins": pins, "office": off if off and off["state"] in STATES else None,
             "threads": len(ths), "posts": own, "replies": replies, "views": views, "latest": latest,

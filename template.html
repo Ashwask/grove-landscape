@@ -254,6 +254,7 @@ select.f{font:inherit; font-size:12.5px; padding:5px 8px; border:1px solid var(-
 </section>
 
 <section class="tab" data-tab="partners">
+ <div class="card" style="margin-bottom:16px"><h2>Money and people <span>as printed in each partner's latest report; units differ, so read each row on its own</span></h2><div class="pad"><div class="tw" id="fin"></div></div></div>
  <div class="card"><h2>Partner directory <span>click a column to sort; hover a name for the Foundation's description</span></h2><div class="pad"><div class="tw" id="dir"></div></div></div>
 </section>
 
@@ -365,11 +366,12 @@ const fmt=v=>Number(v).toLocaleString('en-IN',{maximumFractionDigits:1});
 function sharedCells(){const C={};P.forEach(p=>known(p).forEach(s=>p.assets.forEach(a=>(C[s+'|'+a]=C[s+'|'+a]||[]).push(p))));
   return Object.entries(C).filter(e=>e[1].length>1).map(e=>{const [st,a]=e[0].split('|');return {st,a,ps:e[1]}}).sort((x,y)=>y.ps.length-x.ps.length||x.st.localeCompare(y.st))}
 function stressGaps(){const out=[];IND.filter(i=>i.reads==='stress').forEach(ind=>Object.keys(ind.values).forEach(s=>{const rk=rankOf(ind,s);if(rk&&rk.high&&!inState(s).some(p=>p.assets.includes(ind.asset)))out.push({ind,s,rk})}));return out.sort((a,b)=>a.rk.r-b.rk.r)}
+const head=p=>{const r=p.rep.find(x=>x.kind==='reach')||p.rep[0];if(r)return {value:r.value,label:r.label,source:p.report.url,as_of:r.as_of};return p.num[0]||null};
 const lead=t=>{const m=String(t).match(/^((?:₹|Rs\.?|INR|\$|over|about|around|more than|nearly|approximately|close to|~)?\s*[\d][\d,.]*\+?(?:\s?(?:million|billion|lakh|crore|Cr|km|kg|MT|MLD|ha|%|sq\.? km))?\+?)/i);return m?[m[1],String(t).slice(m[1].length)]:null};
 const numHtml=t=>{const m=lead(t);return m?`<b>${esc(m[0])}</b>${esc(m[1])}`:esc(t)};
 function topNums(){
   const W=M.work||{},items=[];Object.values(W).forEach(w=>w.items.forEach(i=>items.push(i)));
-  const figs=items.reduce((t,i)=>t+(i.numbers||[]).length,0)+P.reduce((t,p)=>t+p.num.length,0);
+  const figs=items.reduce((t,i)=>t+(i.numbers||[]).length,0)+P.reduce((t,p)=>t+p.num.length+p.rep.length,0);
   const cols=Object.values(W).reduce((t,w)=>t+(w.reading?w.reading.actions.length:0),0);
   const posts=Object.values(W).reduce((t,w)=>t+w.posts,0);
   const N=[[P.length,'partners listed'],[P.filter(p=>known(p).length).length,'with a stated place of work'],[Object.keys(W).length,'states and territories with work on record'],[items.length,'pieces of work read from posts'],[figs.toLocaleString('en-IN'),'sourced figures on this page'],[cols,'proposed collaborations'],[allAsks().length,'open asks from partners'],[IND.length,'public indicators per state']];
@@ -437,7 +439,7 @@ function together(){
   const pn=x=>{const p=P.find(q=>q.name===x);return p?`<a href="#" data-p="${p.id}">${esc(x)}</a>`:esc(x)};
   const show=all.filter(x=>(!F.kind||x[1].kind===F.kind)&&(!F.geo||F.geo[0]==='@'||x[0]===F.geo));
   $('collabs').innerHTML=show.map(([st,a])=>`<div class="cb"><div class="hd"><span class="tag ${a.kind==='complement'?'c':''}">${KIND[a.kind]||'Action'}</span><b>${esc(a.t)}</b><span class="w">${esc(st)}</span></div>
-    <div><div class="lb">Who brings what</div>${a.parties.map(p=>`<div class="pt">${pn(p.name)}: <span>${esc(p.brings)}</span>${(()=>{const q=P.find(z=>z.name===p.name);return q&&q.num[0]?` <span style="color:var(--mut);font-size:11.5px">(<b style="color:var(--ink2)">${esc(q.num[0].value)}</b> ${esc(q.num[0].label.toLowerCase())})</span>`:''})()}</div>`).join('')}</div>
+    <div><div class="lb">Who brings what</div>${a.parties.map(p=>`<div class="pt">${pn(p.name)}: <span>${esc(p.brings)}</span>${(()=>{const q=P.find(z=>z.name===p.name),hd=q&&head(q);return hd?` <span style="color:var(--mut);font-size:11.5px">(<b style="color:var(--ink2)">${esc(hd.value)}</b> ${esc(hd.label.toLowerCase())})</span>`:''})()}</div>`).join('')}</div>
     <div><div class="lb">Artefact (${esc(FORM[a.form]||a.form)})</div><div class="af">${esc(a.artefact)}</div><div class="so">So that: ${esc(a.why)}</div></div></div>`).join('')||'<p class="note">No collaboration written up for this selection yet.</p>';
   $('collabs').querySelectorAll('a[data-p]').forEach(x=>x.onclick=e=>{e.preventDefault();F.pid=+x.dataset.p;render();scrollTo({top:$('hero').offsetTop-8,behavior:'smooth'})});
   const rows=M.assets.map(a=>[a.label,P.filter(p=>p.assets.includes(a.id)),a.id]).concat([['No single asset',P.filter(p=>!p.assets.length),null]]);
@@ -522,8 +524,9 @@ function partnerCard(p){
   const li=(q,why)=>`<li><a href="#" data-p="${q.id}">${esc(q.name)}</a> <span class="m">${esc(why)}</span></li>`;
   let h=`<button class="btn back" id="back">Back to selection</button><div class="dh">${esc(p.name)}</div><div style="color:var(--mut);font-size:12.5px">${esc(FOCUS[p.focus]?FOCUS[p.focus].label:'')} · ${esc(rl(p))} · partner since ${p.year}</div>
    <div style="margin:6px 0">${chips(p.assets.map(x=>ASSET[x].label))}</div><p style="font-size:13px;color:var(--ink2);margin:8px 0">${esc(p.desc)}</p>`;
-  if(p.num.length)h+='<div class="t">In its own numbers</div><div class="nums sm">'+p.num.slice(0,6).map(x=>`<div class="nm"><b>${esc(x.value)}</b><span>${esc(x.label)}${x.as_of?', '+esc(x.as_of):''}</span><a href="${esc(x.source)}" target="_blank" rel="noopener">source</a></div>`).join('')+'</div>';
-  if(p.report)h+=`<div style="font-size:12.5px">Latest report: <a href="${esc(p.report.url)}" target="_blank" rel="noopener">${esc(p.report.title)}</a></div>`;
+  if(p.rep.length)h+=`<div class="t">From its report</div><div style="font-size:12.5px"><a href="${esc(p.report.url)}" target="_blank" rel="noopener">${esc(p.report.title)}</a>${p.report.note?` <span style="color:var(--mut)">${esc(p.report.note)}</span>`:''}</div><div class="nums sm">`+p.rep.slice(0,8).map(x=>`<div class="nm" data-tip="${esc('“'+x.quote+'”')}"><b>${esc(x.value)}</b><span>${esc(x.label)}${x.as_of?' · '+esc(x.as_of):''}</span></div>`).join('')+'</div>'+(p.rep.length>8?`<details class="more"><summary>${p.rep.length-8} more figures</summary><div class="nums sm">`+p.rep.slice(8).map(x=>`<div class="nm" data-tip="${esc('“'+x.quote+'”')}"><b>${esc(x.value)}</b><span>${esc(x.label)}${x.as_of?' · '+esc(x.as_of):''}</span></div>`).join('')+'</div></details>':'');
+  else if(p.report)h+=`<div style="font-size:12.5px;margin-top:8px">Latest report: <a href="${esc(p.report.url)}" target="_blank" rel="noopener">${esc(p.report.title)}</a> <span style="color:var(--mut)">(not readable as text)</span></div>`;
+  if(p.num.length)h+='<div class="t">On its website</div><div class="nums sm">'+p.num.slice(0,p.rep.length?4:6).map(x=>`<div class="nm"><b>${esc(x.value)}</b><span>${esc(x.label)}${x.as_of?', '+esc(x.as_of):''}</span><a href="${esc(x.source)}" target="_blank" rel="noopener">source</a></div>`).join('')+'</div>';
   h+='<div class="t">Where</div><div style="font-size:13px">'+(st.length?'<span class="key w"></span>Works in '+p.pins.filter(x=>x.k==='work').map(x=>esc(x.exact?x.label+', '+x.state:x.state)+(x.src==='web'?` <a href="${esc(p.web[x.state].source)}" target="_blank" rel="noopener" data-tip="${esc(p.web[x.state].quote)}" style="font-size:11.5px">own website</a>`:' <span style="color:var(--mut);font-size:11.5px">Foundation\'s page</span>')).join('; '):'<span style="color:var(--mut)">'+SCOPE[p.scope==='place'||p.scope==='multi'?'ns':p.scope]+' on the Foundation\'s page</span>')+'</div>';
   if(p.office)h+=`<div style="font-size:13px;margin-top:4px"><span class="key o"></span>Office in ${esc(p.office.city)}, ${esc(p.office.state)} <span style="color:var(--mut)">(${esc(p.office.note)}; <a href="${esc(p.office.source)}" target="_blank" rel="noopener">source</a>)</span></div>`;
   h+=`<div class="t">On The Grove</div><div style="font-size:13px">`+(p.latest?`<a href="${esc(p.latest.url)}" target="_blank" rel="noopener">${esc(p.latest.title)}</a> <span style="color:var(--mut)">${p.latest.date}</span>`:'<span style="color:var(--mut)">No update thread matched</span>')+'</div>';
@@ -625,13 +628,20 @@ function geoText(p){const a=p.sRF.map(s=>`<span class="chip">${esc(s)}</span>`).
 const issueUrl=p=>REPO+'/issues/new?title='+encodeURIComponent('Correction: '+(p?p.name:''))+'&body='+encodeURIComponent('Organisation: '+(p?p.name:'')+'\nWhat should change (states, natural assets, role, focus area):\n\nPublic link that supports it:\n');
 function dir(){
   const cols=[['name','Partner'],['year','Since','n'],['focus','Focus area'],['role','Role'],['asset','Natural assets'],['geo','Works in'],['fig','Headline figure'],['last','Latest on The Grove']];
-  const key={name:p=>p.name.toLowerCase(),year:p=>p.year,focus:p=>FOCUS[p.focus]?FOCUS[p.focus].label:'',role:p=>rl(p),asset:p=>p.assets[0]||'~',geo:p=>(pStates(p)[0]||'~'+p.scope),fig:p=>p.num[0]?p.num[0].label:'~',last:p=>p.latest?p.latest.date:''}[F.sort];
+  const key={name:p=>p.name.toLowerCase(),year:p=>p.year,focus:p=>FOCUS[p.focus]?FOCUS[p.focus].label:'',role:p=>rl(p),asset:p=>p.assets[0]||'~',geo:p=>(pStates(p)[0]||'~'+p.scope),fig:p=>head(p)?head(p).label:'~',last:p=>p.latest?p.latest.date:''}[F.sort];
   const A=sel().sort((a,b)=>{const x=key(a),y=key(b);return (x<y?-1:x>y?1:a.name.localeCompare(b.name))*F.dir});
   let h='<table><thead><tr>'+cols.map(c=>`<th class="s ${c[2]||''}" data-s="${c[0]}">${c[1]}${F.sort===c[0]?(F.dir>0?' ▲':' ▼'):''}</th>`).join('')+'</tr></thead><tbody>';
-  h+=A.map(p=>`<tr><td>${plink(p)} <a href="#" data-p="${p.id}" style="font-size:11.5px;white-space:nowrap">on map</a></td><td class="n">${p.year}</td><td>${esc(FOCUS[p.focus]?FOCUS[p.focus].label:'Unclassified')}</td><td>${esc(rl(p))}</td><td>${chips(p.assets.map(x=>ASSET[x].label))}</td><td>${geoText(p)}</td><td>${p.num[0]?`<a href="${esc(p.num[0].source)}" target="_blank" rel="noopener"><b>${esc(p.num[0].value)}</b></a> <span style="color:var(--mut)">${esc(p.num[0].label.toLowerCase())}</span>`:'<span style="color:var(--mut)">·</span>'}</td><td>${p.latest?`<a href="${esc(p.latest.url)}" target="_blank" rel="noopener" data-tip="${esc(p.latest.title)}">${p.latest.date}</a>`:'<span style="color:var(--mut)">No thread matched</span>'}</td></tr>`).join('');
+  h+=A.map(p=>`<tr><td>${plink(p)} <a href="#" data-p="${p.id}" style="font-size:11.5px;white-space:nowrap">on map</a></td><td class="n">${p.year}</td><td>${esc(FOCUS[p.focus]?FOCUS[p.focus].label:'Unclassified')}</td><td>${esc(rl(p))}</td><td>${chips(p.assets.map(x=>ASSET[x].label))}</td><td>${geoText(p)}</td><td>${head(p)?`<a href="${esc(head(p).source)}" target="_blank" rel="noopener"><b>${esc(head(p).value)}</b></a> <span style="color:var(--mut)">${esc(head(p).label.toLowerCase())}</span>`:'<span style="color:var(--mut)">·</span>'}</td><td>${p.latest?`<a href="${esc(p.latest.url)}" target="_blank" rel="noopener" data-tip="${esc(p.latest.title)}">${p.latest.date}</a>`:'<span style="color:var(--mut)">No thread matched</span>'}</td></tr>`).join('');
   $('dir').innerHTML=h+'</tbody></table>'+(A.length?'':'<p class="note">No partner in this selection.</p>');
   $('dir').querySelectorAll('a[data-p]').forEach(a=>a.onclick=e=>{e.preventDefault();F.pid=+a.dataset.p;render();scrollTo({top:$('hero').offsetTop-8,behavior:'smooth'})});
   $('dir').querySelectorAll('th.s').forEach(t=>t.onclick=()=>{if(F.sort===t.dataset.s)F.dir=-F.dir;else{F.sort=t.dataset.s;F.dir=['last','year'].includes(F.sort)?-1:1}dir()});
+}
+function fin(){
+  const pick=(p,rx,kind)=>p.rep.find(x=>(!kind||x.kind===kind)&&rx.test(x.label));
+  const rows=P.map(p=>({p,inc:pick(p,/^total income|total income|turnover/i,'money'),exp:pick(p,/total expen/i,'money'),st:pick(p,/staff|employee|team size|team of|professionals|warriors/i,'people')})).filter(r=>r.inc||r.exp||r.st);
+  const c=x=>x?`<span data-tip="${esc('“'+x.quote+'”')}"><b>${esc(x.value)}</b><br><span style="color:var(--mut);font-size:11.5px">${esc(x.as_of)}</span></span>`:'<span style="color:var(--mut)">·</span>';
+  $('fin').innerHTML=`<table><thead><tr><th>Partner</th><th>Report</th><th>Total income</th><th>Total expenditure</th><th>Staff</th></tr></thead><tbody>`+rows.sort((a,b)=>a.p.name.localeCompare(b.p.name)).map(r=>`<tr><td><a href="#" data-p="${r.p.id}">${esc(r.p.name)}</a></td><td><a href="${esc(r.p.report.url)}" target="_blank" rel="noopener">${esc(r.p.report.year||'report')}</a></td><td>${c(r.inc)}</td><td>${c(r.exp)}</td><td>${c(r.st)}</td></tr>`).join('')+`</tbody></table><p class="note" style="margin-top:8px">${rows.length} of ${P.length} partners. Many reports print their accounts as images, which could not be read. Hover a figure for the line it came from.</p>`;
+  $('fin').querySelectorAll('a[data-p]').forEach(a=>a.onclick=e=>{e.preventDefault();F.pid=+a.dataset.p;render();scrollTo({top:$('hero').offsetTop-8,behavior:'smooth'})});
 }
 function about(){
   $('minM').textContent=MINM;$('openD').textContent=M.meta.openDays;
@@ -653,6 +663,6 @@ document.addEventListener('mousemove',e=>{const t=e.target.closest&&e.target.clo
   if(t.dataset.tiph)tip.innerHTML=t.dataset.tiph;else tip.textContent=t.dataset.tip;tip.style.display='block';const w=tip.offsetWidth,hh=tip.offsetHeight;
   tip.style.left=Math.min(innerWidth-w-8,e.clientX+14)+'px';tip.style.top=(e.clientY+hh+24>innerHeight?e.clientY-hh-10:e.clientY+16)+'px'});
 matchMedia('(prefers-color-scheme: dark)').addEventListener('change',()=>location.reload());
-readHash();strip();topNums();sources();openNow();about();render();
+readHash();strip();topNums();sources();fin();openNow();about();render();
 </script>
 </body></html>

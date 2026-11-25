@@ -1,5 +1,5 @@
 {
- "_note": "Headline figures each partner publishes about itself, copied from its own website on 2026-11-26, with the page they came from, plus a link to its latest annual or impact report where the site lists one. These are self-reported and not checked against anything else. Figures inside annual report PDFs were not read. Founding years, placeholder counters and figures the reader could not see verbatim are left out.",
+ "_note": "For each partner: 'figures' are headline counters copied from its own website on 2026-11-26; 'report_figures' are read from the text of its latest annual or impact report (PDF converted to text), each with a verbatim quote that was checked against that text; 'report' names the document and carries a note on what it is and what it lacks. All figures are self-reported. Many reports print their financial statements as images, so income and expenditure are missing where the text had none. Goonj's and Vaagdhara's PDFs are image-only and SayTrees and Sattva expose no PDF, so those four have website figures only.",
  "partners": {
   "Asar": {
    "figures": [
@@ -46,9 +46,97 @@
     }
    ],
    "report": {
-    "title": "Financial statements FY 2025-26",
-    "url": "https://bpac.in/financial-reports/"
-   }
+    "title": "Balance Sheet as at March 31, 2026 and Statement of Income & Expenditure for the year ended March 31, 2026",
+    "year": "2025-26",
+    "url": "https://bpac.in/wp-content/uploads/2026/11/BPAC-Financials-FY-2025-26.pdf",
+    "note": "Document is audited financial statements only (2 pages);"
+   },
+   "report_figures": [
+    {
+     "label": "Total income",
+     "value": "2,62,38,692",
+     "as_of": "year ended March 31, 2026",
+     "kind": "money",
+     "quote": "Total 2,62,38,692 1,75,89,009"
+    },
+    {
+     "label": "Contributions received",
+     "value": "2,61,33,657",
+     "as_of": "year ended March 31, 2026",
+     "kind": "money",
+     "quote": "(a) Contributions 2,61,33,657 1,74,72,000"
+    },
+    {
+     "label": "Other income",
+     "value": "1,05,035",
+     "as_of": "year ended March 31, 2026",
+     "kind": "money",
+     "quote": "(b) Other income 7 1,05,035 1,17,009"
+    },
+    {
+     "label": "Total expenses",
+     "value": "2,82,79,288",
+     "as_of": "year ended March 31, 2026",
+     "kind": "money",
+     "quote": "Total 2,82,79,288 1,67,88,427"
+    },
+    {
+     "label": "Excess of expenditure over income (deficit)",
+     "value": "(20,40,596)",
+     "as_of": "year ended March 31, 2026",
+     "kind": "money",
+     "quote": "Excess of Expenditure over Income transferred to Reserves & Surplus (20,40,596) 8,00,582"
+    },
+    {
+     "label": "B.PAC Cares programme expense",
+     "value": "94,21,859",
+     "as_of": "year ended March 31, 2026",
+     "kind": "money",
+     "quote": "(j) B.PAC Cares 17 94,21,859 22,83,433"
+    },
+    {
+     "label": "B.SAFE programme expense",
+     "value": "49,05,045",
+     "as_of": "year ended March 31, 2026",
+     "kind": "money",
+     "quote": "(c) B.SAFE 10 49,05,045 40,15,003"
+    },
+    {
+     "label": "B.ENGAGED/Participatory Democracy expense",
+     "value": "37,50,000",
+     "as_of": "year ended March 31, 2026",
+     "kind": "money",
+     "quote": "(d) B.ENGAGED/Participatory Democracy 11 37,50,000 12,65,917"
+    },
+    {
+     "label": "B Mobile programme expense",
+     "value": "34,24,476",
+     "as_of": "year ended March 31, 2026",
+     "kind": "money",
+     "quote": "(f) B Mobile 13 34,24,476 12,07,307"
+    },
+    {
+     "label": "Administrative expenses",
+     "value": "25,20,773",
+     "as_of": "year ended March 31, 2026",
+     "kind": "money",
+     "quote": "(g) Administrative expenses 14 25,20,773 24,17,654"
+    },
+    {
+     "label": "Corpus Fund",
+     "value": "37,95,000",
+     "as_of": "as at March 31, 2026",
+     "kind": "money",
+     "quote": "1 Corpus Fund 1 37,95,000 37,95,000"
+    },
+    {
+     "label": "Cash and cash equivalents",
+     "value": "10,75,228",
+     "as_of": "as at March 31, 2026",
+     "kind": "money",
+     "quote": "(a) Cash and cash equivalents 5 10,75,228 23,45,946"
+    }
+   ]
   },
   "Paani Foundation": {
    "figures": [
@@ -84,9 +172,97 @@
     }
    ],
    "report": {
-    "title": "Annual Report 2025-26",
-    "url": "https://paanifoundation.in/about/annual-reports/"
-   }
+    "title": "Paani Foundation Annual Report 2024-25: Building Rural Resilience Through Farmer Prosperity",
+    "year": "2024-25",
+    "url": "https://paanifoundation.in/wp-content/uploads/2025/08/PF_Annual-Report-2024-25.pdf",
+    "note": "Financial statements in the report are labelled 'Un-Audited' (Income and Expenditure Statement for the year ended 31st March, 2025, Amount in ₹)."
+   },
+   "report_figures": [
+    {
+     "label": "Farmers worked with",
+     "value": "55,000 farmers",
+     "as_of": "FY 2024–25",
+     "kind": "reach",
+     "quote": "FY 2024–25 was a year of profound transformation. Paani Foundation worked alongside 55,000"
+    },
+    {
+     "label": "Farmer groups participating in Farmer Cup",
+     "value": "4,360 farmer groups",
+     "as_of": "2024",
+     "kind": "reach",
+     "quote": "4,360 farmer groups participating,"
+    },
+    {
+     "label": "All-women farmer groups",
+     "value": "1,947 all-women groups",
+     "as_of": "2024",
+     "kind": "reach",
+     "quote": "1,947 all-women groups"
+    },
+    {
+     "label": "Land under cultivation by Farmer Cup groups",
+     "value": "77,619 ACRES",
+     "as_of": "2024",
+     "kind": "reach",
+     "quote": "77,619 ACRES"
+    },
+    {
+     "label": "Talukas covered by Farmer Cup",
+     "value": "46 participating talukas",
+     "as_of": "2024",
+     "kind": "reach",
+     "quote": "Covering all 46 participating talukas, Toofan Aalaya showcased inspiring stories"
+    },
+    {
+     "label": "Farmers in residential training (layout interleaves '03')",
+     "value": "9,929 FARMERS TRAINED",
+     "as_of": "March-April 2024",
+     "kind": "reach",
+     "quote": "9,929 03 FARMERS TRAINED"
+    },
+    {
+     "label": "Villages trained in watershed management (Water Cup)",
+     "value": "6000+ villages",
+     "as_of": "2016 - 2019",
+     "kind": "reach",
+     "quote": "6000+ villages trained in"
+    },
+    {
+     "label": "Total income (un-audited)",
+     "value": "₹ 20,73,43,912",
+     "as_of": "year ended 31st March, 2025",
+     "kind": "money",
+     "quote": "TOTAL INCOME (A) 20,73,43,912 13,57,86,832"
+    },
+    {
+     "label": "Contributions received (un-audited)",
+     "value": "₹ 20,66,26,348",
+     "as_of": "year ended 31st March, 2025",
+     "kind": "money",
+     "quote": "(a) Contributions 10 20,66,26,348 13,45,00,000"
+    },
+    {
+     "label": "Total expenses (un-audited)",
+     "value": "₹ 19,44,65,834",
+     "as_of": "year ended 31st March, 2025",
+     "kind": "money",
+     "quote": "TOTAL EXPENSES (B) 19,44,65,834 18,03,98,806"
+    },
+    {
+     "label": "Utilisation on programme and activities (un-audited)",
+     "value": "₹ 17,48,64,302",
+     "as_of": "year ended 31st March, 2025",
+     "kind": "money",
+     "quote": "(b) Utilisation on Program and activities 13 17,48,64,302 16,07,02,928"
+    },
+    {
+     "label": "Annual water storage capacity created (Water Cup)",
+     "value": "550+ BILLION litres",
+     "as_of": "2016 - 2019",
+     "kind": "output",
+     "quote": "550+ BILLION"
+    }
+   ]
   },
   "The Timbaktu Collective": {
    "figures": [
@@ -122,9 +298,97 @@
     }
    ],
    "report": {
-    "title": "Annual Report 2025-26",
-    "url": "https://timbaktu.org/home-new/annual-reports/"
-   }
+    "title": "The Timbaktu Collective Annual Report 2025 - 26",
+    "year": "2025-26",
+    "url": "https://timbaktu.org/wp-content/uploads/2026/09/Annual-Report-2025-26.pdf",
+    "note": "Financial statements pages (Receipts & Payments, Income & Expenditure, Balance Sheet, salaries) are images with no text, so no income or expenditure figures;"
+   },
+   "report_figures": [
+    {
+     "label": "Villages and mandals covered",
+     "value": "347 villages in 14 mandals",
+     "as_of": "as of 31st March 2026",
+     "kind": "reach",
+     "quote": "extends across 347 villages in 14 mandals, with 48,741 families."
+    },
+    {
+     "label": "Families worked with",
+     "value": "48,741 families",
+     "as_of": "as of 31st March 2026",
+     "kind": "reach",
+     "quote": "As of 31st March 2026, the Collective’s work extends across 347 villages in 14 mandals, with 48,741 families."
+    },
+    {
+     "label": "Mahasakthi women's federation membership and net worth",
+     "value": "36,112 members; INR 74.63 Crores",
+     "as_of": "31st March 2026",
+     "kind": "reach",
+     "quote": "2026, the membership of the Federation was 36,112, with a total net worth of INR 74.63 Crores."
+    },
+    {
+     "label": "Farmers, villages and organic acres under Dharani",
+     "value": "2,626 farmers across 79 villages, 13,801 acres",
+     "as_of": "2025-26",
+     "kind": "reach",
+     "quote": "The Dharani Programme worked with 2,626 farmers across 79 villages, supporting 13,801 acres under organic cultivation."
+    },
+    {
+     "label": "Persons with disabilities in Militha",
+     "value": "2,006 members",
+     "as_of": "2025-26",
+     "kind": "reach",
+     "quote": "Militha reached out to an additional 300 members, reaching a total of 2,006 members."
+    },
+    {
+     "label": "Kalpavalli community conservation area",
+     "value": "3,500 contiguous acres",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "these 3,500 contiguous acres are collectively protected and managed as the Kalpavalli Community Conservation Area"
+    },
+    {
+     "label": "Children in Mogga federation activities",
+     "value": "4,715 Children",
+     "as_of": "2025-26",
+     "kind": "reach",
+     "quote": "Federation, this year 4,715"
+    },
+    {
+     "label": "Gramasiri Cooperative members, villages, net worth",
+     "value": "2,047 members across 78 villages; INR 3.94 crores",
+     "as_of": "end of financial year 2025-2026",
+     "kind": "reach",
+     "quote": "the Gramasiri Cooperative had 2,047 members across 78 villages in 4 mandals reaching a net worth of INR 3.94 crores."
+    },
+    {
+     "label": "Farmers and hectares with crop security (Chelimi)",
+     "value": "2,223 farmers across 2,289 hectares",
+     "as_of": "2025-26",
+     "kind": "reach",
+     "quote": "2,223 farmers across 2,289"
+    },
+    {
+     "label": "Combined net worth of nine promoted Cooperatives",
+     "value": "INR 86.81 crores",
+     "as_of": "as of 31st March 2026",
+     "kind": "money",
+     "quote": "worth of these Cooperatives stood at INR 86.81 crores."
+    },
+    {
+     "label": "Loans disbursed by Mahasakthi cooperatives",
+     "value": "INR 50.39 crores to 7,973 members",
+     "as_of": "2025-26",
+     "kind": "money",
+     "quote": "disbursed loans worth INR 50.39 crores to 7,973 members"
+    },
+    {
+     "label": "Dharani Cooperative cumulative net sales",
+     "value": "INR 8.01 crores",
+     "as_of": "2025-26",
+     "kind": "money",
+     "quote": "cumulative net sales of INR 8.01 crores across all units"
+    }
+   ]
   },
   "Shola Trust": {
    "figures": [
@@ -247,9 +511,97 @@
     }
    ],
    "report": {
-    "title": "Global impact report 2025",
-    "url": "https://www.buzzwomen.org/our-impact/"
-   }
+    "title": "Global Impact Report 2025",
+    "year": "2025",
+    "url": "https://www.buzzwomen.org/wp-content/uploads/2026/06/Global-Impact-Report-2025.pdf",
+    "note": "Global report covering all Buzz Women countries;"
+   },
+   "report_figures": [
+    {
+     "label": "Women trained, all countries",
+     "value": "890,255",
+     "as_of": "cumulative, data up to December 2025",
+     "kind": "reach",
+     "quote": "890,255 WOMEN TRAINED"
+    },
+    {
+     "label": "Countries",
+     "value": "9 COUNTRIES",
+     "as_of": "data up to December 2025",
+     "kind": "reach",
+     "quote": "9 COUNTRIES 21,770 VILLAGES"
+    },
+    {
+     "label": "Villages, all countries",
+     "value": "21,770 VILLAGES",
+     "as_of": "cumulative, data up to December 2025",
+     "kind": "reach",
+     "quote": "21,770 VILLAGES 21,709 ANCHOR WOMEN"
+    },
+    {
+     "label": "Women trained in India, total",
+     "value": "834,636 total",
+     "as_of": "cumulative, 2012 to 2025",
+     "kind": "reach",
+     "quote": "834,636 total"
+    },
+    {
+     "label": "Women trained in India in the year",
+     "value": "182,281 in 2025",
+     "as_of": "2025",
+     "kind": "reach",
+     "quote": "182,281 in 2025"
+    },
+    {
+     "label": "Districts of Karnataka covered",
+     "value": "15 districts of Karnataka",
+     "as_of": "by the end of 2025",
+     "kind": "reach",
+     "quote": "Buzz Women India, established in 2012, works across 15 districts of"
+    },
+    {
+     "label": "Women trained by community trainers, India",
+     "value": "97,162 women",
+     "as_of": "cumulative, to date (end of 2025)",
+     "kind": "reach",
+     "quote": "To date, 2,629 anchors have trained over 97,162 women,"
+    },
+    {
+     "label": "Women trained in The Gambia, total",
+     "value": "39,191 total",
+     "as_of": "cumulative, 2018 to 2025",
+     "kind": "reach",
+     "quote": "39,191 total"
+    },
+    {
+     "label": "Anchor Women, all countries",
+     "value": "21,709",
+     "as_of": "cumulative, data up to December 2025",
+     "kind": "people",
+     "quote": "21,709 ANCHOR WOMEN Figures based on data up to December 2025"
+    },
+    {
+     "label": "Anchor Women in India, total",
+     "value": "19,755 total",
+     "as_of": "cumulative, end of 2025",
+     "kind": "people",
+     "quote": "19,755 total"
+    },
+    {
+     "label": "Anchor Women added in India in the year",
+     "value": "6,637 in 2025",
+     "as_of": "2025",
+     "kind": "people",
+     "quote": "6,637 in 2025"
+    },
+    {
+     "label": "Anchor Women trained as community trainers, India",
+     "value": "2,629",
+     "as_of": "end of 2025",
+     "kind": "people",
+     "quote": "To date, 2,629 anchors have trained over 97,162 women,"
+    }
+   ]
   },
   "Saahas": {
    "figures": [
@@ -285,9 +637,97 @@
     }
    ],
    "report": {
-    "title": "Annual Report 2025-26",
-    "url": "https://saahas.org/resources/?resource_type=annual-reports/"
-   }
+    "title": "Building Ownership, Recovering Value: Annual Report 2025-26",
+    "year": "2025-26",
+    "url": "http://saahas.org/wp-content/uploads/2026/08/2025-26-Annual-Report2-lr.pdf",
+    "note": "Income & Expenditure table in the 2025-26 report is headed 'FOR THE YEAR 31.03.2025' as printed (balance sheet is as on 31.03.2026);"
+   },
+   "report_figures": [
+    {
+     "label": "Population in project coverage areas",
+     "value": "42.08 Lakh people",
+     "as_of": "FY 2025-26",
+     "kind": "reach",
+     "quote": "42.08 Lakh people reached out to for"
+    },
+    {
+     "label": "Total waste influenced",
+     "value": "116 TPD",
+     "as_of": "FY 2025-26",
+     "kind": "reach",
+     "quote": "areas 116 TPD operationalized"
+    },
+    {
+     "label": "Gram Panchayats and ULBs supported",
+     "value": "592 Gram Panchayats and 14 ULBs",
+     "as_of": "FY 2025-26",
+     "kind": "reach",
+     "quote": "592 Gram Panchayats and 14 ULBs supported"
+    },
+    {
+     "label": "Livelihoods generated",
+     "value": "192 livelihoods",
+     "as_of": "FY 2025-26",
+     "kind": "reach",
+     "quote": "192 livelihoods"
+    },
+    {
+     "label": "Women supported to adopt sustainable menstruation",
+     "value": "4,615 women",
+     "as_of": "FY 2025-26",
+     "kind": "reach",
+     "quote": "Across projects, 4,615 women were supported to adopt sustainable menstruation practices"
+    },
+    {
+     "label": "Government funds unlocked",
+     "value": "Rs.4.76Cr",
+     "as_of": "FY 2025-26",
+     "kind": "money",
+     "quote": "62,843 sqft Rs.4.76Cr"
+    },
+    {
+     "label": "Total income (FCRA + Indian)",
+     "value": "2994.55 (₹ lakhs)",
+     "as_of": "year 31.03.2025 as printed in the 2025-26 report",
+     "kind": "money",
+     "quote": "Total 470.04 2524.51 2994.55"
+    },
+    {
+     "label": "Total expenditure (FCRA + Indian)",
+     "value": "2853.31 (₹ lakhs)",
+     "as_of": "year 31.03.2025 as printed in the 2025-26 report",
+     "kind": "money",
+     "quote": "Total 443.78 2409.53 2853.31"
+    },
+    {
+     "label": "Total employees",
+     "value": "370",
+     "as_of": "as on March 31st 2026",
+     "kind": "people",
+     "quote": "Total Employees 178 192 370"
+    },
+    {
+     "label": "Dry and wet waste processing enabled",
+     "value": "4682 MT of dry waste and 15,154 MT wet waste",
+     "as_of": "FY 2025-26",
+     "kind": "output",
+     "quote": "4682 MT of dry waste and 15,154 MT wet"
+    },
+    {
+     "label": "Source segregation enabled",
+     "value": "38,044MT",
+     "as_of": "FY 2025-26",
+     "kind": "output",
+     "quote": "38,044MT Source segregation"
+    },
+    {
+     "label": "Greenhouse gas emissions reduced",
+     "value": "33,362 MTCO2e",
+     "as_of": "FY 2025-26",
+     "kind": "output",
+     "quote": "33,362 MTCO2e of Greenhouse Gas"
+    }
+   ]
   },
   "Dakshin Foundation": {
    "figures": [
@@ -299,9 +739,90 @@
     }
    ],
    "report": {
-    "title": "Annual Report 2025-26",
-    "url": "https://dakshin.org/about-us/annual-report/"
-   }
+    "title": "ANNUAL REPORT 2025 - 2026 DAKSHIN FOUNDATION",
+    "year": "2025-26",
+    "url": "https://dakshin.org/wp-content/uploads/2026/10/ANNUAL-REPORT_2025-26.pdf",
+    "note": "Financials are from the Income and Expenditure statement, which is headed (INR);"
+   },
+   "report_figures": [
+    {
+     "label": "Villages covered by preventive healthcare, Ganjam and Puri",
+     "value": "22 villages",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "through village-based preventive healthcare, now expanded to 22"
+    },
+    {
+     "label": "Households engaged on waste segregation, Wandoor",
+     "value": "more than 750 households",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "engage more than 750 households in Wandoor in conversations"
+    },
+    {
+     "label": "Community workers trained on sustainable menstruation",
+     "value": "165 community workers",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "165 community workers including CRPs, ASHA workers,"
+    },
+    {
+     "label": "Villages in blue swimmer crab participatory mapping",
+     "value": "26 villages across three coastal districts",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "undertaking participatory mapping in 26 villages across three"
+    },
+    {
+     "label": "Panchayats and villages at local governance workshop",
+     "value": "11 panchayats and 32 villages",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "fisher communities from 11 panchayats and 32 villages to build"
+    },
+    {
+     "label": "Current Conservation magazine readership",
+     "value": "close to 74,000 readers across 203 countries",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "CC reached close to 74,000 readers across 203 countries, with"
+    },
+    {
+     "label": "Total income",
+     "value": "14,48,88,491 (INR)",
+     "as_of": "year ending 31st March 2026",
+     "kind": "money",
+     "quote": "Total 14,48,88,491"
+    },
+    {
+     "label": "Project income",
+     "value": "13,07,04,253 (INR)",
+     "as_of": "year ending 31st March 2026",
+     "kind": "money",
+     "quote": "a. Project Income 13,07,04,253"
+    },
+    {
+     "label": "Total expenditure (incl. establishment, depreciation)",
+     "value": "14,52,03,435 (INR)",
+     "as_of": "year ending 31st March 2026",
+     "kind": "money",
+     "quote": "Total Project Expenses (a) 14,52,03,435"
+    },
+    {
+     "label": "Olive ridley nests in Rushikulya mass nesting",
+     "value": "an estimated 1.5 lakh nests",
+     "as_of": "March 2026",
+     "kind": "output",
+     "quote": "4-5 days with an estimated 1.5 lakh nests."
+    },
+    {
+     "label": "Sea turtle nests documented at West Bay, Little Andaman",
+     "value": "384 nests",
+     "as_of": "February to March 2026",
+     "kind": "output",
+     "quote": "At West Bay, a total of 384 nests were documented, including"
+    }
+   ]
   },
   "Waste Warriors": {
    "figures": [
@@ -319,9 +840,69 @@
     }
    ],
    "report": {
-    "title": "Annual Report 2025-26",
-    "url": "https://wastewarriors.org/our-resources/reports/"
-   }
+    "title": "Waste to Climate Action: Assessing GHG Emissions of Improved Solid Waste Management Interventions (FY 2024-25)",
+    "year": "2024-25",
+    "url": "https://wastewarriors.org/wp-content/uploads/2025/12/GHG-Emissions-Reporting-FY-2024-25.pdf",
+    "note": "This is a GHG emissions report, not an annual report: no income, expenditure or other financial figures."
+   },
+   "report_figures": [
+    {
+     "label": "Households and commercial establishments covered",
+     "value": "27,187",
+     "as_of": "FY 2024-25",
+     "kind": "reach",
+     "quote": "Total 27,187"
+    },
+    {
+     "label": "Team size",
+     "value": "190+ Warriors",
+     "as_of": "2024-25 (report year)",
+     "kind": "people",
+     "quote": "our team of 190+ Warriors is dedicated"
+    },
+    {
+     "label": "Solid waste collected and processed, 9 locations",
+     "value": "approximately 1,854 metric tonnes",
+     "as_of": "April 2024-March 2025",
+     "kind": "output",
+     "quote": "approximately 1,854 metric tonnes of solid waste were"
+    },
+    {
+     "label": "Net emissions reduction versus baseline",
+     "value": "about 2,392 MTCO2e",
+     "as_of": "FY 2024-25",
+     "kind": "output",
+     "quote": "2,392 MTCO2e (given in figure 1)."
+    },
+    {
+     "label": "Baseline scenario emissions (no formal collection)",
+     "value": "approximately 1,613 Metric Tons of CO2 equivalent",
+     "as_of": "FY 2024-25",
+     "kind": "output",
+     "quote": "result in GHG emissions of approximately 1,613 Metric"
+    },
+    {
+     "label": "Emissions under Waste Warriors interventions",
+     "value": "approximately -779 MTCO2E",
+     "as_of": "FY 2024-25",
+     "kind": "output",
+     "quote": "factories), the resultant emissions are approximately -779 MTCO2E."
+    },
+    {
+     "label": "Average emissions reduction per tonne of waste",
+     "value": "−1.25 MTCO₂e/tonne",
+     "as_of": "FY 2024-25",
+     "kind": "output",
+     "quote": "average reduction of −1.25 MTCO₂e/tonne."
+    },
+    {
+     "label": "Waste processed at Harrawala, the centralised hub",
+     "value": "965 MT",
+     "as_of": "FY 2024-25",
+     "kind": "output",
+     "quote": "A total of 965 MT of waste contains mixed MSW"
+    }
+   ]
   },
   "Praja": {
    "figures": [
@@ -374,9 +955,97 @@
     }
    ],
    "report": {
-    "title": "Annual Report 2025-26",
-    "url": "https://www.atree.org/wp-content/uploads/2026/09/Annual-Report-2025-26.pdf"
-   }
+    "title": "Annual Report 2025–2026",
+    "year": "2025-26",
+    "url": "https://www.atree.org/wp-content/uploads/2026/09/Annual-Report-2025-26.pdf",
+    "note": "Financial Statement pages (126-129) carry no extractable text, so no income or expenditure figures;"
+   },
+   "report_figures": [
+    {
+     "label": "Livelihoods improved through sustainable initiatives",
+     "value": "30,000 + livelihoods",
+     "as_of": "cumulative (over the years)",
+     "kind": "reach",
+     "quote": "30,000 + livelihoods improved through sustainable initiatives"
+    },
+    {
+     "label": "Farmers trained in climate-resilient agriculture",
+     "value": "3000+ farmers",
+     "as_of": "cumulative (over the years)",
+     "kind": "reach",
+     "quote": "3000+ farmers trained in climate-resilient agriculture"
+    },
+    {
+     "label": "Students experiencing place-based nature education",
+     "value": "50000+ students",
+     "as_of": "cumulative (over the years)",
+     "kind": "reach",
+     "quote": "50000+ students experience place-based nature education"
+    },
+    {
+     "label": "Area under active restoration and invasive species management",
+     "value": "750+ ha",
+     "as_of": "cumulative (over the years)",
+     "kind": "reach",
+     "quote": "750+ ha under active restoration and invasive species management across forests, grasslands and wetlands"
+    },
+    {
+     "label": "Community forest rights secured",
+     "value": "165,000 ha, benefiting 30,000+ people",
+     "as_of": "cumulative (over the years)",
+     "kind": "reach",
+     "quote": "165,000 ha of community forest rights secured, benefiting 30,000+ people"
+    },
+    {
+     "label": "SUJALAM drinking water project beneficiaries, Kuttanad",
+     "value": "around 3030 families and 13500 individuals in 12 panchayats",
+     "as_of": "so far, project in its fourth year (2025-26 report)",
+     "kind": "reach",
+     "quote": "benefiting around 3030 families and 13500 individuals in 12 panchayats so far."
+    },
+    {
+     "label": "Revenue of ADAVI community-based enterprise, BR Hills",
+     "value": "Rs.1,00,05,864",
+     "as_of": "2025-26 (during the year)",
+     "kind": "money",
+     "quote": "from MSME grant generated a revenue of Rs.1,00,05,864."
+    },
+    {
+     "label": "MSc students enrolled since programme launch",
+     "value": "108 students across five cohorts",
+     "as_of": "since 2021",
+     "kind": "people",
+     "quote": "the programme has enrolled 108 students across five cohorts."
+    },
+    {
+     "label": "Journal articles, books and book chapters published",
+     "value": "112",
+     "as_of": "2025-26",
+     "kind": "output",
+     "quote": "112 Journal articles,"
+    },
+    {
+     "label": "New species discovered",
+     "value": "32 new species",
+     "as_of": "2025-26 (past year)",
+     "kind": "output",
+     "quote": "32 new species, including two rare plant species, discovered in the past year"
+    },
+    {
+     "label": "Species and genera new to science",
+     "value": "125+ species and 11 genera",
+     "as_of": "cumulative (over the years)",
+     "kind": "output",
+     "quote": "125+ species and 11 genera new to science"
+    },
+    {
+     "label": "Peer-reviewed publications",
+     "value": "850+ peer-reviewed publications",
+     "as_of": "cumulative (over the years)",
+     "kind": "output",
+     "quote": "850+ peer-reviewed publications"
+    }
+   ]
   },
   "Gram Vikas": {
    "figures": [
@@ -413,8 +1082,89 @@
    ],
    "report": {
     "title": "Annual Report 2025-26",
-    "url": "https://www.gramvikas.org/wp-content/uploads/2026/11/Annual-Report-2025-2026.pdf"
-   }
+    "year": "2025-26",
+    "url": "https://www.gramvikas.org/wp-content/uploads/2026/11/Annual-Report-2025-2026.pdf",
+    "note": "Money figures are from the Resource Mobilisation and Utilization Account;"
+   },
+   "report_figures": [
+    {
+     "label": "Cumulative reach: Gram Panchayats",
+     "value": "1,140 Gram Panchayats",
+     "as_of": "cumulative, as of March 2026",
+     "kind": "reach",
+     "quote": "1,140 18,695 13,47,616 Gram Panchayats Habitations Households Across Odisha and Jharkhand"
+    },
+    {
+     "label": "Cumulative reach: households",
+     "value": "13,47,616 Households",
+     "as_of": "cumulative, as of March 2026",
+     "kind": "reach",
+     "quote": "1,140 18,695 13,47,616 Gram Panchayats Habitations Households Across Odisha and Jharkhand"
+    },
+    {
+     "label": "Households under intensive programme coverage",
+     "value": "8.34+ lakh Households",
+     "as_of": "2025-26",
+     "kind": "reach",
+     "quote": "8.34+ lakh Households"
+    },
+    {
+     "label": "People with access to safe drinking water",
+     "value": "5,06,568 people in 1,55,962 households",
+     "as_of": "2022-2026",
+     "kind": "reach",
+     "quote": "5,06,568 people in 1,55,962 households now have access to safe drinking water."
+    },
+    {
+     "label": "Households with strengthened agriculture and allied livelihoods",
+     "value": "2,00,185 households",
+     "as_of": "2022-2026",
+     "kind": "reach",
+     "quote": "2,00,185 households have strengthened their"
+    },
+    {
+     "label": "Households with access to toilets",
+     "value": "1,11,214 households",
+     "as_of": "2022-2026",
+     "kind": "reach",
+     "quote": "1,11,214 households now have access to"
+    },
+    {
+     "label": "Land treated through soil and water conservation",
+     "value": "4,515 hectares",
+     "as_of": "cumulative, as of March 2026",
+     "kind": "reach",
+     "quote": "Soil and water conservation measures have now been implemented across 4,515 hectares,"
+    },
+    {
+     "label": "Total income (Resource Mobilisation and Utilization Account)",
+     "value": "51,24,46,267 (rupees)",
+     "as_of": "year ended 31st March 2026",
+     "kind": "money",
+     "quote": "TOTAL INCOME 51,24,46,267 36,72,52,703 2,04,978 14,49,88,586"
+    },
+    {
+     "label": "Grants and donations received",
+     "value": "36,55,58,518 (rupees)",
+     "as_of": "year ended 31st March 2026",
+     "kind": "money",
+     "quote": "Grants and Donations 36,55,58,518 36,47,69,270 7,89,248"
+    },
+    {
+     "label": "Total expenditure (Resource Mobilisation and Utilization Account)",
+     "value": "44,86,98,240 (rupees)",
+     "as_of": "year ended 31st March 2026",
+     "kind": "money",
+     "quote": "TOTAL EXPENDITURE 44,86,98,240 33,62,26,598 3,26,418 11,21,45,224"
+    },
+    {
+     "label": "Staff members",
+     "value": "322 staff members",
+     "as_of": "as of March 2026",
+     "kind": "people",
+     "quote": "Vikas had 322 staff"
+    }
+   ]
   },
   "WELL Lab": {
    "figures": [
@@ -427,8 +1177,96 @@
    ],
    "report": {
     "title": "Annual Report 2025-26",
-    "url": "https://welllabs.org/wp-content/uploads/2026/09/WELL-Labs-Annual-Report-2025-26.pdf"
-   }
+    "year": "2025-26",
+    "url": "https://welllabs.org/wp-content/uploads/2026/09/WELL-Labs-Annual-Report-2025-26.pdf",
+    "note": "Document names the organisation 'WELL Labs' (sub-entity of IFMR, established 2023)."
+   },
+   "report_figures": [
+    {
+     "label": "Farmers and acres with improved piped irrigation access, Raichur",
+     "value": "56 farmers across 126 acres",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "This improved irrigation access for 56 farmers across 126 acres."
+    },
+    {
+     "label": "Farmers trained on sustainable agriculture practices",
+     "value": "480 farmers",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "Trained 480 farmers on sustainable agriculture"
+    },
+    {
+     "label": "Farmers adopting sustainable practices, with acreage",
+     "value": "469 farmers (seed treatment across 579 acres, multi-cropping across 310 acres, green manuring across 38 acres)",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "469 farmers adopted these practices (seed treatment across 579 acres, multi-cropping across 310 acres, and green manuring across 38 acres)"
+    },
+    {
+     "label": "Community workers trained and structures monitored (Tata Consumer Products consortium)",
+     "value": "20 community workers; 100+ water conservation structures",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "trained 20 community workers and monitored 100+ water"
+    },
+    {
+     "label": "People trained under community hydrology programme",
+     "value": "35 people",
+     "as_of": "November 2024 to September 2025",
+     "kind": "reach",
+     "quote": "Our community hydrology programme trained 35 people"
+    },
+    {
+     "label": "Investment in piped irrigation infrastructure",
+     "value": "₹34.5 lakhs",
+     "as_of": "2025-26 (report year)",
+     "kind": "money",
+     "quote": "The infrastructure investment was ₹34.5 lakhs"
+    },
+    {
+     "label": "Area covered by drone surveys of irrigation channels",
+     "value": "64 sq. km",
+     "as_of": "2025-26 (report year)",
+     "kind": "output",
+     "quote": "Conducted drone surveys across 64 sq. km to map"
+    },
+    {
+     "label": "Mallapalli lake storage capacity after rejuvenation, Chintamani",
+     "value": "about 206 million litres",
+     "as_of": "2025-26 (report year)",
+     "kind": "output",
+     "quote": "to about 206 million litres"
+    },
+    {
+     "label": "Households surveyed for WISER water security index, Raichur",
+     "value": "2,500 households",
+     "as_of": "Phase 2 (2025-26)",
+     "kind": "output",
+     "quote": "a survey of 2,500 households sampled to capture the"
+    },
+    {
+     "label": "Atal Bhujal Yojana study: interviews and gram panchayats",
+     "value": "120+ interviews and focus group discussions in 19 gram panchayats",
+     "as_of": "2025-26 (report year)",
+     "kind": "output",
+     "quote": "120+ interviews and focus group discussions, journey mapping, and programme data analysis in 19 gram panchayats across the states of Karnataka, Maharashtra,"
+    },
+    {
+     "label": "Indian cities assessed with water balance approach",
+     "value": "10 Indian cities",
+     "as_of": "2025-26 (report year)",
+     "kind": "output",
+     "quote": "Used our water balance approach to identify key water issues in 10 Indian cities."
+    },
+    {
+     "label": "YouTube views of podcast channel",
+     "value": "more than 70,000 views",
+     "as_of": "2025-26 (over the past year)",
+     "kind": "output",
+     "quote": "YouTube channel received more than 70,000 views during this period"
+    }
+   ]
   },
   "ReapBenefit": {
    "figures": [
@@ -486,9 +1324,97 @@
     }
    ],
    "report": {
-    "title": "Common Ground Annual Report 2025-26",
-    "url": "https://livinglandscapes.in/wp-content/uploads/2026/08/Common-Ground-Annual-Report-2025-26.pdf"
-   }
+    "title": "Annual Report 2025-2026 (Common Ground initiative)",
+    "year": "2025-26",
+    "url": "https://livinglandscapes.in/wp-content/uploads/2026/08/Common-Ground-Annual-Report-2025-26.pdf",
+    "note": "This is the annual report of the Common Ground Collaborative, which Living Landscapes convenes as backbone organisation;"
+   },
+   "report_figures": [
+    {
+     "label": "Partners in the Common Ground Collaborative",
+     "value": "91 partners",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "We are now 91 partners"
+    },
+    {
+     "label": "Growth in partners and partner-led initiatives over two years",
+     "value": "from 23 to 91 partners, and from 8 to 75 partner-led initiatives",
+     "as_of": "past two years",
+     "kind": "reach",
+     "quote": "Collaborative expanded from 23 to 91 partners, and from 8 to 75 partner-led initiatives,"
+    },
+    {
+     "label": "Growth in partners during the year",
+     "value": "from 58 to 91",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "number of partners from 58 to 91"
+    },
+    {
+     "label": "Blocks covered by landscape partnerships (five states)",
+     "value": "from 52 to 120 blocks",
+     "as_of": "2025-26 (during the year)",
+     "kind": "reach",
+     "quote": "expanded from 52 to 120 blocks across"
+    },
+    {
+     "label": "People who can potentially access governance platforms",
+     "value": "an estimated 56 lakh people",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "an estimated 56 lakh people can"
+    },
+    {
+     "label": "Forest divisions under catchment area treatment planning",
+     "value": "26 forest divisions",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "restoration through a catchment area treatment planning across 26 forest divisions,"
+    },
+    {
+     "label": "Villages engaged and demands identified via Commons Connect, Ramgarh",
+     "value": "237 villages; 9,318 village-level demands/priorities",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "communities across 237 villages and identify 9,318 village-level demands/"
+    },
+    {
+     "label": "Grameen Charcha participants",
+     "value": "over 1,000 participants",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "The Grameen Charcha brought together over 1,000 participants from"
+    },
+    {
+     "label": "Jharkhand State Finance Commission allocation to Gram Panchayats",
+     "value": "approximately INR 790 crore annually",
+     "as_of": "annual",
+     "kind": "money",
+     "quote": "INR 790 crore annually to Gram Panchayats"
+    },
+    {
+     "label": "CAMPA restoration funds unlocked, Jharkhand",
+     "value": "approximately INR 83 crore",
+     "as_of": "2025-26 (report year)",
+     "kind": "money",
+     "quote": "unlocking approximately INR 83 crore of CAMPA restoration funds."
+    },
+    {
+     "label": "Jharkhand government commitment for Gram Panchayat Help Desks",
+     "value": "INR 52.14 crore per annum",
+     "as_of": "per annum",
+     "kind": "money",
+     "quote": "commitment of INR 52.14 crore per annum to establish these Help Desks"
+    },
+    {
+     "label": "Communicators in storytelling network",
+     "value": "300+ communicators",
+     "as_of": "2025-26 (report year)",
+     "kind": "people",
+     "quote": "A network of 300+ communicators continued sharing locally grounded stories"
+    }
+   ]
   },
   "Gurukula Botanical Sanctuary": {
    "figures": [
@@ -523,9 +1449,97 @@
     }
    ],
    "report": {
-    "title": "Annual Report 2025-26",
-    "url": "https://cstep.in/annual-reports/annual-report-2025-26/"
-   }
+    "title": "Annual Report 2025-2026: Scaling Solutions, Informing Policy",
+    "year": "2025-26",
+    "url": "https://cstep.in/wp-content/uploads/2026/11/Annual-Report-2025-2026.pdf",
+    "note": "'Audited Financials' appears only as a heading;"
+   },
+   "report_figures": [
+    {
+     "label": "Cities mapped by Rooftop Solar Explorer",
+     "value": "120+ cities",
+     "as_of": "cumulative",
+     "kind": "reach",
+     "quote": "to map rooftops for 120+ cities across the country"
+    },
+    {
+     "label": "Share of staff with a PhD",
+     "value": "17%",
+     "as_of": "2025-2026 (report year)",
+     "kind": "people",
+     "quote": "PhD: 17%"
+    },
+    {
+     "label": "NITI Aayog studies citing CSTEP models",
+     "value": "11 studies",
+     "as_of": "February 2026",
+     "kind": "output",
+     "quote": "a set of 11 studies released by NITI"
+    },
+    {
+     "label": "Opinion articles",
+     "value": "50 Opinion Articles",
+     "as_of": "2025-2026 (report year)",
+     "kind": "output",
+     "quote": "50 Opinion Articles"
+    },
+    {
+     "label": "Reports published",
+     "value": "13 Reports",
+     "as_of": "2025-2026 (report year)",
+     "kind": "output",
+     "quote": "13 Reports"
+    },
+    {
+     "label": "Blogs",
+     "value": "17 Blogs",
+     "as_of": "2025-2026 (report year)",
+     "kind": "output",
+     "quote": "17 Blogs"
+    },
+    {
+     "label": "Videos",
+     "value": "11 Videos",
+     "as_of": "2025-2026 (report year)",
+     "kind": "output",
+     "quote": "11 Videos"
+    },
+    {
+     "label": "Explainers",
+     "value": "7 Explainers",
+     "as_of": "2025-2026 (report year)",
+     "kind": "output",
+     "quote": "7 Explainers"
+    },
+    {
+     "label": "Events",
+     "value": "19 Events",
+     "as_of": "2025-2026 (report year)",
+     "kind": "output",
+     "quote": "19 Events"
+    },
+    {
+     "label": "MoUs",
+     "value": "12 MoUs",
+     "as_of": "2025-2026 (report year)",
+     "kind": "output",
+     "quote": "12 MoUs"
+    },
+    {
+     "label": "Stakeholder and capacity-building workshops",
+     "value": "9 Stakeholder and Capacity-Building Workshops",
+     "as_of": "2025-2026 (report year)",
+     "kind": "output",
+     "quote": "9 Stakeholder and Capacity- Building Workshops"
+    },
+    {
+     "label": "National and state-level committee memberships",
+     "value": "9 National- and State-Level Committee Memberships",
+     "as_of": "2025-2026 (report year)",
+     "kind": "output",
+     "quote": "9 National- and State-Level Committee Memberships"
+    }
+   ]
   },
   "GROW+": {
    "figures": [
@@ -543,9 +1557,83 @@
     }
    ],
    "report": {
-    "title": "GROW+ Annual Report 2025-26",
-    "url": "https://cdn.prod.website-files.com/6983301956c1009c4654dbd5/6a97f088f447c3fb51721f86_EdelGive_Grow%2B%20Report%202026_V3.pdf"
-   }
+    "title": "From GROW to GROW+ (EdelGive GROW+ Report, FY 2025–26)",
+    "year": "2025-26",
+    "url": "https://cdn.prod.website-files.com/6983301956c1009c4654dbd5/6a97f088f447c3fb51721f86_EdelGive_Grow%2B%20Report%202026_V3.pdf",
+    "note": "Programme report from EdelGive on the first year of GROW+;"
+   },
+   "report_figures": [
+    {
+     "label": "Grassroots partner organisations",
+     "value": "34 Partners",
+     "as_of": "FY 2025–26",
+     "kind": "reach",
+     "quote": "Anchors and 34 Partners, with grant-making and compliances"
+    },
+    {
+     "label": "Landscapes live",
+     "value": "2 Landscapes",
+     "as_of": "FY 2025–26",
+     "kind": "reach",
+     "quote": "2 Landscapes 2 Anchors 34 Grassroots Partners"
+    },
+    {
+     "label": "Anchor organisations",
+     "value": "2 Anchors",
+     "as_of": "FY 2025–26",
+     "kind": "reach",
+     "quote": "2 Landscapes 2 Anchors 34 Grassroots Partners"
+    },
+    {
+     "label": "Organisations in initial pool considered",
+     "value": "more than 600",
+     "as_of": "FY 2025–26",
+     "kind": "reach",
+     "quote": "began with a combined pool of more than 600"
+    },
+    {
+     "label": "Views of animated explainer film",
+     "value": "5M+",
+     "as_of": "since launch",
+     "kind": "reach",
+     "quote": "5M+ Views on"
+    },
+    {
+     "label": "Devex coverage reach (website visitors, newsletter readers)",
+     "value": "1.3 million website visitors and 500,000",
+     "as_of": "FY 2025–26",
+     "kind": "reach",
+     "quote": "coverage that reached 1.3 million website visitors and 500,000"
+    },
+    {
+     "label": "Learning modules on The HUB",
+     "value": "25 Learning Modules",
+     "as_of": "FY 2025–26, by year-end",
+     "kind": "output",
+     "quote": "6 Global Salons 25 Learning Modules"
+    },
+    {
+     "label": "Global Salons held",
+     "value": "6 Global Salons",
+     "as_of": "FY 2025–26",
+     "kind": "output",
+     "quote": "3 Convenings 6 Global Salons"
+    },
+    {
+     "label": "Convenings held",
+     "value": "3 Convenings",
+     "as_of": "FY 2025–26",
+     "kind": "output",
+     "quote": "3 Convenings 6 Global Salons"
+    },
+    {
+     "label": "Organisational Development tool scope",
+     "value": "12 domains, 65 sub-domains",
+     "as_of": "FY 2025–26",
+     "kind": "output",
+     "quote": "across 12 domains, 65 sub-domains, and"
+    }
+   ]
   },
   "Sauramandala Foundation": {
    "figures": [
@@ -630,9 +1718,90 @@
     }
    ],
    "report": {
-    "title": "Annual Report 2024-25",
-    "url": "https://oorvani.org/wp-content/uploads/2025/11/Oorvani-Annual-Report-2024-25.pdf"
-   }
+    "title": "Oorvani Foundation Annual Report 2024-25",
+    "year": "2024-25",
+    "url": "https://oorvani.org/wp-content/uploads/2025/11/Oorvani-Annual-Report-2024-25.pdf",
+    "note": "No financial figures or team size in the text (the 'Financials' and 'The Team' pages are images with no extracted text)."
+   },
+   "report_figures": [
+    {
+     "label": "Events and participants in learning sessions",
+     "value": "15 events; 1281 participants",
+     "as_of": "2024-25",
+     "kind": "reach",
+     "quote": "15 1281 Events Participants for workshops, webinars"
+    },
+    {
+     "label": "Datajams and datajammers",
+     "value": "5 datajams; 212 datajammers",
+     "as_of": "2024-25",
+     "kind": "reach",
+     "quote": "5 212 Datajams Datajammers"
+    },
+    {
+     "label": "Page views; citizen writers; Change Network members",
+     "value": "3.4M page views; 90 citizen writers; 157 Change Network members",
+     "as_of": "2024-25",
+     "kind": "reach",
+     "quote": "3.4M 90 157 Page views across articles Citizen writers Change Network members"
+    },
+    {
+     "label": "Cities covered by articles",
+     "value": "9 cities",
+     "as_of": "2024-25",
+     "kind": "reach",
+     "quote": "Our articles covered 9 cities across India."
+    },
+    {
+     "label": "Social media followers",
+     "value": "32,000 followers across platforms",
+     "as_of": "2024-25 (report year)",
+     "kind": "reach",
+     "quote": "32,000 followers across platforms"
+    },
+    {
+     "label": "Unique social media accounts reached on average",
+     "value": "41,738",
+     "as_of": "2024-25 (report year)",
+     "kind": "reach",
+     "quote": "41,738 unique accounts reached on average"
+    },
+    {
+     "label": "India Civic Summit 2025 participants",
+     "value": "more than 150 participants",
+     "as_of": "2025",
+     "kind": "reach",
+     "quote": "saw more than 150 participants from across cities"
+    },
+    {
+     "label": "Articles published, and those by citizens",
+     "value": "505 articles, 134 written by citizens",
+     "as_of": "2024-25",
+     "kind": "output",
+     "quote": "We published a total of 505 articles in the period,134 of which were written by citizens."
+    },
+    {
+     "label": "Lakes audited for State of Bengaluru Lakes Report",
+     "value": "28 lakes",
+     "as_of": "2024-25",
+     "kind": "output",
+     "quote": "documented 28 lakes across Bengaluru."
+    },
+    {
+     "label": "Lok Sabha constituencies covered in election project",
+     "value": "21 constituencies",
+     "as_of": "2024",
+     "kind": "output",
+     "quote": "we covered a total of 21 constituencies across"
+    },
+    {
+     "label": "Sessions and experts at India Civic Summit",
+     "value": "8 sessions by 14 experts",
+     "as_of": "2025",
+     "kind": "output",
+     "quote": "We hosted 8 sessions by 14 experts"
+    }
+   ]
   },
   "SayTrees": {
    "figures": [
@@ -682,9 +1851,97 @@
     }
    ],
    "report": {
-    "title": "Impact Report 2021-22",
-    "url": "https://vidhilegalpolicy.in/impact-report-2021-22/"
-   }
+    "title": "Annual Impact Report 2024-2025 (text itself says \"this year’s Annual Impact Report\"; fellows listed for 1st April 2024 to 31st March 2025; year taken from that and the source file name)",
+    "year": "2024-25",
+    "url": "https://vidhilegalpolicy.in/wp-content/uploads/2025/08/Annual-Impact-Report-2024-2025.pdf",
+    "note": "No financial figures (income, expenditure, grants) appear in the text."
+   },
+   "report_figures": [
+    {
+     "label": "New ministries and departments engaged",
+     "value": "24 new ministries & departments",
+     "as_of": "2024-25 (report year)",
+     "kind": "reach",
+     "quote": "24 new ministries &"
+    },
+    {
+     "label": "Share of engagements that were repeat collaborations",
+     "value": "44%",
+     "as_of": "2024-25 (report year)",
+     "kind": "reach",
+     "quote": "44% of all engagements"
+    },
+    {
+     "label": "Team size",
+     "value": "80+ researchers and advocates",
+     "as_of": "2024-25 (report year)",
+     "kind": "people",
+     "quote": "Driving this work is a multidisciplinary team of 80+"
+    },
+    {
+     "label": "Agenda-setting outputs",
+     "value": "607 agenda-setting outputs",
+     "as_of": "2024-25 (report year)",
+     "kind": "output",
+     "quote": "607 agenda-setting outputs"
+    },
+    {
+     "label": "Media citations and op-eds",
+     "value": "509 media citations & op-eds",
+     "as_of": "2024-25 (report year)",
+     "kind": "output",
+     "quote": "509 media citations & op-eds"
+    },
+    {
+     "label": "Reform wins shaped directly by Vidhi",
+     "value": "84 reform wins",
+     "as_of": "2024-25 (report year)",
+     "kind": "output",
+     "quote": "84 reform wins – laws, rules or"
+    },
+    {
+     "label": "Bills / Rules drafted and tabled",
+     "value": "36 Bills / Rules drafted and tabled",
+     "as_of": "2024-25 (report year)",
+     "kind": "output",
+     "quote": "36 Bills / Rules drafted and tabled"
+    },
+    {
+     "label": "Reform blueprints",
+     "value": "48 Reform blueprints",
+     "as_of": "2024-25 (report year)",
+     "kind": "output",
+     "quote": "48 Reform blueprints"
+    },
+    {
+     "label": "Share of formal recommendations adopted by governments",
+     "value": "35%",
+     "as_of": "within the year (2024-25)",
+     "kind": "output",
+     "quote": "35% of Vidhi’s formal"
+    },
+    {
+     "label": "Convenings and publications",
+     "value": "80 convenings & publications",
+     "as_of": "2024-25 (report year)",
+     "kind": "output",
+     "quote": "80 convenings & publications"
+    },
+    {
+     "label": "Expert testimonies / committee briefings",
+     "value": "18 expert testimonies / committee briefings",
+     "as_of": "2024-25 (report year)",
+     "kind": "output",
+     "quote": "18 expert testimonies /"
+    },
+    {
+     "label": "Court judgments and peer-reviewed articles citing Vidhi",
+     "value": "14 court judgments and peer-reviewed articles",
+     "as_of": "2024-25 (report year)",
+     "kind": "output",
+     "quote": "14 court judgments and peer-reviewed"
+    }
+   ]
   },
   "Youth Conservation Action Network (YouCAN)": {
    "figures": [
@@ -714,9 +1971,76 @@
     }
    ],
    "report": {
-    "title": "Fellowship Report, Cohort 4",
-    "url": "https://www.youcan.in/_files/ugd/f96677_bc1eb7a94b1244a2b2a89b61b5b8580b.pdf"
-   }
+    "title": "Enabling the next generation of Education Leaders: Insights from the Earth Educators Fellowship Program, Cohort 4 (published 2026)",
+    "year": "2024-26",
+    "url": "https://www.youcan.in/_files/ugd/f96677_bc1eb7a94b1244a2b2a89b61b5b8580b.pdf",
+    "note": "Not an annual report: a publication on one fellowship cohort (Cohort 4, 2024-26)."
+   },
+   "report_figures": [
+    {
+     "label": "Students reached by Cohort 4 fellows",
+     "value": "6454 Students Reached",
+     "as_of": "Cohort 4, 2024-26",
+     "kind": "reach",
+     "quote": "1358 5-18 6454 Sessions Age group Students conducted of Students Reached"
+    },
+    {
+     "label": "Fellows at first residency",
+     "value": "19 fellows",
+     "as_of": "Cohort 4, 2024-26",
+     "kind": "people",
+     "quote": "9 days | 19 fellows | 9 facilitators"
+    },
+    {
+     "label": "Sessions conducted by Cohort 4 fellows",
+     "value": "1358 Sessions conducted",
+     "as_of": "Cohort 4, 2024-26",
+     "kind": "output",
+     "quote": "1358 5-18 6454 Sessions Age group Students conducted of Students Reached"
+    },
+    {
+     "label": "Residency days per fellowship year",
+     "value": "20 days of residencies",
+     "as_of": "Cohort 4, 2024-26",
+     "kind": "output",
+     "quote": "the Earth Educators Fellowship includes 20 days of residencies, weekly online meetings and weekly programs in schools."
+    },
+    {
+     "label": "Masterclasses held",
+     "value": "21 Masterclasses",
+     "as_of": "Cohort 4, 2024-26",
+     "kind": "output",
+     "quote": "21 Masterclasses"
+    },
+    {
+     "label": "Mentorship hours",
+     "value": "84 Mentorship Hours",
+     "as_of": "Cohort 4, 2024-26",
+     "kind": "output",
+     "quote": "84 Mentorship Hours"
+    },
+    {
+     "label": "Fellows Circles held",
+     "value": "16 Fellows Circles",
+     "as_of": "Cohort 4, 2024-26",
+     "kind": "output",
+     "quote": "16 Fellows Circles"
+    },
+    {
+     "label": "Passion-project pitches",
+     "value": "14 passion-project pitches",
+     "as_of": "Cohort 4, 2024-26",
+     "kind": "output",
+     "quote": "4 days | 14 passion-project pitches"
+    },
+    {
+     "label": "Fellow-led classroom sessions at graduation",
+     "value": "8 Fellow-led classroom sessions",
+     "as_of": "Cohort 4, 2024-26",
+     "kind": "output",
+     "quote": "8 Fellow-led classroom sessions"
+    }
+   ]
   },
   "Sahjeevan": {
    "figures": [
@@ -728,9 +2052,90 @@
     }
    ],
    "report": {
-    "title": "Annual Report 2024-25",
-    "url": "https://sahjeevan.org/wp-content/uploads/2026/02/2024-2025-Annual-Report.pdf"
-   }
+    "title": "Shared Grounds, Moving Futures: Annual Report 2024-2025",
+    "year": "2024-25",
+    "url": "https://sahjeevan.org/wp-content/uploads/2026/02/2024-2025-Annual-Report.pdf",
+    "note": "Joint Sahjeevan and Centre for Pastoralism (CfP) report."
+   },
+   "report_figures": [
+    {
+     "label": "Partner organisations",
+     "value": "over 50 partner organisations",
+     "as_of": "2024-25 (report year)",
+     "kind": "reach",
+     "quote": "Through CfP and over 50 partner"
+    },
+    {
+     "label": "Area under Community Forest Rights claims submitted",
+     "value": "42,399 ha",
+     "as_of": "2024-25",
+     "kind": "reach",
+     "quote": "The claims span 42,399 ha, covering"
+    },
+    {
+     "label": "Households represented in CFR claims",
+     "value": "5,300 households",
+     "as_of": "2024-25",
+     "kind": "reach",
+     "quote": "5,300 households of Fakirani Jatt,"
+    },
+    {
+     "label": "Visitors to Living Lightly exhibition, Bengaluru",
+     "value": "an estimated 8,000 visitors",
+     "as_of": "January 31–February 16, 2025",
+     "kind": "reach",
+     "quote": "16 schools and an estimated 8,000 visitors in total engaged with them and"
+    },
+    {
+     "label": "Organisational turnover",
+     "value": "₹12 crores",
+     "as_of": "2024-25 (report year)",
+     "kind": "money",
+     "quote": "achieved a turnover of ₹12 crores"
+    },
+    {
+     "label": "Desi Oon Exhibition cumulative turnover",
+     "value": "over ₹78 lakh",
+     "as_of": "cumulative since inception",
+     "kind": "money",
+     "quote": "has cumulatively generated over ₹78 lakh in"
+    },
+    {
+     "label": "CfP-Sahjeevan team size",
+     "value": "87",
+     "as_of": "2024-25",
+     "kind": "people",
+     "quote": "Gender diversity in team: Total 87"
+    },
+    {
+     "label": "Community paralegals active",
+     "value": "158 community paralegals",
+     "as_of": "2024-25",
+     "kind": "people",
+     "quote": "In 2024–25, 158 community paralegals, most"
+    },
+    {
+     "label": "Forest Rights Committees formed across six states",
+     "value": "62 Forest Rights Committees",
+     "as_of": "2024-25",
+     "kind": "output",
+     "quote": "Maharashtra, and Telangana—62 Forest Rights"
+    },
+    {
+     "label": "Raw wool procured in supply chain trial",
+     "value": "5.01 tonnes",
+     "as_of": "2024-25 (report year)",
+     "kind": "output",
+     "quote": "In parallel, 5.01 tonnes of raw wool were"
+    },
+    {
+     "label": "Pastoralist grazing sites recognised by Himachal Forest Department",
+     "value": "1,637 verified sites",
+     "as_of": "24 January 2025",
+     "kind": "output",
+     "quote": "record to formally recognise 1,637"
+    }
+   ]
   },
   "ComMutiny": {
    "figures": [
@@ -754,9 +2159,97 @@
     }
    ],
    "report": {
-    "title": "Annual Report 2025-26",
-    "url": "https://commutiny.in/sites/default/files/ComMutiny%20_Annual%20Report.pdf"
-   }
+    "title": "ComMutiny - The Youth Collective Annual Report 2025-26",
+    "year": "2025-26",
+    "url": "https://commutiny.in/sites/default/files/ComMutiny%20_Annual%20Report.pdf",
+    "note": "Balance Sheet pages are images with no extractable text, so no income or expenditure figures."
+   },
+   "report_figures": [
+    {
+     "label": "vartaLeap ecosystem members",
+     "value": "260+ ecosystem members",
+     "as_of": "as per April 2026",
+     "kind": "reach",
+     "quote": "260+ ecosystem members"
+    },
+    {
+     "label": "vartaLeap members",
+     "value": "121",
+     "as_of": "as per April 2026",
+     "kind": "reach",
+     "quote": "121- vartaLeap members"
+    },
+    {
+     "label": "Member organisations",
+     "value": "100",
+     "as_of": "as per April 2026",
+     "kind": "reach",
+     "quote": "100- Member organisations"
+    },
+    {
+     "label": "States represented in coalition",
+     "value": "19",
+     "as_of": "as per April 2026",
+     "kind": "reach",
+     "quote": "19- States represented"
+    },
+    {
+     "label": "Just Jagriks (potential youth and adolescent leaders)",
+     "value": "10k+",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "Just Jagrik- 10k+"
+    },
+    {
+     "label": "Jabardast Jagriks (early stage youth leaders)",
+     "value": "4180",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "Jabardast Jagrik-4180"
+    },
+    {
+     "label": "Jeevan Jagriks (lifelong youth leaders)",
+     "value": "95",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "Jeevan Jagrik- 95"
+    },
+    {
+     "label": "Partner organisations in Accelerate programmes",
+     "value": "64",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "Partner orgs- 64"
+    },
+    {
+     "label": "Community members reached through Samjho Toh outreach",
+     "value": "250,000+ community members",
+     "as_of": "across two cycles",
+     "kind": "reach",
+     "quote": "250,000+ community members"
+    },
+    {
+     "label": "Gender Jagriks engaged in Changelooms",
+     "value": "1,242 Gender Jagriks",
+     "as_of": "2025–26",
+     "kind": "reach",
+     "quote": "1,242 Gender Jagriks"
+    },
+    {
+     "label": "Estimated annual investment across 100 vartaLeap organisations",
+     "value": "₹103 crore",
+     "as_of": "annual estimate (sector report)",
+     "kind": "money",
+     "quote": "vartaLeap organisations, an estimated annual investment of ₹103 crore engages 89,300 potential"
+    },
+    {
+     "label": "Voluntary engagement hours contributed by members",
+     "value": "more than 3,500 voluntary engagement hours",
+     "as_of": "2025-26 (report year)",
+     "kind": "output",
+     "quote": "Members contributed more than 3,500 voluntary engagement hours"
+    }
+   ]
   },
   "ACT Grants": {
    "figures": [
@@ -832,9 +2325,97 @@
     }
    ],
    "report": {
-    "title": "Annual Report FY 2024-25",
-    "url": "https://www.janaagraha.org/wp-content/uploads/2026/03/Annual-Report-2024-25-janaagraha.pdf"
-   }
+    "title": "Annual Report 2024-25: Ambitious Agendas. Meaningful Momentum.",
+    "year": "2024-25",
+    "url": "https://www.janaagraha.org/wp-content/uploads/2026/03/Annual-Report-2024-25-janaagraha.pdf",
+    "note": "Financial table is headed 'In INR, Crores';"
+   },
+   "report_figures": [
+    {
+     "label": "Roads built to Tender S.U.R.E. standards",
+     "value": "more than 500 km of roads in 35 cities across 6 states",
+     "as_of": "cumulative",
+     "kind": "reach",
+     "quote": "have been adopted across more than 500 km of"
+    },
+    {
+     "label": "States and ULGs covered by CAG 74th CAA audits supported",
+     "value": "18 states and 393 Urban Local Governments",
+     "as_of": "2019-2024",
+     "kind": "reach",
+     "quote": "2019-2024, the audits covered 18 states and 393"
+    },
+    {
+     "label": "Slum Dwellers Association members trained, Odisha",
+     "value": "10,094 SDA members",
+     "as_of": "cumulative",
+     "kind": "reach",
+     "quote": "who then cascaded the training to 10,094 SDA members"
+    },
+    {
+     "label": "Families with improved infrastructure, Odisha slums",
+     "value": "2,04,007 families across 1,684 communities",
+     "as_of": "cumulative",
+     "kind": "reach",
+     "quote": "2,04,007 families across 1,684 communities gained"
+    },
+    {
+     "label": "Citizens engaged through Karnataka Ward Samiti Balaga",
+     "value": "over 5,000 citizens and nearly 500 RWAs and CSOs",
+     "as_of": "2022 to 2025",
+     "kind": "reach",
+     "quote": "Samiti Balaga’s efforts, over 5,000 citizens and nearly 500"
+    },
+    {
+     "label": "Government schools running civic programme, Kurukshetra",
+     "value": "50 government schools",
+     "as_of": "2024-25 (report year)",
+     "kind": "reach",
+     "quote": "Programme (CSAP) was implemented across 50 government"
+    },
+    {
+     "label": "Small towns with City Action Plans, Uttar Pradesh",
+     "value": "100 small towns",
+     "as_of": "2024-25 (report year)",
+     "kind": "reach",
+     "quote": "the Aspirational Cities Programme, developing City Action Plans for 100 small towns while"
+    },
+    {
+     "label": "Total income",
+     "value": "32.70 (In INR, Crores)",
+     "as_of": "Year ended March 31, 2025",
+     "kind": "money",
+     "quote": "TOTAL 32.70 24.34 22.13"
+    },
+    {
+     "label": "Total expenditure",
+     "value": "28.37 (In INR, Crores)",
+     "as_of": "Year ended March 31, 2025",
+     "kind": "money",
+     "quote": "TOTAL 28.37 26.05 24.82"
+    },
+    {
+     "label": "Income from donations",
+     "value": "30.46 (In INR, Crores)",
+     "as_of": "Year ended March 31, 2025",
+     "kind": "money",
+     "quote": "Income from Donations 30.46 21.36 20.03"
+    },
+    {
+     "label": "Team size",
+     "value": "130+ team members",
+     "as_of": "2024-25 (report year)",
+     "kind": "people",
+     "quote": "130+ team"
+    },
+    {
+     "label": "Financial statements hosted on CityFinance.in",
+     "value": "15,000+ financial statements",
+     "as_of": "2024-25 (report year)",
+     "kind": "output",
+     "quote": "on CityFinance.in. The platform hosts 15,000+"
+    }
+   ]
   },
   "Akshayakalpa Foundation": {
    "figures": [
@@ -927,9 +2508,97 @@
     }
    ],
    "report": {
-    "title": "Annual Report 2025-26",
-    "url": "https://svym.org/wp-content/uploads/2026/09/SVYM-Annual-Report-2025-26.pdf"
-   }
+    "title": "Swami Vivekananda Youth Movement Annual Report 2025-26: One Home, Many Lives",
+    "year": "2025-26",
+    "url": "https://svym.org/wp-content/uploads/2026/09/SVYM-Annual-Report-2025-26.pdf",
+    "note": "Financial Highlights pages (income composition, rupee spending, geographical segmentation) are charts with no extractable text;"
+   },
+   "report_figures": [
+    {
+     "label": "People being served, organisation-wide",
+     "value": "3.5 Million people",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "3.5 Million people being served"
+    },
+    {
+     "label": "Districts of Karnataka covered",
+     "value": "31 Districts of Karnataka",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "31 Districts of Karnataka"
+    },
+    {
+     "label": "Outpatient visits at Vivekananda Memorial Hospital",
+     "value": "65,167",
+     "as_of": "FY 2025-26",
+     "kind": "reach",
+     "quote": "65,167 Outpatient visits recorded at VMH"
+    },
+    {
+     "label": "Families given free palliative care",
+     "value": "4,300 Families",
+     "as_of": "FY 2025-26",
+     "kind": "reach",
+     "quote": "4,300 Families served with holistic and"
+    },
+    {
+     "label": "Individuals screened for TB with handheld chest X-rays",
+     "value": "59,743 Individuals",
+     "as_of": "FY 2025-26",
+     "kind": "reach",
+     "quote": "59,743 Individuals screened using handheld CXRs through technology-enabled"
+    },
+    {
+     "label": "Students reached by School Education Program in government schools",
+     "value": "21,126 students",
+     "as_of": "FY 2025-26",
+     "kind": "reach",
+     "quote": "Karnataka, reaching 21,126 students from Grades III to X."
+    },
+    {
+     "label": "Farmers cultivating millets and acreage",
+     "value": "547 Farmers; 501.4 acres",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "547 Farmers cultivated varieties of millets across 501.4 acres"
+    },
+    {
+     "label": "Estimated population reached by Janadhwani community radio",
+     "value": "2.7 lakh",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "256 villages within a 40 km radius, reaching an estimated population of 2.7 lakh."
+    },
+    {
+     "label": "Total income",
+     "value": "₹89.84 crore",
+     "as_of": "FY 2025–26",
+     "kind": "money",
+     "quote": "Our total income increased from ₹82.83 crore in FY 2024–25 to ₹89.84 crore in FY 2025–26"
+    },
+    {
+     "label": "Overhead share of total expenditure",
+     "value": "5% of total expenditure",
+     "as_of": "FY 2025–26",
+     "kind": "money",
+     "quote": "overhead expenses remained at 5% of total expenditure"
+    },
+    {
+     "label": "Full-time employees",
+     "value": "868 full-time employees",
+     "as_of": "2025-26 (report year)",
+     "kind": "people",
+     "quote": "With 868 full-time employees"
+    },
+    {
+     "label": "Programs run",
+     "value": "40+ Programs",
+     "as_of": "2025-26 (report year)",
+     "kind": "output",
+     "quote": "40+ Programs"
+    }
+   ]
   },
   "Himalaya Unnati Mission": {
    "figures": [
@@ -971,8 +2640,82 @@
    ],
    "report": {
     "title": "The State of Rural Vulnerability Report 2023",
-    "url": "https://www.rcrc.in/__l5e/assets-v1/0d084142-4551-4c2c-9282-4303061a4e5d/The-State-of-Rural-Vulnerability-Report-2023.pdf"
-   }
+    "year": "2023",
+    "url": "https://www.rcrc.in/__l5e/assets-v1/0d084142-4551-4c2c-9282-4303061a4e5d/The-State-of-Rural-Vulnerability-Report-2023.pdf",
+    "note": "Research survey report, not an annual report: figures are survey coverage and coalition size."
+   },
+   "report_figures": [
+    {
+     "label": "RCRC member organisations",
+     "value": "96 members",
+     "as_of": "2023 (report year)",
+     "kind": "reach",
+     "quote": "RCRC currently comprises 96 members with a"
+    },
+    {
+     "label": "Districts and states of RCRC footprint",
+     "value": "over 110 districts of 15 states",
+     "as_of": "2023 (report year)",
+     "kind": "reach",
+     "quote": "of RCRC, in over 110 districts of 15 states, makes"
+    },
+    {
+     "label": "CSOs partnering in the survey",
+     "value": "38 civil society organizations",
+     "as_of": "2023 (report year)",
+     "kind": "reach",
+     "quote": "38 civil society organizations within the RCRC"
+    },
+    {
+     "label": "Founding coalition size",
+     "value": "20 civil society organizations",
+     "as_of": "March 2020",
+     "kind": "reach",
+     "quote": "comprising 20 civil society organizations. RCRC"
+    },
+    {
+     "label": "Households and villages surveyed (round 4)",
+     "value": "11265 households from 773 villages",
+     "as_of": "2023 (report year)",
+     "kind": "output",
+     "quote": "A total of 11265 households from 773 villages,"
+    },
+    {
+     "label": "Blocks, districts, states surveyed (round 4)",
+     "value": "39 blocks, 36 districts, 12 states",
+     "as_of": "2023 (report year)",
+     "kind": "output",
+     "quote": "39 blocks, 36 districts, 12 states were"
+    },
+    {
+     "label": "Households in first survey round",
+     "value": "more than 11,000 households",
+     "as_of": "March 2020",
+     "kind": "output",
+     "quote": "was done covering more than 11,000 households"
+    },
+    {
+     "label": "Households in second survey round",
+     "value": "more than 17,000 households",
+     "as_of": "June-July 2020",
+     "kind": "output",
+     "quote": "more than 17,000 households spread across"
+    },
+    {
+     "label": "Households in third survey round",
+     "value": "11,600 households",
+     "as_of": "December 2020-January 2021",
+     "kind": "output",
+     "quote": "11,600 households. The survey reassessed some"
+    },
+    {
+     "label": "Share of survey respondents who were women",
+     "value": "37%",
+     "as_of": "2023 (report year)",
+     "kind": "output",
+     "quote": "Among the respondents, 37% were women;"
+    }
+   ]
   },
   "Wassan": {
    "figures": [
@@ -996,9 +2739,97 @@
     }
    ],
    "report": {
-    "title": "Annual Report 2024-25",
-    "url": "https://wassan.org/wp-content/uploads/2026/03/WASSAN-Annual-Report-2024-25-Work-in-Progress.pdf"
-   }
+    "title": "WASSAN’s Annual Report | 2024-25 (marked 'WORK IN PROGRESS'; cover title '25 Years of Learning: Our Evolving Theory of Change')",
+    "year": "2024-25",
+    "url": "https://wassan.org/wp-content/uploads/2026/03/WASSAN-Annual-Report-2024-25-Work-in-Progress.pdf",
+    "note": "Document is a draft marked 'WORK IN PROGRESS' with several blank placeholders (___)."
+   },
+   "report_figures": [
+    {
+     "label": "Farmers engaged, Shree Anna Abhiyan (Odisha govt programme)",
+     "value": "263,268 farmers",
+     "as_of": "FY 2024-25",
+     "kind": "reach",
+     "quote": "The program directly engaged 263,268 farmers in FY 2024-25"
+    },
+    {
+     "label": "Area under millet cultivation, Shree Anna Abhiyan",
+     "value": "over 144,732.94 hectares",
+     "as_of": "2024-25 (report year)",
+     "kind": "reach",
+     "quote": "directly engaging 263,268 farmers and bringing over 144,732.94 hectares under millet"
+    },
+    {
+     "label": "Rayalseema Water Initiative coverage (8-CSO collaboration)",
+     "value": "57 Gram Panchayats, 299 habitations, 24,137 small & marginal farmers",
+     "as_of": "2024-25 (report year)",
+     "kind": "reach",
+     "quote": "57 Gram Panchayats, 299 habitations, 24,137 small & marginal farmers, 129 community"
+    },
+    {
+     "label": "JIVA facilitating agencies trained and states",
+     "value": "41 Program facilitating agencies trained across 20 States",
+     "as_of": "2024-25 (report year)",
+     "kind": "reach",
+     "quote": "41 Program facilitating agencies trained across 20 States"
+    },
+    {
+     "label": "RRA Network partner organisations",
+     "value": "130 partner organisations",
+     "as_of": "2024-25 (report year)",
+     "kind": "reach",
+     "quote": "130 partner organisations, 24 research institutions, 18 CBOs, 12 networks, 10"
+    },
+    {
+     "label": "Millet clusters and farmers, RRA Working Group on Millets",
+     "value": "173 millet clusters involving 8,752 farmers",
+     "as_of": "2024-25 (report year)",
+     "kind": "reach",
+     "quote": "mentor supported in establishing 173 millet clusters involving 8,752 farmers and"
+    },
+    {
+     "label": "Families covered, Green Evolution project (Jharkhand + Odisha)",
+     "value": "3224",
+     "as_of": "2024–25",
+     "kind": "reach",
+     "quote": "Number of families covered 1898 1326 3224"
+    },
+    {
+     "label": "Landscape area delineated, SABAL project (Andhra Pradesh)",
+     "value": "12,135 hectares",
+     "as_of": "since 2022 (cumulative)",
+     "kind": "reach",
+     "quote": "A total of 12,135 hectares has been"
+    },
+    {
+     "label": "Turnover of millet-based women-led enterprises",
+     "value": "Rs 452.45 lakhs",
+     "as_of": "FY 2024-25",
+     "kind": "money",
+     "quote": "generating Rs 452.45 lakhs turnover in FY 2024-25."
+    },
+    {
+     "label": "Expenditure, Jharkhand High Impact Mega Watershed Project",
+     "value": "₹7.29 crore",
+     "as_of": "till FY 2024-25",
+     "kind": "money",
+     "quote": "Expenditure till FY 2024-25 : ₹7.29 crore"
+    },
+    {
+     "label": "Ragi procured and farmers supplying, Shree Anna Abhiyan",
+     "value": "757,826.09 quintals of Ragi from 62,007 farmers",
+     "as_of": "2024-25 (report year)",
+     "kind": "output",
+     "quote": "Procured 757,826.09 quintals of Ragi from 62,007 farmers at Rs 4,500/quintal."
+    },
+    {
+     "label": "Persondays generated via MGNREGA convergence, Jharkhand watershed",
+     "value": "5.46 lakh persondays",
+     "as_of": "till FY 2024-25 (report year)",
+     "kind": "output",
+     "quote": "5.46 lakh persondays generated through MGNREGA convergence."
+    }
+   ]
   },
   "Uttarayan": {
    "figures": [
@@ -1032,58 +2863,699 @@
   "Saath Charitable Trust": {
    "figures": [],
    "report": {
-    "title": "Annual Report 2025-26",
-    "url": "https://saath.org/public/storage/pdfs/annual_reports/y0I7l6mZICjFutnSVagxBIxNrzr5OIguntQWWVYu.pdf"
-   }
+    "title": "Annual Report 2025-2026",
+    "year": "2025-26",
+    "url": "https://saath.org/public/storage/pdfs/annual_reports/y0I7l6mZICjFutnSVagxBIxNrzr5OIguntQWWVYu.pdf",
+    "note": "All 'Year In Numbers' pages, 'Funds Generated', Income & Expenditure Account and Balance Sheet are images with no extractable text, so no financial, staff or thematic totals are available."
+   },
+   "report_figures": [
+    {
+     "label": "People reached across six thematic pillars",
+     "value": "over 2 lakh people",
+     "as_of": "FY 2025-26",
+     "kind": "reach",
+     "quote": "SAATH reached over 2 lakh people through its six thematic pillars"
+    },
+    {
+     "label": "Cities and districts of operation (Gujarat, Rajasthan, Uttar Pradesh)",
+     "value": "16 cities and 9 districts",
+     "as_of": "FY 2025-26",
+     "kind": "reach",
+     "quote": "Working across 16 cities and 9 districts in Gujarat, Rajasthan, and Uttar"
+    },
+    {
+     "label": "Individuals impacted by founder-led initiatives (trustee bio)",
+     "value": "over 10 lakh individuals",
+     "as_of": "cumulative",
+     "kind": "reach",
+     "quote": "initiatives in slum development and sustainable livelihoods, impacting over 10 lakh individuals."
+    },
+    {
+     "label": "NGOs in VADA network",
+     "value": "25+ NGOs",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "a network of 25+ NGOs"
+    },
+    {
+     "label": "Animals treated at new Vagra veterinary hospital",
+     "value": "approximately 5,000 animals",
+     "as_of": "since becoming operational",
+     "kind": "reach",
+     "quote": "treated approximately 5,000 animals and serves"
+    },
+    {
+     "label": "Villages served by Vagra veterinary hospital",
+     "value": "around 73 surrounding villages",
+     "as_of": "since becoming operational",
+     "kind": "reach",
+     "quote": "cattle breeders from around 73 surrounding"
+    },
+    {
+     "label": "Anganwadi Workers trained on anaemia, Kheda district",
+     "value": "54 Anganwadi Workers from 16 villages",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "conducted for 54 Anganwadi Workers from 16"
+    },
+    {
+     "label": "Waste collector households surveyed, Kheda",
+     "value": "54 waste collector households",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "The programme surveyed 54 waste collector"
+    },
+    {
+     "label": "Collective income of Saath Sakhi Cleaning Solutions group",
+     "value": "approximately ₹36,600",
+     "as_of": "2025-26 (report year)",
+     "kind": "money",
+     "quote": "approximately ₹36,600 in collective income."
+    },
+    {
+     "label": "Solar street lights installed, Keswan",
+     "value": "21 solar-powered street lights",
+     "as_of": "2025-26 (report year)",
+     "kind": "output",
+     "quote": "install 21 solar-powered street lights across the"
+    },
+    {
+     "label": "Phenyl bottles produced and sold by women's enterprise",
+     "value": "1,644 bottles of phenyl",
+     "as_of": "2025-26 (report year)",
+     "kind": "output",
+     "quote": "the group produced and sold 1,644 bottles of phenyl, generating"
+    }
+   ]
   },
   "Palluyir Trust": {
    "figures": [],
    "report": {
-    "title": "Annual Report 2025-26",
-    "url": "https://palluyirtrust.org/wp-content/uploads/2026/09/Annual-Report-2025-26.pdf"
-   }
+    "title": "Palluyir Trust for Nature Education and Research Annual Report 2025 - 26",
+    "year": "2025-26",
+    "url": "https://palluyirtrust.org/wp-content/uploads/2026/09/Annual-Report-2025-26.pdf",
+    "note": "The 'Audited Financial Statements 2025 - 26' section has only a heading in the text (statements appear to be images), so no money figures could be extracted."
+   },
+   "report_figures": [
+    {
+     "label": "Total people directly engaged",
+     "value": "2406 People",
+     "as_of": "2025-26",
+     "kind": "reach",
+     "quote": "Total 2406 People"
+    },
+    {
+     "label": "Members of public engaged",
+     "value": "1432 Public",
+     "as_of": "2025-26",
+     "kind": "reach",
+     "quote": "1432 Public"
+    },
+    {
+     "label": "Children engaged",
+     "value": "944 Children",
+     "as_of": "2025-26",
+     "kind": "reach",
+     "quote": "944 Children"
+    },
+    {
+     "label": "Teachers engaged",
+     "value": "30 Teachers",
+     "as_of": "2025-26",
+     "kind": "reach",
+     "quote": "30 Teachers"
+    },
+    {
+     "label": "Government schools in Local Nature-based Learning Programme",
+     "value": "6 government schools",
+     "as_of": "July 2025 - March 2026",
+     "kind": "reach",
+     "quote": "program ran in 6 government"
+    },
+    {
+     "label": "Local youth volunteers in Sirudavoor PBR",
+     "value": "13 local youth volunteers",
+     "as_of": "concluded March 2026",
+     "kind": "people",
+     "quote": "13 local youth volunteers"
+    },
+    {
+     "label": "Nature educators on the GCC school programme",
+     "value": "08 Nature Educators",
+     "as_of": "July 2025 - March 2026",
+     "kind": "people",
+     "quote": "08 Nature Educators"
+    },
+    {
+     "label": "Total sessions conducted",
+     "value": "148 Sessions",
+     "as_of": "2025-2026",
+     "kind": "output",
+     "quote": "Total 148 Sessions"
+    },
+    {
+     "label": "Nature-based learning sessions in GCC schools",
+     "value": "67 Sessions",
+     "as_of": "July 2025 - March 2026",
+     "kind": "output",
+     "quote": "9 Months - 67 Sessions"
+    },
+    {
+     "label": "Nature education materials distributed",
+     "value": "2081",
+     "as_of": "2025-26 (report year)",
+     "kind": "output",
+     "quote": "Total 2081"
+    },
+    {
+     "label": "Downloads of free nature education resources",
+     "value": "650 Downloads",
+     "as_of": "2025-26 (report year)",
+     "kind": "output",
+     "quote": "650 Downloads"
+    },
+    {
+     "label": "City Nature Challenge observations and species (Chennai)",
+     "value": "2,719 observations documenting 826 species",
+     "as_of": "April 24–27, 2026",
+     "kind": "output",
+     "quote": "2,719 observations documenting a staggering 826 species,"
+    }
+   ]
   },
   "Wetlands International South Asia": {
    "figures": [],
    "report": {
-    "title": "Annual Report 2025-26",
-    "url": "https://south-asia.wetlands.org/download/4391/?tmstv=1795626844"
-   }
+    "title": "Wetlands International South Asia Annual Report 2025–2026",
+    "year": "2025-26",
+    "url": "https://south-asia.wetlands.org/download/4391/?tmstv=1795626844",
+    "note": "Staff are listed by name on the 'Our Team' pages but no headcount is printed."
+   },
+   "report_figures": [
+    {
+     "label": "Ramsar Sites with management effectiveness evaluation completed",
+     "value": "65 Ramsar Sites",
+     "as_of": "2025-26 (cumulative coverage)",
+     "kind": "reach",
+     "quote": "expanded to 65 Ramsar Sites"
+    },
+    {
+     "label": "Wetlands covered by mid-winter Asian Waterbird Census",
+     "value": "over 3,000 wetlands",
+     "as_of": "AWC 2026 (January 3–18, 2026)",
+     "kind": "reach",
+     "quote": "The AWC 2026 covered over 3,000 wetlands"
+    },
+    {
+     "label": "States and UTs covered by Asian Waterbird Census",
+     "value": "33 States and Union Territories",
+     "as_of": "AWC 2026",
+     "kind": "reach",
+     "quote": "least 3000 wetlands across 33"
+    },
+    {
+     "label": "People trained in wetlands conservation",
+     "value": "500 people",
+     "as_of": "2025-26",
+     "kind": "reach",
+     "quote": "500 people trained in"
+    },
+    {
+     "label": "Funding leveraged, integrated management of wetlands programme",
+     "value": "Rs 17.8 Cr",
+     "as_of": "2025-26",
+     "kind": "money",
+     "quote": "Rs 17.8 Cr"
+    },
+    {
+     "label": "Total income",
+     "value": "61,117,249 (Amount in INR)",
+     "as_of": "year ended 31 March 2026",
+     "kind": "money",
+     "quote": "TOTAL 61,117,249 61,745,579"
+    },
+    {
+     "label": "Total expenses",
+     "value": "71,673,022 (Amount in INR)",
+     "as_of": "year ended 31 March 2026",
+     "kind": "money",
+     "quote": "TOTAL 71,673,022 70,185,103"
+    },
+    {
+     "label": "Society membership (General Body members)",
+     "value": "79 members",
+     "as_of": "as of 31 March 2026",
+     "kind": "people",
+     "quote": "membership in the Society increased from 59 to 79 members."
+    },
+    {
+     "label": "Wetland sites condition-assessed and area spanned",
+     "value": "835 sites, spanning 3.31 million ha",
+     "as_of": "2025-26",
+     "kind": "output",
+     "quote": "Wetland condition assessed for 835 sites, spanning 3.31 million ha using eight indicators"
+    },
+    {
+     "label": "Yamuna floodplain wetlands surveyed in detail",
+     "value": "207 wetlands",
+     "as_of": "2025-26",
+     "kind": "output",
+     "quote": "During the year, detailed surveys of 207 wetlands"
+    },
+    {
+     "label": "Wetlands mapped around four Tata Motors facilities",
+     "value": "Over 13,000 wetlands",
+     "as_of": "2025-26",
+     "kind": "output",
+     "quote": "13,000 wetlands with areas >0.5 ha were mapped"
+    },
+    {
+     "label": "Wetland health cards produced",
+     "value": "300 wetlands",
+     "as_of": "2025-26",
+     "kind": "output",
+     "quote": "Health cards for 300 wetlands"
+    }
+   ]
   },
   "Kalpavriksh": {
    "figures": [],
    "report": {
-    "title": "Annual Report 2024-25",
-    "url": "https://kalpavriksh.org/wp-content/uploads/2026/01/Kalpavriksh-Annual-Report-2024-2025-FINAL.pdf"
-   }
+    "title": "Kalpavriksh Annual Report 2024-2025",
+    "year": "2024-25",
+    "url": "https://kalpavriksh.org/wp-content/uploads/2026/01/Kalpavriksh-Annual-Report-2024-2025-FINAL.pdf",
+    "note": "Title taken from the source file name;"
+   },
+   "report_figures": [
+    {
+     "label": "Vikalp Sangam website visitors and views",
+     "value": "300,376 visitors; 362,342 views",
+     "as_of": "April 2024-March 2024 (as printed; report year 2024-25)",
+     "kind": "reach",
+     "quote": "The visitors increased by 9% (300,376) and views by 10% (362,342)"
+    },
+    {
+     "label": "RED website total readership",
+     "value": "25,159",
+     "as_of": "2024-25",
+     "kind": "reach",
+     "quote": "Total readership – 25,159"
+    },
+    {
+     "label": "Delegates at Nagaland CCA Forum state meeting",
+     "value": "150 delegates from 26 CCAs",
+     "as_of": "19 June 2024",
+     "kind": "reach",
+     "quote": "the meet brought together 150 delegates"
+    },
+    {
+     "label": "Participants at Eastern Nagaland CCA Assembly",
+     "value": "over 570 participants from 50 villages",
+     "as_of": "November 2024",
+     "kind": "reach",
+     "quote": "CCAs was held in November 2024 at Choklangan village, bringing together over 570"
+    },
+    {
+     "label": "People engaged through Munsiyari festivals and outreach",
+     "value": "over 2,000 community members and children",
+     "as_of": "2024-25 (report year)",
+     "kind": "reach",
+     "quote": "festivals engaged over 2,000 community members and children in ecological"
+    },
+    {
+     "label": "Participants at 10th Anniversary National Vikalp Sangam",
+     "value": "About 130 people",
+     "as_of": "21-24 November 2024",
+     "kind": "reach",
+     "quote": "About 130 people including about 85 from outside Kachchh participated"
+    },
+    {
+     "label": "Funds sanctioned by Tides Foundation (ICCA Consortium)",
+     "value": "INR 51,52,416",
+     "as_of": "2024-25 (report year)",
+     "kind": "money",
+     "quote": "INR 51,52,416 - Tides Foundation (ICCA Consortium)"
+    },
+    {
+     "label": "Misereor funds sanctioned, documentation and outreach project",
+     "value": "INR 51,60279/-",
+     "as_of": "March 2024 to February 2027",
+     "kind": "money",
+     "quote": "Total funds sanctioned: INR 51,60279/-"
+    },
+    {
+     "label": "Stories published on Vikalp Sangam website",
+     "value": "103 stories",
+     "as_of": "April 2024-March 2024 (as printed; report year 2024-25)",
+     "kind": "output",
+     "quote": "we published 103 stories"
+    },
+    {
+     "label": "Total stories on Vikalp Sangam website",
+     "value": "crossed 2000",
+     "as_of": "cumulative",
+     "kind": "output",
+     "quote": "The total number of stories on the website has crossed 2000"
+    },
+    {
+     "label": "Community Conserved Areas documented in Nagaland project",
+     "value": "30 CCAs",
+     "as_of": "2024-25 (report year)",
+     "kind": "output",
+     "quote": "30 CCAs were documented through the above-mentioned project."
+    },
+    {
+     "label": "Community Forest Rights claims filed with Van Gujjars",
+     "value": "Over 100+ Community Forest Rights claims",
+     "as_of": "2024-25 (report year)",
+     "kind": "output",
+     "quote": "Over 100+ Community Forest Rights claims were filed across"
+    }
+   ]
   },
   "India Development Review (IDR)": {
    "figures": [],
    "report": {
-    "title": "Audited financial report 2024-25",
-    "url": "https://idronline.org/wp-content/uploads/2026/07/Audited-financial-Report-2024-25.pdf"
-   }
+    "title": "Forum for Knowledge and Social Impact: Director's Report and audited financial statements for the year ended 31 March 2025",
+    "year": "2024-25",
+    "url": "https://idronline.org/wp-content/uploads/2026/07/Audited-financial-Report-2024-25.pdf",
+    "note": "Document is the audited financial report of the legal entity Forum for Knowledge and Social Impact (IDR is not named in readable text)."
+   },
+   "report_figures": [
+    {
+     "label": "Donations and grants (income)",
+     "value": "36,047.77 (Rupees; all amounts in thousands)",
+     "as_of": "Year ended March 31, 2025",
+     "kind": "money",
+     "quote": "Donations and Grants 10 36,047.77 25,736.87"
+    },
+    {
+     "label": "Other income (interest on FD)",
+     "value": "223.89 (Rupees; all amounts in thousands)",
+     "as_of": "Year ended March 31, 2025",
+     "kind": "money",
+     "quote": "Interest on FD 223.89 -"
+    },
+    {
+     "label": "Total income",
+     "value": "36,271.66 (Rupees; all amounts in thousands)",
+     "as_of": "Year ended March 31, 2025",
+     "kind": "money",
+     "quote": "TOTAL 36,271.66 25,736.87"
+    },
+    {
+     "label": "Expenditure on objects/activities",
+     "value": "32,540.14 (Rupees; all amounts in thousands)",
+     "as_of": "Year ended March 31, 2025",
+     "kind": "money",
+     "quote": "Expenditure on Objects/ Activities 12 32,540.14 22,758.00"
+    },
+    {
+     "label": "Total expenditure",
+     "value": "33,238.54 (Rupees; all amounts in thousands)",
+     "as_of": "Year ended March 31, 2025",
+     "kind": "money",
+     "quote": "TOTAL 33,238.54 23,262.60"
+    },
+    {
+     "label": "Surplus for the year",
+     "value": "30,33,124.19 (Amount Rs.)",
+     "as_of": "Year ended 31st March 2025",
+     "kind": "money",
+     "quote": "Surplus/(Deficit) for the year (1) 30,33,124.19 24,74,269.68"
+    },
+    {
+     "label": "Staff salary and stipend expense",
+     "value": "19,602.50 (Rupees; all amounts in thousands)",
+     "as_of": "Year ended March 31, 2025",
+     "kind": "money",
+     "quote": "Staff Salary & Stipend 19,602.50 12,228.82"
+    },
+    {
+     "label": "Reserves and surplus (balance sheet)",
+     "value": "8,325.46 (Rupees; all amounts in thousands)",
+     "as_of": "As at March 31, 2025",
+     "kind": "money",
+     "quote": "Reserves and Surplus 4 8,325.46 5,292.34"
+    },
+    {
+     "label": "Cash and bank balances",
+     "value": "6,921.92 (Rupees; all amounts in thousands)",
+     "as_of": "As at March 31, 2025",
+     "kind": "money",
+     "quote": "Cash and bank balances 9 6,921.92 4,043.75"
+    }
+   ]
   },
   "Veditum": {
    "figures": [],
    "report": {
-    "title": "Activity Report April 2024 to March 2025",
-    "url": "https://veditum.org/wp-content/uploads/2025/07/VIF-AR2425-ForWeb.pdf"
-   }
+    "title": "Veditum India Foundation Activity Report: FY 2024 - 2025",
+    "year": "2024-25",
+    "url": "https://veditum.org/wp-content/uploads/2025/07/VIF-AR2425-ForWeb.pdf",
+    "note": "Activity report with no financial statements;"
+   },
+   "report_figures": [
+    {
+     "label": "Applications to work with Veditum",
+     "value": "362",
+     "as_of": "April 2024 - March 2025",
+     "kind": "reach",
+     "quote": "11 362 >60% PUBLICATIONS APPLICATIONS TO APPLICATIONS FROM WORK WITH VEDITUM WOMEN"
+    },
+    {
+     "label": "New partner organisations",
+     "value": "6",
+     "as_of": "April 2024 - March 2025",
+     "kind": "reach",
+     "quote": "600+ 6 50 VOLUNTEERING HOURS NEW PARTNER PUBLIC ENGAGEMENTS WITH VEDITUM ORGANISATIONS"
+    },
+    {
+     "label": "Total followers across platforms",
+     "value": "16,000+",
+     "as_of": "April 2024 - March 2025 (report year)",
+     "kind": "reach",
+     "quote": "16,000+ 2,500+ TOTAL FOLLOWERS REPORTS ARCHIVED ON ACROSS PLATFORMS INDIA SAND WATCH"
+    },
+    {
+     "label": "Impressions on social platforms and web",
+     "value": "8,00,000+",
+     "as_of": "April 2024 - March 2025",
+     "kind": "reach",
+     "quote": "8,00,000+ 7000+ IMPRESSIONS ON DOCUMENTARY VIEWS SOCIAL PLATFORMS & WEB"
+    },
+    {
+     "label": "Views on websites and newsletter",
+     "value": "63,000+",
+     "as_of": "April 2024 - March 2025",
+     "kind": "reach",
+     "quote": "63,000+ VIEWS ON WEBSITES & NEWSLETTER"
+    },
+    {
+     "label": "Raised in annual fundraising campaign from 80 supporters",
+     "value": "INR 4,27,450",
+     "as_of": "August 2024",
+     "kind": "money",
+     "quote": "supporters, we were able to raise INR 4,27,450 of our"
+    },
+    {
+     "label": "Volunteering hours with Veditum",
+     "value": "600+",
+     "as_of": "April 2024 - March 2025",
+     "kind": "people",
+     "quote": "600+ 6 50 VOLUNTEERING HOURS NEW PARTNER PUBLIC ENGAGEMENTS"
+    },
+    {
+     "label": "Publications",
+     "value": "11",
+     "as_of": "April 2024 - March 2025",
+     "kind": "output",
+     "quote": "11 362 >60% PUBLICATIONS APPLICATIONS TO APPLICATIONS FROM"
+    },
+    {
+     "label": "Public engagements (events, screenings, workshops, lectures)",
+     "value": "50",
+     "as_of": "April 2024 - March 2025",
+     "kind": "output",
+     "quote": "600+ 6 50 VOLUNTEERING HOURS NEW PARTNER PUBLIC ENGAGEMENTS WITH VEDITUM ORGANISATIONS EVENTS | SCREENINGS |"
+    },
+    {
+     "label": "Reports archived on India Sand Watch",
+     "value": "2,500+",
+     "as_of": "April 2024 - March 2025 (report year)",
+     "kind": "output",
+     "quote": "16,000+ 2,500+ TOTAL FOLLOWERS REPORTS ARCHIVED ON"
+    },
+    {
+     "label": "Rivers with sand mining data identified",
+     "value": "90+",
+     "as_of": "last year (2024-25)",
+     "kind": "output",
+     "quote": "90+ 2500+ RIVERS WITH SAND REPORTS ON INDIA SAND MINING DATA WATCH IDENTIFIED LAST YEAR"
+    },
+    {
+     "label": "Distance walked along rivers in India",
+     "value": "over 6000kms",
+     "as_of": "cumulative since 2016",
+     "kind": "output",
+     "quote": "Since 2016, we have walked over 6000kms across rivers"
+    }
+   ]
   },
   "Technology for Wildlife Foundation": {
    "figures": [],
    "report": {
-    "title": "Impact report 2019 to 2024",
-    "url": "https://www.techforwildlife.com/s/TfW_ImpactReport_Final.pdf"
-   }
+    "title": "Technology for Wildlife Foundation: Reflections on Impact and Innovation in Conservation, March 2026",
+    "year": "March 2026 (covers 2017 to 2023 operations)",
+    "url": "https://www.techforwildlife.com/s/TfW_ImpactReport_Final.pdf",
+    "note": "Retrospective impact report for an organisation that has paused operations;"
+   },
+   "report_figures": [
+    {
+     "label": "Collaborators over organisation's life",
+     "value": "over 30 collaborators",
+     "as_of": "over the course of 5 years",
+     "kind": "reach",
+     "quote": "had over 30 collaborators over the course of 5"
+    },
+    {
+     "label": "Downloads of TfW's QGIS flight-planning plugin",
+     "value": "over 12,000 downloads",
+     "as_of": "cumulative",
+     "kind": "output",
+     "quote": "The QGIS plugin developed by TfW has recorded over 12,000 downloads"
+    },
+    {
+     "label": "Maps and cartographic media for partners",
+     "value": "over 40 maps",
+     "as_of": "cumulative",
+     "kind": "output",
+     "quote": "TfW created over 40 maps and related cartographic media that accompanied articles"
+    },
+    {
+     "label": "Maps and visual stories for Mongabay-India",
+     "value": "over 55 maps and visual stories",
+     "as_of": "cumulative",
+     "kind": "output",
+     "quote": "Produced over 55 maps and visual stories for"
+    },
+    {
+     "label": "Maps in Mongabay-India collaboration",
+     "value": "30+ maps and map-related/cartographic media",
+     "as_of": "October 2021 to September 2023",
+     "kind": "output",
+     "quote": "30+ maps and map-related/cartographic media."
+    },
+    {
+     "label": "Mongabay-India stories visualised",
+     "value": "23 stories across 11 different Mongabay-India verticals",
+     "as_of": "October 2021 to September 2023",
+     "kind": "output",
+     "quote": "Visualizations for 23 stories across 11 different Mongabay-India verticals."
+    },
+    {
+     "label": "Practitioners and institutions in Wings for Wildlife report",
+     "value": "25+ practitioners and institutions",
+     "as_of": "cumulative",
+     "kind": "output",
+     "quote": "consolidating insights from 25+ practitioners and institutions."
+    }
+   ]
   },
   "Biome Environmental Trust": {
    "figures": [],
    "report": {
-    "title": "Annual Report 2024-25",
-    "url": "https://biometrust.org/wp-content/uploads/2025/12/Annual-Report-2024-2025-2.pdf"
-   }
+    "title": "ANNUAL REPORT 2024 - 2025: Helping Urban India Become Water Secure",
+    "year": "2024-25",
+    "url": "https://biometrust.org/wp-content/uploads/2025/12/Annual-Report-2024-2025-2.pdf",
+    "note": "Financial pages (FINANCIALS 2023-2024 and 2024-2025) are images with no text, so no income or expenditure figures could be extracted."
+   },
+   "report_figures": [
+    {
+     "label": "Farmers and shepherds gaining water access, Kolar",
+     "value": "60+ farmers and 800+ shepherds",
+     "as_of": "2024-25",
+     "kind": "reach",
+     "quote": "60+ farmers and 800+ shepherds"
+    },
+    {
+     "label": "Residents served by revived DJ Halli well",
+     "value": "3,000+ residents",
+     "as_of": "2024-25",
+     "kind": "reach",
+     "quote": "now serving 3,000+ residents"
+    },
+    {
+     "label": "Students and schools helped with rainwater harvesting",
+     "value": "5,700+ students, and teachers of 27 schools",
+     "as_of": "2024-25",
+     "kind": "reach",
+     "quote": "5,700+ students, and teachers of 27 schools,"
+    },
+    {
+     "label": "Manual scavengers supported",
+     "value": "61 manual scavengers",
+     "as_of": "2024-25",
+     "kind": "reach",
+     "quote": "61 manual scavengers supported in"
+    },
+    {
+     "label": "Plumbers and watermen trained",
+     "value": "438 plumbers and watermen trained in 6 villages",
+     "as_of": "November 2024 to March 2025",
+     "kind": "reach",
+     "quote": "438 plumbers and watermen"
+    },
+    {
+     "label": "Women plumbers trained",
+     "value": "161 women plumbers",
+     "as_of": "2024-25",
+     "kind": "reach",
+     "quote": "161 women plumbers trained"
+    },
+    {
+     "label": "Credit disbursed to manual scavenger beneficiaries",
+     "value": "INR 91.4 lakh",
+     "as_of": "2024-25",
+     "kind": "money",
+     "quote": "INR 91.4 lakh worth of credit disbursed to"
+    },
+    {
+     "label": "Lakes and kaluves desilted, Kolar",
+     "value": "12 lakes and kaluves (water channels)",
+     "as_of": "2024-25",
+     "kind": "output",
+     "quote": "12 lakes and kaluves (water channels)"
+    },
+    {
+     "label": "Open wells revived and recharge wells dug",
+     "value": "Estimated 20+ open wells revived & 1000+ recharge wells",
+     "as_of": "2024-25",
+     "kind": "output",
+     "quote": "Estimated 20+ open wells revived & 1000+"
+    },
+    {
+     "label": "Treated wastewater reused, Devanahalli and Hunasamaranahalli",
+     "value": "211 million litres",
+     "as_of": "the last 1 year (2024-25)",
+     "kind": "output",
+     "quote": "211 million litres of diluted treated"
+    },
+    {
+     "label": "Rainwater harvested or recharged in schools",
+     "value": "7.5 million+ litres",
+     "as_of": "2024-25",
+     "kind": "output",
+     "quote": "7.5 million+ litres of rainwater"
+    },
+    {
+     "label": "Recharge wells dug across schools",
+     "value": "60+ recharge wells",
+     "as_of": "2024-25",
+     "kind": "output",
+     "quote": "60+ recharge wells dug across schools"
+    }
+   ]
   },
   "Sattva Consulting": {
    "figures": [],
@@ -1095,37 +3567,442 @@
   "Shakti Foundation": {
    "figures": [],
    "report": {
-    "title": "Annual Report 2023",
-    "url": "https://shaktifoundation.in/wp-content/uploads/2024/05/shakti-annual-report-2023.pdf"
-   }
+    "title": "Energy Dialogues: Annual Report 2023 (Shakti Sustainable Energy Foundation)",
+    "year": "2023",
+    "url": "https://shaktifoundation.in/wp-content/uploads/2024/05/shakti-annual-report-2023.pdf",
+    "note": "Report is by Shakti Sustainable Energy Foundation."
+   },
+   "report_figures": [
+    {
+     "label": "Cities where local officials received EV capacity building",
+     "value": "9 cities",
+     "as_of": "To date (2023 report)",
+     "kind": "reach",
+     "quote": "officials across 9 cities, wherein a positive response"
+    },
+    {
+     "label": "Newsletter mailing list",
+     "value": "over 800 stakeholders",
+     "as_of": "2023 (report year)",
+     "kind": "reach",
+     "quote": "disseminated to a updated mailing list of over 800"
+    },
+    {
+     "label": "Total income",
+     "value": "3,331.39 Rs. Lakhs",
+     "as_of": "Year ended March 31, 2023",
+     "kind": "money",
+     "quote": "Total Income 3,331.39"
+    },
+    {
+     "label": "Project / programme related expenditure",
+     "value": "2,417.15 Rs. Lakhs",
+     "as_of": "Year ended March 31, 2023",
+     "kind": "money",
+     "quote": "Project / Programme Related Expenditure 2,417.15"
+    },
+    {
+     "label": "Employee benefit expenses",
+     "value": "477.24 Rs. Lakhs",
+     "as_of": "Year ended March 31, 2023",
+     "kind": "money",
+     "quote": "Employee benefit expenses 477.24"
+    },
+    {
+     "label": "Total expenses",
+     "value": "3,364.39 Rs. Lakhs",
+     "as_of": "Year ended March 31, 2023",
+     "kind": "money",
+     "quote": "Total Expenses 3,364.39"
+    },
+    {
+     "label": "Green hydrogen innovation partnerships, total grant support",
+     "value": "Rs 15 crore or about $ 2 million",
+     "as_of": "2023 (report year)",
+     "kind": "money",
+     "quote": "These two partnerships, with total grant support of Rs 15 crore or about $ 2 million focuses on"
+    },
+    {
+     "label": "Team size",
+     "value": "53 members",
+     "as_of": "2023 (report year)",
+     "kind": "people",
+     "quote": "team is 53 members strong"
+    },
+    {
+     "label": "ACCLIMATE Challenge Fund applications, first round",
+     "value": "over 150 applications",
+     "as_of": "2023 (report year)",
+     "kind": "output",
+     "quote": "The response was overwhelming, with over 150"
+    },
+    {
+     "label": "Organisations presenting to ACCLIMATE jury",
+     "value": "16 organisations",
+     "as_of": "2023 (report year)",
+     "kind": "output",
+     "quote": "stage involved a jury presentation, where 16"
+    },
+    {
+     "label": "Social media posts",
+     "value": "approximately 230 posts",
+     "as_of": "2023",
+     "kind": "output",
+     "quote": "approximately 230 posts in 2023, our social media"
+    }
+   ]
   },
   "Rang De": {
    "figures": [],
    "report": {
-    "title": "Annual Report 2024-25",
-    "url": "https://rangde.imgix.net/docs/rang-de-annual-report-2024-25.pdf"
-   }
+    "title": "Annual Report 2024-25, Rang De P2P Financial Services Ltd.",
+    "year": "2024-25",
+    "url": "https://rangde.imgix.net/docs/rang-de-annual-report-2024-25.pdf",
+    "note": "Report is from Rang De P2P Financial Services Ltd (RBI-licensed NBFC-P2P)."
+   },
+   "report_figures": [
+    {
+     "label": "States of operation",
+     "value": "over 29 states",
+     "as_of": "cumulative (report year 2024-25)",
+     "kind": "reach",
+     "quote": "Rang De has expanded its operations to over 29 states across India,"
+    },
+    {
+     "label": "Borrowers supported",
+     "value": "over 25,000 borrowers",
+     "as_of": "cumulative (report year 2024-25)",
+     "kind": "reach",
+     "quote": "We have disbursed over Rs. 94 crores worth of loans, supporting over 25,000 borrowers"
+    },
+    {
+     "label": "Investees who received credit",
+     "value": "4150",
+     "as_of": "FY 2024-2025",
+     "kind": "reach",
+     "quote": "4150 No of investees who received credit"
+    },
+    {
+     "label": "Women investees funded",
+     "value": "2666",
+     "as_of": "FY 2024-2025",
+     "kind": "reach",
+     "quote": "2666 Women investees funded: Contributing to 64% of total loans,"
+    },
+    {
+     "label": "Lives impacted, investees and their families",
+     "value": "29,990",
+     "as_of": "FY 2024-2025",
+     "kind": "reach",
+     "quote": "29,990 livelihoods, increased household resilience,"
+    },
+    {
+     "label": "Investees who availed loans for green livelihoods",
+     "value": "1297",
+     "as_of": "FY 2024-2025",
+     "kind": "reach",
+     "quote": "1297 No of investees who availed loans for green livelihoods"
+    },
+    {
+     "label": "Impact partners and states worked in",
+     "value": "82 partners across 22 states",
+     "as_of": "2024-25 (over the last year)",
+     "kind": "reach",
+     "quote": "Over the last year, we have worked with 82 partners across 22 states in India."
+    },
+    {
+     "label": "Women entrepreneurs credited under UN Women programme",
+     "value": "832 women entrepreneurs",
+     "as_of": "Nov 2024 to Mar 2025",
+     "kind": "reach",
+     "quote": "832 women entrepreneurs accessed credit as part of the UN Women Programme,"
+    },
+    {
+     "label": "Loans disbursed",
+     "value": "over Rs. 94 crores",
+     "as_of": "cumulative (report year 2024-25)",
+     "kind": "money",
+     "quote": "We have disbursed over Rs. 94 crores worth of loans, supporting over 25,000 borrowers"
+    },
+    {
+     "label": "Principal lost",
+     "value": "Rs 31 Lakh",
+     "as_of": "cumulative (report year 2024-25)",
+     "kind": "money",
+     "quote": "With only Rs 31 Lakh of principal lost,"
+    },
+    {
+     "label": "Total amount disbursed",
+     "value": "Rs. 17.49Cr",
+     "as_of": "FY 2024-2025",
+     "kind": "money",
+     "quote": "Rs. 17.49Cr Assessment Total amount disbursed"
+    },
+    {
+     "label": "Social investors",
+     "value": "more than 11,000 social investors",
+     "as_of": "as of March 2025",
+     "kind": "people",
+     "quote": "As of March 2025, Rang De has more than 11,000 social investors with 1021 onboarded in the last financial year."
+    }
+   ]
   },
   "WRI India": {
    "figures": [],
    "report": {
-    "title": "Annual Report 2025-26",
-    "url": "https://wri-india.org/sites/default/files/2026-06/WRI%20India%20Annual%20Report%202026.pdf"
-   }
+    "title": "Turning ideas into action: Annual Report, India Resources Trust 2025-26",
+    "year": "2025-26",
+    "url": "https://wri-india.org/sites/default/files/2026-06/WRI%20India%20Annual%20Report%202026.pdf",
+    "note": "Financial Summary section has no figures in the text (refers to audited statements on the website;"
+   },
+   "report_figures": [
+    {
+     "label": "Cities covered by Sustainable Cities interventions",
+     "value": "more than 46 cities",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "Our interventions span more than 46 cities across"
+    },
+    {
+     "label": "Households given full-time employment, Sidhi pilot",
+     "value": "14,000 households",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "a 9,000-hectare pilot provided full-time employment to 14,000 households,"
+    },
+    {
+     "label": "Land restored in Sidhi pilot",
+     "value": "2,171 hectares",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "restored 2,171 hectares of land and improved soil and water conservation in 866.6 hectares."
+    },
+    {
+     "label": "Hectares committed for restoration by 14 NGOs",
+     "value": "over 14,000 hectares",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "committing over 14,000 hectares for restoration activities"
+    },
+    {
+     "label": "Villages and hectares expected to benefit from approved plans",
+     "value": "2,300 villages; nearly 50,000 hectares",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "2,300 villages and restore nearly 50,000 hectares."
+    },
+    {
+     "label": "Smallholder farmers trained on food loss reduction",
+     "value": "over 3,500 smallholder farmers",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "WRI India trained over 3,500 smallholder farmers and"
+    },
+    {
+     "label": "Farmers engaged on climate-resilient crops (MPSAP)",
+     "value": "1,000 farmers",
+     "as_of": "2025 kharif cycle",
+     "kind": "reach",
+     "quote": "WRI India engaged with 1,000 farmers in 2025’s kharif cycle"
+    },
+    {
+     "label": "Officials trained under Maharashtra climate programme",
+     "value": "Over 450 officials",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "Over 450 officials have been trained"
+    },
+    {
+     "label": "Partners in Battery360 Alliance",
+     "value": "80+ partners",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "Alliance that brings together 80+ partners across industry, policy,"
+    },
+    {
+     "label": "Corporate commute nudge: employees and metro rides",
+     "value": "over 1,200 employees; more than 26,000 metro rides",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "engaging over 1,200 employees and supporting more than 26,000 metro rides."
+    },
+    {
+     "label": "District restoration plans submitted and approved",
+     "value": "US$101.7 million submitted, US$77.27 million approved",
+     "as_of": "2025-26 (report year)",
+     "kind": "money",
+     "quote": "plans worth US$101.7 million were submitted, with US$77.27"
+    },
+    {
+     "label": "Climate project pipeline for Maharashtra AMRUT cities",
+     "value": "more than 1,000 climate projects across 44 cities",
+     "as_of": "February 2026",
+     "kind": "output",
+     "quote": "announced a pipeline of more than 1,000 climate projects across 44 Atal Mission for Rejuvenation and Urban Transformation"
+    }
+   ]
   },
   "Punarchith": {
    "figures": [],
    "report": {
-    "title": "Annual Report 2024-25",
-    "url": "https://www.punarchith.org/annual-reports/"
-   }
+    "title": "Annual Report 2024-2025",
+    "year": "2024-25",
+    "url": "https://www.punarchith.org/pdf_files/punarchith-annual-report-2024-25.pdf",
+    "note": "No income, expenditure or grant totals stated in the report;"
+   },
+   "report_figures": [
+    {
+     "label": "Small farmers supported with seeds or financial aid",
+     "value": "68 farmers (40 women and 28 men)",
+     "as_of": "2024-25",
+     "kind": "reach",
+     "quote": "A total of 68 farmers benefited (40 women and 28 men)."
+    },
+    {
+     "label": "Land sown under organic farming programme",
+     "value": "49 acres",
+     "as_of": "2024-25",
+     "kind": "reach",
+     "quote": "In total, 49 acres of land were sown with finger millet, horse gram, and sesame."
+    },
+    {
+     "label": "Villages with GramaSetu community organizers",
+     "value": "10 villages",
+     "as_of": "2024-25 (report year)",
+     "kind": "reach",
+     "quote": "community organizers are working in 10 villages on issues such as"
+    },
+    {
+     "label": "Villages covered by election awareness campaign",
+     "value": "255 villages",
+     "as_of": "April 2024",
+     "kind": "reach",
+     "quote": "elections across 255 villages of Chamarajanagar district."
+    },
+    {
+     "label": "People reached by election awareness campaign",
+     "value": "nearly 30,000 people",
+     "as_of": "April 2024",
+     "kind": "reach",
+     "quote": "The campaign reached out to nearly 30,000 people,"
+    },
+    {
+     "label": "Learners in Integrated Learning Program / Training of Trainers",
+     "value": "18 learners",
+     "as_of": "2024-25",
+     "kind": "reach",
+     "quote": "three phases of training were conducted for 18 learners from different districts of Karnataka,"
+    },
+    {
+     "label": "Young people in Yuvachetana program",
+     "value": "27 young people",
+     "as_of": "2024-25 (report year)",
+     "kind": "reach",
+     "quote": "For 27 young people from Nagavalli, Kulluru, and Tumkur, the following activities were organized:"
+    },
+    {
+     "label": "Children visiting learning center weekly",
+     "value": "around 30 children",
+     "as_of": "2024-25 (report year)",
+     "kind": "reach",
+     "quote": "On average, around 30 children visit the learning center each week"
+    },
+    {
+     "label": "College students who visited Angarike Maala",
+     "value": "127 college students",
+     "as_of": "since inauguration on September 22, 2024",
+     "kind": "reach",
+     "quote": "127 college students from government and private institutions in Chamarajanagar, have visited the site."
+    },
+    {
+     "label": "Women at health check-up camp",
+     "value": "Around 80 women",
+     "as_of": "2024-25 (report year)",
+     "kind": "reach",
+     "quote": "Around 80 women participated in the camp."
+    },
+    {
+     "label": "Women at International Women Farmers' Day",
+     "value": "70 women",
+     "as_of": "2024-25 (report year)",
+     "kind": "reach",
+     "quote": "On International Women Farmers’ Day, 70 women participated."
+    },
+    {
+     "label": "Honneru collective funds used to build stock",
+     "value": "about ₹55,000",
+     "as_of": "2024-25 (second year of collective)",
+     "kind": "money",
+     "quote": "However, about ₹55,000 was used to build stock."
+    }
+   ]
   },
   "Sustainable Futures Collective": {
    "figures": [],
    "report": {
-    "title": "Annual Report 2025-26",
-    "url": "https://www.sustainablefutures.org/wp-content/uploads/2026/09/SFC-Annual-Report-2025-26.pdf"
-   }
+    "title": "Integrated Futures: Annual Report 2025-2026",
+    "year": "2025-26",
+    "url": "https://www.sustainablefutures.org/wp-content/uploads/2026/09/SFC-Annual-Report-2025-26.pdf",
+    "note": "Document names the organisation 'Sustainable Futures Collaborative' (SFC), not 'Collective'."
+   },
+   "report_figures": [
+    {
+     "label": "In-person visitors to indoor heat exhibit",
+     "value": "more than 8,000 visitors",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "the exhibition reached more than 8,000 visitors"
+    },
+    {
+     "label": "People reached by indoor heat exhibit (incl. online)",
+     "value": "2 million+",
+     "as_of": "2025-26 (report year)",
+     "kind": "reach",
+     "quote": "2 million+ People reached through the"
+    },
+    {
+     "label": "Team size",
+     "value": "30+",
+     "as_of": "2025-26 (report year)",
+     "kind": "people",
+     "quote": "GREW TO 30+ with new Fellows"
+    },
+    {
+     "label": "Team qualifications and disciplines",
+     "value": "12 academic disciplines; 9 PhD holders and 19 Masters holders",
+     "as_of": "2025-26 (report year)",
+     "kind": "people",
+     "quote": "12 academic disciplines; 9 PhD holders and 19 Masters holders."
+    },
+    {
+     "label": "Next-generation Heat Action Plans drawing on SFC recommendations",
+     "value": "over 350",
+     "as_of": "2025-26 (report year)",
+     "kind": "output",
+     "quote": "our recommendations are now central to the development of over 350 next-generation Heat Action Plans."
+    },
+    {
+     "label": "States covered by ETPI transport and buildings assessments",
+     "value": "10 states",
+     "as_of": "2025-26 (report year)",
+     "kind": "output",
+     "quote": "transport and buildings sectors across 10 states."
+    },
+    {
+     "label": "States in next ETPI assessment cycle",
+     "value": "10 to 12 states",
+     "as_of": "next assessment cycle",
+     "kind": "output",
+     "quote": "10 to 12 states,"
+    },
+    {
+     "label": "Instagram views",
+     "value": "60,000+",
+     "as_of": "2025-26 (report year)",
+     "kind": "output",
+     "quote": "60,000+ Instagram views"
+    }
+   ]
   }
  }
 }

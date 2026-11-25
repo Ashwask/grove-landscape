@@ -31,7 +31,7 @@ The Foundation's own vocabulary is used wherever it publishes one: its four focu
 | [rainmatter.org/partners](https://rainmatter.org/partners) | Partner name, year, description, website, places named |
 | [grove.rainmatter.org](https://grove.rainmatter.org/) | Public topic lists, the Partner Updates category and its threads |
 | Each partner's own website | Where it says it works (`data/workplaces.json`) and its main office (`data/offices.json`), each with source page and quote |
-| Each partner's own website | Headline figures it publishes about itself and its latest annual report link (`data/numbers.json`), self-reported and not cross-checked |
+| Each partner's own website and latest report | Headline figures from its website, and figures read from the text of its latest annual or impact report with a checked verbatim quote for each (`data/numbers.json`). Self-reported, not cross-checked. |
 | OpenStreetMap | Base map data (vector tiles served by OpenFreeMap), and Nominatim for locating named places (`data/geocode.json`) |
 
 ## How it stays current
