@@ -1,0 +1,1131 @@
+{
+ "_note": "Headline figures each partner publishes about itself, copied from its own website on 2026-11-26, with the page they came from, plus a link to its latest annual or impact report where the site lists one. These are self-reported and not checked against anything else. Figures inside annual report PDFs were not read. Founding years, placeholder counters and figures the reader could not see verbatim are left out.",
+ "partners": {
+  "Asar": {
+   "figures": [
+    {
+     "label": "States active in",
+     "value": "10+",
+     "as_of": "",
+     "source": "https://asar.co.in/"
+    },
+    {
+     "label": "Partners engaged",
+     "value": "100+",
+     "as_of": "",
+     "source": "https://asar.co.in/"
+    },
+    {
+     "label": "MoUs with state governments",
+     "value": "10+",
+     "as_of": "",
+     "source": "https://asar.co.in/"
+    },
+    {
+     "label": "Regional languages used",
+     "value": "7",
+     "as_of": "",
+     "source": "https://asar.co.in/"
+    }
+   ],
+   "report": null
+  },
+  "B.PAC (Bangalore Political Action Committee)": {
+   "figures": [
+    {
+     "label": "Responses in citizen perception poll",
+     "value": "8,405",
+     "as_of": "",
+     "source": "https://bpac.in/"
+    },
+    {
+     "label": "Wards covered by the poll",
+     "value": "186",
+     "as_of": "",
+     "source": "https://bpac.in/"
+    }
+   ],
+   "report": {
+    "title": "Financial statements FY 2025-26",
+    "url": "https://bpac.in/financial-reports/"
+   }
+  },
+  "Paani Foundation": {
+   "figures": [
+    {
+     "label": "People impacted",
+     "value": "5 million",
+     "as_of": "",
+     "source": "https://www.paanifoundation.in/"
+    },
+    {
+     "label": "Litres of annual water storage created",
+     "value": "550 billion",
+     "as_of": "",
+     "source": "https://www.paanifoundation.in/"
+    },
+    {
+     "label": "Saved on water tankers",
+     "value": "Rs 11,000 Cr",
+     "as_of": "",
+     "source": "https://www.paanifoundation.in/"
+    },
+    {
+     "label": "Talukas in Farmer Cup",
+     "value": "351",
+     "as_of": "",
+     "source": "https://www.paanifoundation.in/"
+    },
+    {
+     "label": "Districts in Farmer Cup",
+     "value": "34",
+     "as_of": "",
+     "source": "https://www.paanifoundation.in/"
+    }
+   ],
+   "report": {
+    "title": "Annual Report 2025-26",
+    "url": "https://paanifoundation.in/about/annual-reports/"
+   }
+  },
+  "The Timbaktu Collective": {
+   "figures": [
+    {
+     "label": "Villages reached",
+     "value": "347",
+     "as_of": "",
+     "source": "https://timbaktu.org/"
+    },
+    {
+     "label": "Families reached",
+     "value": "48,731",
+     "as_of": "",
+     "source": "https://timbaktu.org/"
+    },
+    {
+     "label": "Women owning Swasakthi institutions",
+     "value": "31,103",
+     "as_of": "",
+     "source": "https://timbaktu.org/"
+    },
+    {
+     "label": "Smallholder farmers in Dharani",
+     "value": "2,723",
+     "as_of": "",
+     "source": "https://timbaktu.org/"
+    },
+    {
+     "label": "Capital base of women's institutions",
+     "value": "Rs 52.1 Cr",
+     "as_of": "",
+     "source": "https://timbaktu.org/"
+    }
+   ],
+   "report": {
+    "title": "Annual Report 2025-26",
+    "url": "https://timbaktu.org/home-new/annual-reports/"
+   }
+  },
+  "Shola Trust": {
+   "figures": [
+    {
+     "label": "Tonnes of biochar a day from Lantana",
+     "value": "5 to 10",
+     "as_of": "",
+     "source": "https://www.thesholatrust.org/"
+    },
+    {
+     "label": "Team size",
+     "value": "300+",
+     "as_of": "",
+     "source": "https://www.thesholatrust.org/about"
+    }
+   ],
+   "report": null
+  },
+  "Goonj": {
+   "figures": [
+    {
+     "label": "Lives touched by projects",
+     "value": "2.3 million+",
+     "as_of": "2024-25",
+     "source": "https://goonj.org/annual-reports/2024-25/"
+    },
+    {
+     "label": "Kg of material channelised",
+     "value": "8 million+",
+     "as_of": "2024-25",
+     "source": "https://goonj.org/annual-reports/2024-25/"
+    },
+    {
+     "label": "Community projects implemented",
+     "value": "19,000+",
+     "as_of": "2024-25",
+     "source": "https://goonj.org/annual-reports/2024-25/"
+    },
+    {
+     "label": "People reached in disasters",
+     "value": "400,000+",
+     "as_of": "2024-25",
+     "source": "https://goonj.org/annual-reports/2024-25/"
+    },
+    {
+     "label": "States reached in disasters",
+     "value": "19",
+     "as_of": "2024-25",
+     "source": "https://goonj.org/annual-reports/2024-25/"
+    }
+   ],
+   "report": {
+    "title": "Annual Report 2024-25",
+    "url": "https://goonj.org/annual-reports/2024-25/"
+   }
+  },
+  "Vaagdhara": {
+   "figures": [
+    {
+     "label": "Tribal families reached",
+     "value": "162,000",
+     "as_of": "",
+     "source": "https://vaagdhara.org/"
+    },
+    {
+     "label": "Villages",
+     "value": "1,168",
+     "as_of": "",
+     "source": "https://vaagdhara.org/"
+    },
+    {
+     "label": "Gram panchayats",
+     "value": "356",
+     "as_of": "",
+     "source": "https://vaagdhara.org/"
+    },
+    {
+     "label": "Districts",
+     "value": "6",
+     "as_of": "",
+     "source": "https://vaagdhara.org/"
+    }
+   ],
+   "report": {
+    "title": "Annual reports",
+    "url": "https://vaagdhara.org/publications/annual-reports/"
+   }
+  },
+  "Buzz Women": {
+   "figures": [
+    {
+     "label": "Women in Inner Strength programme",
+     "value": "983,323",
+     "as_of": "",
+     "source": "https://www.buzzwomen.org/our-impact/"
+    },
+    {
+     "label": "Women in Buzz Business",
+     "value": "34,639",
+     "as_of": "",
+     "source": "https://www.buzzwomen.org/our-impact/"
+    },
+    {
+     "label": "Women in Buzz Green",
+     "value": "31,291",
+     "as_of": "",
+     "source": "https://www.buzzwomen.org/our-impact/"
+    },
+    {
+     "label": "Anchor women",
+     "value": "24,304",
+     "as_of": "",
+     "source": "https://www.buzzwomen.org/our-impact/"
+    },
+    {
+     "label": "Villages and communities",
+     "value": "23,837",
+     "as_of": "",
+     "source": "https://www.buzzwomen.org/our-impact/"
+    }
+   ],
+   "report": {
+    "title": "Global impact report 2025",
+    "url": "https://www.buzzwomen.org/our-impact/"
+   }
+  },
+  "Saahas": {
+   "figures": [
+    {
+     "label": "People reached with awareness",
+     "value": "37.5 lakh",
+     "as_of": "",
+     "source": "https://saahas.org/"
+    },
+    {
+     "label": "Gram panchayats supported",
+     "value": "528",
+     "as_of": "",
+     "source": "https://saahas.org/"
+    },
+    {
+     "label": "Tonnes of source segregation enabled",
+     "value": "38,286",
+     "as_of": "",
+     "source": "https://saahas.org/"
+    },
+    {
+     "label": "Tonnes of wet waste managed",
+     "value": "19,575",
+     "as_of": "",
+     "source": "https://saahas.org/"
+    },
+    {
+     "label": "Livelihoods generated",
+     "value": "226",
+     "as_of": "",
+     "source": "https://saahas.org/"
+    }
+   ],
+   "report": {
+    "title": "Annual Report 2025-26",
+    "url": "https://saahas.org/resources/?resource_type=annual-reports/"
+   }
+  },
+  "Dakshin Foundation": {
+   "figures": [
+    {
+     "label": "Years of sea turtle monitoring",
+     "value": "16",
+     "as_of": "",
+     "source": "https://www.dakshin.org/"
+    }
+   ],
+   "report": {
+    "title": "Annual Report 2025-26",
+    "url": "https://dakshin.org/about-us/annual-report/"
+   }
+  },
+  "Waste Warriors": {
+   "figures": [
+    {
+     "label": "Tonnes of waste kept out of dumps and rivers in 18 months",
+     "value": "2,500+",
+     "as_of": "",
+     "source": "https://wastewarriors.org/"
+    },
+    {
+     "label": "Team size",
+     "value": "about 200",
+     "as_of": "",
+     "source": "https://wastewarriors.org/"
+    }
+   ],
+   "report": {
+    "title": "Annual Report 2025-26",
+    "url": "https://wastewarriors.org/our-resources/reports/"
+   }
+  },
+  "Praja": {
+   "figures": [
+    {
+     "label": "Cities in its urban governance study",
+     "value": "38",
+     "as_of": "FY 2022-23",
+     "source": "https://www.praja.org/"
+    },
+    {
+     "label": "States covered",
+     "value": "23",
+     "as_of": "FY 2022-23",
+     "source": "https://www.praja.org/"
+    },
+    {
+     "label": "Crore data points in governance database",
+     "value": "5.3",
+     "as_of": "FY 2022-23",
+     "source": "https://www.praja.org/"
+    },
+    {
+     "label": "Advisory consultations with elected representatives",
+     "value": "658",
+     "as_of": "FY 2022-23",
+     "source": "https://www.praja.org/"
+    }
+   ],
+   "report": null
+  },
+  "Ashoka Trust for Research in Ecology and the Environment (ATREE)": {
+   "figures": [
+    {
+     "label": "Hectares of forest rights secured",
+     "value": "10,000+",
+     "as_of": "",
+     "source": "https://www.atree.org/"
+    },
+    {
+     "label": "Livelihoods impacted",
+     "value": "1,000+",
+     "as_of": "",
+     "source": "https://www.atree.org/"
+    },
+    {
+     "label": "New species discovered",
+     "value": "100+",
+     "as_of": "",
+     "source": "https://www.atree.org/"
+    }
+   ],
+   "report": {
+    "title": "Annual Report 2025-26",
+    "url": "https://www.atree.org/wp-content/uploads/2026/09/Annual-Report-2025-26.pdf"
+   }
+  },
+  "Gram Vikas": {
+   "figures": [
+    {
+     "label": "People reached",
+     "value": "600,000",
+     "as_of": "",
+     "source": "https://www.gramvikas.org/"
+    },
+    {
+     "label": "Villages",
+     "value": "1,700",
+     "as_of": "",
+     "source": "https://www.gramvikas.org/"
+    },
+    {
+     "label": "Hectares of wasteland regenerated",
+     "value": "10,370",
+     "as_of": "",
+     "source": "https://www.gramvikas.org/"
+    },
+    {
+     "label": "Women with private bathrooms and running water",
+     "value": "214,920",
+     "as_of": "",
+     "source": "https://www.gramvikas.org/"
+    },
+    {
+     "label": "Families with renewable cooking energy",
+     "value": "54,571",
+     "as_of": "",
+     "source": "https://www.gramvikas.org/"
+    }
+   ],
+   "report": {
+    "title": "Annual Report 2025-26",
+    "url": "https://www.gramvikas.org/wp-content/uploads/2026/11/Annual-Report-2025-2026.pdf"
+   }
+  },
+  "WELL Lab": {
+   "figures": [
+    {
+     "label": "Professionals in the team",
+     "value": "90",
+     "as_of": "",
+     "source": "https://welllabs.org/about-well-labs/"
+    }
+   ],
+   "report": {
+    "title": "Annual Report 2025-26",
+    "url": "https://welllabs.org/wp-content/uploads/2026/09/WELL-Labs-Annual-Report-2025-26.pdf"
+   }
+  },
+  "ReapBenefit": {
+   "figures": [
+    {
+     "label": "Solve Ninjas activated",
+     "value": "1,21,000",
+     "as_of": "",
+     "source": "https://www.reapbenefit.org/impact"
+    },
+    {
+     "label": "Crowdsourced climate data points",
+     "value": "5,60,000",
+     "as_of": "",
+     "source": "https://www.reapbenefit.org/impact"
+    },
+    {
+     "label": "Civic problem-solving actions",
+     "value": "1,05,000",
+     "as_of": "",
+     "source": "https://www.reapbenefit.org/impact"
+    },
+    {
+     "label": "States",
+     "value": "12",
+     "as_of": "",
+     "source": "https://www.reapbenefit.org/impact"
+    }
+   ],
+   "report": null
+  },
+  "CoRE Stack (CommonsTech Foundation)": {
+   "figures": [
+    {
+     "label": "Curated datasets",
+     "value": "40+",
+     "as_of": "",
+     "source": "https://core-stack.org/"
+    },
+    {
+     "label": "Collaborators",
+     "value": "25+",
+     "as_of": "",
+     "source": "https://core-stack.org/"
+    }
+   ],
+   "report": null
+  },
+  "Living Landscapes": {
+   "figures": [
+    {
+     "label": "Partners in Common Ground",
+     "value": "92",
+     "as_of": "",
+     "source": "https://livinglandscapes.in/"
+    }
+   ],
+   "report": {
+    "title": "Common Ground Annual Report 2025-26",
+    "url": "https://livinglandscapes.in/wp-content/uploads/2026/08/Common-Ground-Annual-Report-2025-26.pdf"
+   }
+  },
+  "Gurukula Botanical Sanctuary": {
+   "figures": [
+    {
+     "label": "Plant species grown",
+     "value": "2,000+",
+     "as_of": "",
+     "source": "https://www.gbsanctuary.org/"
+    },
+    {
+     "label": "Acres of sanctuary",
+     "value": "60",
+     "as_of": "",
+     "source": "https://www.gbsanctuary.org/"
+    }
+   ],
+   "report": null
+  },
+  "CSTEP": {
+   "figures": [
+    {
+     "label": "Research publications",
+     "value": "150+",
+     "as_of": "",
+     "source": "https://cstep.in/"
+    },
+    {
+     "label": "Tools in use",
+     "value": "15+",
+     "as_of": "",
+     "source": "https://cstep.in/"
+    }
+   ],
+   "report": {
+    "title": "Annual Report 2025-26",
+    "url": "https://cstep.in/annual-reports/annual-report-2025-26/"
+   }
+  },
+  "GROW+": {
+   "figures": [
+    {
+     "label": "Landscapes",
+     "value": "6",
+     "as_of": "",
+     "source": "https://edelgive-growfund.org/"
+    },
+    {
+     "label": "Grassroots NGOs per anchor",
+     "value": "10+",
+     "as_of": "",
+     "source": "https://edelgive-growfund.org/"
+    }
+   ],
+   "report": {
+    "title": "GROW+ Annual Report 2025-26",
+    "url": "https://cdn.prod.website-files.com/6983301956c1009c4654dbd5/6a97f088f447c3fb51721f86_EdelGive_Grow%2B%20Report%202026_V3.pdf"
+   }
+  },
+  "Sauramandala Foundation": {
+   "figures": [
+    {
+     "label": "Villages",
+     "value": "3,000+",
+     "as_of": "",
+     "source": "https://www.sauramandala.org/"
+    },
+    {
+     "label": "Households",
+     "value": "300,000+",
+     "as_of": "",
+     "source": "https://www.sauramandala.org/"
+    },
+    {
+     "label": "Districts",
+     "value": "17+",
+     "as_of": "",
+     "source": "https://www.sauramandala.org/"
+    }
+   ],
+   "report": null
+  },
+  "Climate RISE Alliance": {
+   "figures": [
+    {
+     "label": "Organisations in the alliance",
+     "value": "100+",
+     "as_of": "",
+     "source": "https://climaterise.in/"
+    }
+   ],
+   "report": null
+  },
+  "India climate collaborative": {
+   "figures": [
+    {
+     "label": "Partners in its network",
+     "value": "100+",
+     "as_of": "",
+     "source": "https://indiaclimatecollaborative.org/"
+    }
+   ],
+   "report": null
+  },
+  "Energy Swaraj Foundation": {
+   "figures": [
+    {
+     "label": "People in its climate action movement",
+     "value": "1,43,110",
+     "as_of": "",
+     "source": "https://www.energyswaraj.org/"
+    }
+   ],
+   "report": null
+  },
+  "PARI": {
+   "figures": [
+    {
+     "label": "Languages published in",
+     "value": "15",
+     "as_of": "",
+     "source": "https://ruralindiaonline.org/en/"
+    }
+   ],
+   "report": null
+  },
+  "India Civic Summit (Oorvani Foundation)": {
+   "figures": [
+    {
+     "label": "Resources in its knowledge base",
+     "value": "15,000+",
+     "as_of": "",
+     "source": "https://oorvani.org/"
+    },
+    {
+     "label": "Citizens in its network",
+     "value": "2,000+",
+     "as_of": "",
+     "source": "https://oorvani.org/"
+    }
+   ],
+   "report": {
+    "title": "Annual Report 2024-25",
+    "url": "https://oorvani.org/wp-content/uploads/2025/11/Oorvani-Annual-Report-2024-25.pdf"
+   }
+  },
+  "SayTrees": {
+   "figures": [
+    {
+     "label": "Trees planted",
+     "value": "10 million+",
+     "as_of": "since 2007",
+     "source": "https://www.saytrees.org/impact"
+    },
+    {
+     "label": "Litres of water-holding capacity added",
+     "value": "5 billion",
+     "as_of": "since 2007",
+     "source": "https://www.saytrees.org/impact"
+    },
+    {
+     "label": "Farmer households in agroforestry",
+     "value": "20,000+",
+     "as_of": "since 2007",
+     "source": "https://www.saytrees.org/impact"
+    },
+    {
+     "label": "Lakes and water bodies restored",
+     "value": "59+",
+     "as_of": "since 2017",
+     "source": "https://www.saytrees.org/impact"
+    },
+    {
+     "label": "Miyawaki urban forests",
+     "value": "200+",
+     "as_of": "since 2007",
+     "source": "https://www.saytrees.org/impact"
+    }
+   ],
+   "report": {
+    "title": "Annual Report 2024-25 (disclosures page)",
+    "url": "https://www.saytrees.org/disclosures"
+   }
+  },
+  "Vidhi – Center for Legal Policy": {
+   "figures": [
+    {
+     "label": "Draft laws worked on with Karnataka in a year",
+     "value": "6",
+     "as_of": "2021-22",
+     "source": "https://vidhilegalpolicy.in/impact-report-2021-22/"
+    }
+   ],
+   "report": {
+    "title": "Impact Report 2021-22",
+    "url": "https://vidhilegalpolicy.in/impact-report-2021-22/"
+   }
+  },
+  "Youth Conservation Action Network (YouCAN)": {
+   "figures": [
+    {
+     "label": "Fellows enabled",
+     "value": "52",
+     "as_of": "",
+     "source": "https://www.youcan.in/"
+    },
+    {
+     "label": "States with fellows",
+     "value": "30",
+     "as_of": "",
+     "source": "https://www.youcan.in/"
+    },
+    {
+     "label": "Eco-club sessions in schools",
+     "value": "1,796",
+     "as_of": "",
+     "source": "https://www.youcan.in/"
+    },
+    {
+     "label": "Students reached",
+     "value": "12,594",
+     "as_of": "",
+     "source": "https://www.youcan.in/"
+    }
+   ],
+   "report": {
+    "title": "Fellowship Report, Cohort 4",
+    "url": "https://www.youcan.in/_files/ugd/f96677_bc1eb7a94b1244a2b2a89b61b5b8580b.pdf"
+   }
+  },
+  "Sahjeevan": {
+   "figures": [
+    {
+     "label": "Blocks of Kachchh with pastoralism work",
+     "value": "6",
+     "as_of": "",
+     "source": "https://sahjeevan.org"
+    }
+   ],
+   "report": {
+    "title": "Annual Report 2024-25",
+    "url": "https://sahjeevan.org/wp-content/uploads/2026/02/2024-2025-Annual-Report.pdf"
+   }
+  },
+  "ComMutiny": {
+   "figures": [
+    {
+     "label": "Member organisations",
+     "value": "139",
+     "as_of": "",
+     "source": "https://commutiny.in/"
+    },
+    {
+     "label": "States",
+     "value": "18",
+     "as_of": "",
+     "source": "https://commutiny.in/"
+    },
+    {
+     "label": "Young people impacted",
+     "value": "211,451",
+     "as_of": "",
+     "source": "https://commutiny.in/"
+    }
+   ],
+   "report": {
+    "title": "Annual Report 2025-26",
+    "url": "https://commutiny.in/sites/default/files/ComMutiny%20_Annual%20Report.pdf"
+   }
+  },
+  "ACT Grants": {
+   "figures": [
+    {
+     "label": "Disbursed",
+     "value": "$19.3 M",
+     "as_of": "",
+     "source": "https://actgrants.in/"
+    },
+    {
+     "label": "Organisations backed",
+     "value": "65+",
+     "as_of": "",
+     "source": "https://actgrants.in/"
+    },
+    {
+     "label": "Lives impacted by backed organisations",
+     "value": "35 million+",
+     "as_of": "",
+     "source": "https://actgrants.in/"
+    },
+    {
+     "label": "Follow-on funding raised",
+     "value": "$99.7 M",
+     "as_of": "",
+     "source": "https://actgrants.in/"
+    }
+   ],
+   "report": null
+  },
+  "Farmers for Forests": {
+   "figures": [
+    {
+     "label": "Acres planned for reforestation in Gadchiroli",
+     "value": "30,000",
+     "as_of": "2021",
+     "source": "https://www.farmersforforests.org/story/"
+    },
+    {
+     "label": "Tribal households in the Gadchiroli plan",
+     "value": "8,000",
+     "as_of": "2021",
+     "source": "https://www.farmersforforests.org/story/"
+    }
+   ],
+   "report": null
+  },
+  "Janaagraha": {
+   "figures": [
+    {
+     "label": "Citizens reached by participation platforms in Odisha",
+     "value": "1.6 million",
+     "as_of": "",
+     "source": "https://www.janaagraha.org/"
+    },
+    {
+     "label": "Urban poor settlements in Odisha",
+     "value": "2,900",
+     "as_of": "",
+     "source": "https://www.janaagraha.org/"
+    },
+    {
+     "label": "Cities publishing on CityFinance.in",
+     "value": "4,300+",
+     "as_of": "",
+     "source": "https://www.janaagraha.org/"
+    },
+    {
+     "label": "Financial statements published",
+     "value": "15,000+",
+     "as_of": "",
+     "source": "https://www.janaagraha.org/"
+    }
+   ],
+   "report": {
+    "title": "Annual Report FY 2024-25",
+    "url": "https://www.janaagraha.org/wp-content/uploads/2026/03/Annual-Report-2024-25-janaagraha.pdf"
+   }
+  },
+  "Akshayakalpa Foundation": {
+   "figures": [
+    {
+     "label": "Farms",
+     "value": "600",
+     "as_of": "",
+     "source": "https://akshayakalpa.org/company/"
+    }
+   ],
+   "report": null
+  },
+  "A Rocha India": {
+   "figures": [
+    {
+     "label": "Km of elephant-proof barrier around Bannerghatta",
+     "value": "285",
+     "as_of": "",
+     "source": "https://www.arocha.in/about-a-rocha-india/achievements/"
+    },
+    {
+     "label": "Volunteers",
+     "value": "400+",
+     "as_of": "",
+     "source": "https://www.arocha.in/about-a-rocha-india/achievements/"
+    }
+   ],
+   "report": null
+  },
+  "Jagriti Seva Sansthan": {
+   "figures": [
+    {
+     "label": "Enterprises supported",
+     "value": "259",
+     "as_of": "",
+     "source": "https://jecp.in/our-impact"
+    },
+    {
+     "label": "Jobs created",
+     "value": "2,000+",
+     "as_of": "",
+     "source": "https://jecp.in/our-impact"
+    },
+    {
+     "label": "Farmers impacted",
+     "value": "8,310",
+     "as_of": "",
+     "source": "https://jecp.in/our-impact"
+    },
+    {
+     "label": "Districts of eastern UP",
+     "value": "7",
+     "as_of": "",
+     "source": "https://jecp.in/our-impact"
+    },
+    {
+     "label": "Funds raised by enterprises",
+     "value": "Rs 5.07 Cr",
+     "as_of": "",
+     "source": "https://jecp.in/our-impact"
+    }
+   ],
+   "report": null
+  },
+  "Swami Vivekananda Youth Movement (SVYM)": {
+   "figures": [
+    {
+     "label": "People served",
+     "value": "3.5 million",
+     "as_of": "",
+     "source": "https://svym.org/about-svym/"
+    },
+    {
+     "label": "Partner organisations",
+     "value": "150+",
+     "as_of": "",
+     "source": "https://svym.org/about-svym/"
+    },
+    {
+     "label": "People reached by community radio",
+     "value": "270,000",
+     "as_of": "",
+     "source": "https://www.svym.org/"
+    },
+    {
+     "label": "Students in 200 government schools",
+     "value": "35,000+",
+     "as_of": "",
+     "source": "https://www.svym.org/"
+    }
+   ],
+   "report": {
+    "title": "Annual Report 2025-26",
+    "url": "https://svym.org/wp-content/uploads/2026/09/SVYM-Annual-Report-2025-26.pdf"
+   }
+  },
+  "Himalaya Unnati Mission": {
+   "figures": [
+    {
+     "label": "Free schools run across 22 states (parent network)",
+     "value": "702",
+     "as_of": "",
+     "source": "https://himalayunnatimission.ssrdp.org/impact"
+    },
+    {
+     "label": "Solar lights distributed",
+     "value": "22,985",
+     "as_of": "",
+     "source": "https://himalayunnatimission.ssrdp.org/impact"
+    }
+   ],
+   "report": null
+  },
+  "RCRC": {
+   "figures": [
+    {
+     "label": "Member organisations",
+     "value": "50+",
+     "as_of": "",
+     "source": "https://www.rcrc.in/"
+    },
+    {
+     "label": "States",
+     "value": "12",
+     "as_of": "",
+     "source": "https://www.rcrc.in/"
+    },
+    {
+     "label": "Families reached by members",
+     "value": "60 lakh+",
+     "as_of": "",
+     "source": "https://www.rcrc.in/"
+    }
+   ],
+   "report": {
+    "title": "The State of Rural Vulnerability Report 2023",
+    "url": "https://www.rcrc.in/__l5e/assets-v1/0d084142-4551-4c2c-9282-4303061a4e5d/The-State-of-Rural-Vulnerability-Report-2023.pdf"
+   }
+  },
+  "Wassan": {
+   "figures": [
+    {
+     "label": "States engaged through its network",
+     "value": "7",
+     "as_of": "",
+     "source": "https://www.wassan.org"
+    },
+    {
+     "label": "Local partner organisations",
+     "value": "50",
+     "as_of": "",
+     "source": "https://www.wassan.org"
+    },
+    {
+     "label": "Blocks in Odisha natural farming programme",
+     "value": "45",
+     "as_of": "",
+     "source": "https://www.wassan.org"
+    }
+   ],
+   "report": {
+    "title": "Annual Report 2024-25",
+    "url": "https://wassan.org/wp-content/uploads/2026/03/WASSAN-Annual-Report-2024-25-Work-in-Progress.pdf"
+   }
+  },
+  "Uttarayan": {
+   "figures": [
+    {
+     "label": "Villages involved",
+     "value": "14",
+     "as_of": "",
+     "source": "https://uttarayanwildlife.org/"
+    },
+    {
+     "label": "Local people involved",
+     "value": "2,800",
+     "as_of": "",
+     "source": "https://uttarayanwildlife.org/"
+    },
+    {
+     "label": "Farmers as stakeholders",
+     "value": "1,250",
+     "as_of": "",
+     "source": "https://uttarayanwildlife.org/"
+    },
+    {
+     "label": "Women employed",
+     "value": "1,580",
+     "as_of": "",
+     "source": "https://uttarayanwildlife.org/"
+    }
+   ],
+   "report": null
+  },
+  "Saath Charitable Trust": {
+   "figures": [],
+   "report": {
+    "title": "Annual Report 2025-26",
+    "url": "https://saath.org/public/storage/pdfs/annual_reports/y0I7l6mZICjFutnSVagxBIxNrzr5OIguntQWWVYu.pdf"
+   }
+  },
+  "Palluyir Trust": {
+   "figures": [],
+   "report": {
+    "title": "Annual Report 2025-26",
+    "url": "https://palluyirtrust.org/wp-content/uploads/2026/09/Annual-Report-2025-26.pdf"
+   }
+  },
+  "Wetlands International South Asia": {
+   "figures": [],
+   "report": {
+    "title": "Annual Report 2025-26",
+    "url": "https://south-asia.wetlands.org/download/4391/?tmstv=1795626844"
+   }
+  },
+  "Kalpavriksh": {
+   "figures": [],
+   "report": {
+    "title": "Annual Report 2024-25",
+    "url": "https://kalpavriksh.org/wp-content/uploads/2026/01/Kalpavriksh-Annual-Report-2024-2025-FINAL.pdf"
+   }
+  },
+  "India Development Review (IDR)": {
+   "figures": [],
+   "report": {
+    "title": "Audited financial report 2024-25",
+    "url": "https://idronline.org/wp-content/uploads/2026/07/Audited-financial-Report-2024-25.pdf"
+   }
+  },
+  "Veditum": {
+   "figures": [],
+   "report": {
+    "title": "Activity Report April 2024 to March 2025",
+    "url": "https://veditum.org/wp-content/uploads/2025/07/VIF-AR2425-ForWeb.pdf"
+   }
+  },
+  "Technology for Wildlife Foundation": {
+   "figures": [],
+   "report": {
+    "title": "Impact report 2019 to 2024",
+    "url": "https://www.techforwildlife.com/s/TfW_ImpactReport_Final.pdf"
+   }
+  },
+  "Biome Environmental Trust": {
+   "figures": [],
+   "report": {
+    "title": "Annual Report 2024-25",
+    "url": "https://biometrust.org/wp-content/uploads/2025/12/Annual-Report-2024-2025-2.pdf"
+   }
+  },
+  "Sattva Consulting": {
+   "figures": [],
+   "report": {
+    "title": "Catalytic CSR: 8th Annual CSR Report",
+    "url": "https://www.sattva.co.in/sattva-annual-csr-report/"
+   }
+  },
+  "Shakti Foundation": {
+   "figures": [],
+   "report": {
+    "title": "Annual Report 2023",
+    "url": "https://shaktifoundation.in/wp-content/uploads/2024/05/shakti-annual-report-2023.pdf"
+   }
+  },
+  "Rang De": {
+   "figures": [],
+   "report": {
+    "title": "Annual Report 2024-25",
+    "url": "https://rangde.imgix.net/docs/rang-de-annual-report-2024-25.pdf"
+   }
+  },
+  "WRI India": {
+   "figures": [],
+   "report": {
+    "title": "Annual Report 2025-26",
+    "url": "https://wri-india.org/sites/default/files/2026-06/WRI%20India%20Annual%20Report%202026.pdf"
+   }
+  },
+  "Punarchith": {
+   "figures": [],
+   "report": {
+    "title": "Annual Report 2024-25",
+    "url": "https://www.punarchith.org/annual-reports/"
+   }
+  },
+  "Sustainable Futures Collective": {
+   "figures": [],
+   "report": {
+    "title": "Annual Report 2025-26",
+    "url": "https://www.sustainablefutures.org/wp-content/uploads/2026/09/SFC-Annual-Report-2025-26.pdf"
+   }
+  }
+ }
+}

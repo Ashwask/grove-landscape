@@ -216,6 +216,7 @@ def main():
     offices = json.load(open(os.path.join(ROOT, "data", "offices.json"), encoding="utf-8"))["offices"]
     workplaces = json.load(open(os.path.join(ROOT, "data", "workplaces.json"), encoding="utf-8"))["places"]
     indicators = json.load(open(os.path.join(ROOT, "data", "indicators.json"), encoding="utf-8"))["indicators"]
+    numbers = json.load(open(os.path.join(ROOT, "data", "numbers.json"), encoding="utf-8"))["partners"]
     partners, cross = [], collections.Counter()
     for i, p in enumerate(listed):
         r = reg["partners"].get(p["name"]) or {}
@@ -283,7 +284,8 @@ def main():
             "scope": "place" if len(known) == 1 else "multi" if len(known) > 1 else r.get("scope", "ns"),
             "sRF": st_rf, "sDecl": st_decl, "declSrc": r.get("declared_source"), "sWeb": st_web,
             "web": {s: {"place": web[s]["place"], "source": web[s]["source"], "quote": web[s]["quote"]} for s in st_web},
-            "ups": ups,
+            "ups": ups, "num": numbers.get(p["name"], {}).get("figures", []),
+            "report": numbers.get(p["name"], {}).get("report"),
             "sGrove": sorted(s for s, n in grove_states.items() if n >= GROVE_MIN_MENTIONS and s not in known),
             "pins": pins, "office": off if off and off["state"] in STATES else None,
             "threads": len(ths), "posts": own, "replies": replies, "views": views, "latest": latest,
