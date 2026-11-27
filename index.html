@@ -200,11 +200,13 @@ select.f{font:inherit; font-size:12.5px; padding:5px 8px; border:1px solid var(-
 .cb .af{font-size:13.5px; font-weight:600} .cb .so{font-size:12.5px; color:var(--ink2); margin-top:3px}
 .nums{display:grid; grid-template-columns:repeat(auto-fit,minmax(118px,1fr)); gap:8px; margin:14px 0 2px}
 .nm{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:9px 12px}
-.nm b{display:block; font-size:20px; letter-spacing:-.02em; line-height:1.1; font-variant-numeric:tabular-nums}
+.nm b{display:block; font-size:26px; letter-spacing:-.02em; line-height:1.05; font-variant-numeric:tabular-nums; color:var(--accent)}
+.nm.hero{background:var(--on); border-color:var(--on)} .nm.hero b{color:var(--onink)} .nm.hero span{color:var(--onink); opacity:.75}
+.nm.warn b{color:#c2410c} @media (prefers-color-scheme: dark){.nm.warn b{color:#fb923c}}
 .nm span{font-size:11px; color:var(--mut); line-height:1.25; display:block; margin-top:3px}
 .nm a{font-size:10.5px}
-.nums.sm{margin:8px 0 4px} .nums.sm .nm{padding:7px 10px} .nums.sm .nm b{font-size:16px}
-.kf{font-size:12.5px; padding:4px 0; border-top:1px solid var(--line2)} .kf:first-of-type{border-top:0} .kf b{font-variant-numeric:tabular-nums}
+.nums.sm{margin:8px 0 4px} .nums.sm .nm{padding:7px 10px} .nums.sm .nm b{font-size:21px}
+.kf{font-size:12.5px; padding:4px 0; border-top:1px solid var(--line2)} .kf:first-of-type{border-top:0} .kf b{font-variant-numeric:tabular-nums; color:var(--accent); font-size:14px}
 .kf span{color:var(--mut)}
 .srcs{margin-top:34px; border-top:1px solid var(--line); padding-top:14px; font-size:12.5px; color:var(--ink2)}
 .srcs summary{cursor:pointer; font-weight:600; color:var(--ink)} .srcs h5{font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:var(--mut); margin:14px 0 4px}
@@ -373,7 +375,7 @@ function sharedCells(){const C={};P.forEach(p=>known(p).forEach(s=>p.assets.forE
 function stressGaps(){const out=[];IND.filter(i=>i.reads==='stress').forEach(ind=>Object.keys(ind.values).forEach(s=>{const rk=rankOf(ind,s);if(rk&&rk.high&&!inState(s).some(p=>p.assets.includes(ind.asset)))out.push({ind,s,rk})}));return out.sort((a,b)=>a.rk.r-b.rk.r)}
 const head=p=>{const r=p.rep.find(x=>x.kind==='reach')||p.rep[0];if(r)return {value:r.value,label:r.label,source:p.report.url,as_of:r.as_of};return p.num[0]||null};
 const lead=t=>{const m=String(t).match(/^((?:₹|Rs\.?|INR|\$|over|about|around|more than|nearly|approximately|close to|~)?\s*[\d][\d,.]*\+?(?:\s?(?:million|billion|lakh|crore|Cr|km|kg|MT|MLD|ha|%|sq\.? km))?\+?)/i);return m?[m[1],String(t).slice(m[1].length)]:null};
-const numHtml=t=>{const m=lead(t);return m?`<b>${esc(m[0])}</b>${esc(m[1])}`:esc(t)};
+const numHtml=t=>{const m=lead(t);return m?`<b style="color:var(--accent)">${esc(m[0])}</b>${esc(m[1])}`:esc(t)};
 function topNums(){
   const W=M.work||{},items=[];Object.values(W).forEach(w=>w.items.forEach(i=>items.push(i)));
   const figs=items.reduce((t,i)=>t+(i.numbers||[]).length,0)+P.reduce((t,p)=>t+p.num.length+p.rep.length,0);
@@ -601,8 +603,8 @@ function detail(){
     const kf=[];if(b.W)b.W.items.slice().sort((x,y)=>y.date.localeCompare(x.date)).forEach(it=>{const n=(it.numbers||[]).find(x=>lead(x));if(n)kf.push([n,it])});
     const SHORT={forest:'forest cover',groundwater:'groundwater extracted',degradation:'land degraded',waste:'waste not processed',ncap:'clean-air cities'};
     const myAsks=b.W?b.W.items.filter(it=>it.asks):[];
-    const tiles=[[b.A.length,'partners'],[b.W?b.W.items.length:0,'pieces of work'],[myAsks.length,'asks']].concat(IND.map(i=>{const rk=rankOf(i,s);return rk?[fmt(rk.v)+(i.unit.startsWith('%')?'%':''),SHORT[i.id]||i.label.toLowerCase(),i.url,`${i.label}. Rank ${rk.r} of ${rk.n}. ${i.source}, ${i.year}.`]:null}).filter(Boolean));
-    let h=`<button class="btn back" id="copy">Copy brief</button><div class="dh">${esc(s)}</div><div class="nums sm">${tiles.map(t=>`<div class="nm" ${t[3]?`data-tip="${esc(t[3])}"`:''}><b>${t[2]?`<a href="${esc(t[2])}" target="_blank" rel="noopener" style="font-size:inherit;color:inherit;text-decoration:none">${t[0]}</a>`:t[0]}</b><span>${esc(t[1])}</span></div>`).join('')}</div>`;
+    const tiles=[[b.A.length,'partners',null,null,'hero'],[b.W?b.W.items.length:0,'pieces of work',null,null,'hero'],[myAsks.length,'asks',null,null,'hero']].concat(IND.map(i=>{const rk=rankOf(i,s);return rk?[fmt(rk.v)+(i.unit.startsWith('%')?'%':''),SHORT[i.id]||i.label.toLowerCase(),i.url,`${i.label}. Rank ${rk.r} of ${rk.n}. ${i.source}, ${i.year}.`,(i.reads==='stress'&&rk.high)?'warn':'']:null}).filter(Boolean));
+    let h=`<button class="btn back" id="copy">Copy brief</button><div class="dh">${esc(s)}</div><div class="nums sm">${tiles.map(t=>`<div class="nm ${t[4]||''}" ${t[3]?`data-tip="${esc(t[3])}"`:''}><b>${t[2]?`<a href="${esc(t[2])}" target="_blank" rel="noopener" style="font-size:inherit;color:inherit;text-decoration:none">${t[0]}</a>`:t[0]}</b><span>${esc(t[1])}</span></div>`).join('')}</div>`;
     if(kf.length)h+='<div class="t">Figures from here</div>'+kf.slice(0,4).map(([n,it])=>`<div class="kf">${numHtml(n)} <span>· ${esc(it.partner)}, <a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.date.slice(0,7))}</a></span></div>`).join('');
     h+=`<div class="t" style="margin-top:8px">What it means for this place${b.curated?'<span class="read">a reading, not a finding</span>':''}</div><div class="mean"><ul>${b.mean.slice(0,3).map(x=>`<li>${x}</li>`).join('')}</ul></div>`;
     if(b.curated&&b.rule)b.acts=b.acts.concat(b.rule.acts);
