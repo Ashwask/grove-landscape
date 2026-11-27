@@ -1,0 +1,518 @@
+{
+ "_note": "A reading of the whole public forum (1,464 topics, all categories, 2020 to 2026), done 2026-11-27. Quotes are verbatim and carry the thread they come from. Interpretive lines are labelled. Network counts come from matching partner names in the full text of partners' own posts; reply counts are not used.",
+ "read": {
+  "topics": 1464,
+  "posts": 4464,
+  "categories": 24,
+  "years": "2020-2026"
+ },
+ "staff": {
+  "intro": "The Foundation's team wrote most in 2020-2023. What they said then still reads as the house view; after 2023 staff posts nearly stop.",
+  "fund": [
+   {
+    "q": "we fund irrespective of size and age of the org - the only bias is around the ambition and audaciousness of the approach, the willingness and ability to introspect, learn, pivot and partner, and chase end goals more than supply side metrics",
+    "who": "Sameer Shisodia",
+    "d": "2023-06",
+    "u": "https://grove.rainmatter.org/t/questions-for-rainmatter-foundation-running-thread/1932"
+   },
+   {
+    "q": "Small, untied grants of 3 to 12 lakh a year for 3 years, for rewilding, ecosystem restoration and localized production",
+    "who": "Small Grants thread (paraphrase)",
+    "d": "2021",
+    "u": "https://grove.rainmatter.org/t/the-rainmatter-small-grants-programme/308"
+   },
+   {
+    "q": "happy to incubate/fund ideas that are non-extractive and regenerative, scale as an idea, and create livelihoods for many",
+    "who": "Sameer Shisodia (paraphrase)",
+    "d": "2020-12",
+    "u": "https://grove.rainmatter.org/t/green-businesses-and-entrepreneurship/44"
+   },
+   {
+    "q": "beneficiary headcounts are a hangover from the savior complex era; watch biodiversity, footprints and livelihood resilience instead",
+    "who": "staff (paraphrase)",
+    "d": "2023",
+    "u": "https://grove.rainmatter.org/t/welcome-introductions-thread/19"
+   },
+   {
+    "q": "We would love to talk and offer whatever support we can",
+    "who": "Nithin Kamath, on private models that pay farmers to green land",
+    "d": "2023-05",
+    "u": "https://grove.rainmatter.org/t/why-dont-people-plant-trees-on-empty-land-can-anything-be-done/1867"
+   },
+   {
+    "q": "Please do NOT use this for proposals and pitches ... send anything long term (3-5 years) with a plan to info@rainmatter.org",
+    "who": "Sameer Shisodia and Dinesh Pai",
+    "d": "2023-06",
+    "u": "https://grove.rainmatter.org/t/questions-for-rainmatter-foundation-running-thread/1932"
+   }
+  ],
+  "thesis": [
+   {
+    "q": "Can we move from the current instinct and default of 'intervening' which pre-supposes much, to 'responding' ... we cannot afford small, even if great, pockets of change",
+    "who": "Sameer Shisodia",
+    "d": "2023-02",
+    "u": "https://grove.rainmatter.org/t/the-intervention-problem/1257"
+   },
+   {
+    "q": "the net sum of all the declared successes should have translated to a very different landscape",
+    "who": "Sameer Shisodia, asking for failure stories",
+    "d": "2023-08",
+    "u": "https://grove.rainmatter.org/t/the-dearth-of-failure-stories/2324"
+   },
+   {
+    "q": "It's primarily a consumption problem. The data says that.",
+    "who": "Sameer Shisodia",
+    "d": "2023-06",
+    "u": "https://grove.rainmatter.org/t/the-population-vs-climate-change-question/2007"
+   },
+   {
+    "q": "part of the solution seems to be to make it more expensive, not less, to buy air-conditioning, and cross subsidize the other, scalable and smarter solutions. Change my mind",
+    "who": "Sameer Shisodia",
+    "d": "2023-03",
+    "u": "https://grove.rainmatter.org/t/the-efficient-airconditioning-debate-heat-stress-and-cooling/1462"
+   },
+   {
+    "q": "we're struggling with a clear thesis in terms of imagining what needles might be moved",
+    "who": "Sameer Shisodia, on the urban climate problem",
+    "d": "2024-04",
+    "u": "https://grove.rainmatter.org/t/what-is-the-urban-climate-problem/3046"
+   },
+   {
+    "q": "air quality needs follow up action, not more research; airsheds as the unit for coordinated action",
+    "who": "staff (paraphrase)",
+    "d": "2023",
+    "u": "https://grove.rainmatter.org/t/questions-for-rainmatter-foundation-running-thread/1932"
+   },
+   {
+    "q": "fund outcome-linked FPO evidence, not more description; the enterprise layer is the common gap across FPCs, SHGs and forest communities",
+    "who": "Sathya (now CEO; paraphrase)",
+    "d": "2026-06",
+    "u": "https://grove.rainmatter.org/t/from-livelihood-projects-to-place-based-consumption-production-and-economic-systems/5109"
+   }
+  ],
+  "open": [
+   {
+    "q": "Offered the Foundation office to host a cross-organisation leadership discussion 'without our org hats'",
+    "who": "Sameer Shisodia",
+    "d": "2025-08",
+    "u": "https://grove.rainmatter.org/t/welcome-introductions-thread/19"
+   },
+   {
+    "q": "Inbound funding paused in favour of a thesis and announced 'chases'; no chase has been posted in that thread since",
+    "who": "Funding Needs & Announcements",
+    "d": "2024-06",
+    "u": "https://grove.rainmatter.org/t/funding-needs-announcements/3290"
+   },
+   {
+    "q": "A pledge to help the first 5 organisations list on the Social Stock Exchange; by 2026 still early days",
+    "who": "Nithin Kamath (paraphrase)",
+    "d": "2023-08",
+    "u": "https://grove.rainmatter.org/t/can-social-stock-exchange-help-with-the-trust-barrier/2306"
+   }
+  ]
+ },
+ "network": {
+  "intro": "From the full text of partners' own posts (who names whom; not replies): 180 partner pairs. The `with` lists in work items add 55 state-tagged pairs.",
+  "ties": [
+   [
+    "Goonj and Gram Vikas",
+    "name each other 11 times; Gram Swabhimaan runs through Gram Vikas villages",
+    "Odisha, Jharkhand"
+   ],
+   [
+    "Praja and WRI India",
+    "6 mentions; same corporations in Mumbai and Uttar Pradesh",
+    "Maharashtra, UP"
+   ],
+   [
+    "ALT EFF and Gram Vikas",
+    "6; film screenings in Gram Vikas villages",
+    "Odisha"
+   ],
+   [
+    "CSTEP and Janaagraha",
+    "6; climate-risk planning inside Assam's urban programme",
+    "Assam"
+   ],
+   [
+    "WCS India and Asar",
+    "5; media sessions on urban wildlife",
+    "Maharashtra, Uttarakhand"
+   ],
+   [
+    "Gram Vikas and Socratus",
+    "5; Odisha Sandbox and water network",
+    "Odisha"
+   ],
+   [
+    "Tech4Good and Vidhi",
+    "5; tools for legal work",
+    "-"
+   ],
+   [
+    "Tech4Good and NCF",
+    "4; restoration photo monitoring",
+    "Tamil Nadu"
+   ],
+   [
+    "ReapBenefit and Tech4Good",
+    "5",
+    "Karnataka"
+   ],
+   [
+    "Kalpavriksh and Timbaktu",
+    "4; alternatives centre exploration",
+    "Andhra Pradesh"
+   ]
+  ],
+  "inward": [
+   [
+    "Socratus",
+    10
+   ],
+   [
+    "IIHS",
+    7
+   ],
+   [
+    "Oorvani / Citizen Matters",
+    7
+   ],
+   [
+    "CEEW",
+    6
+   ],
+   [
+    "WELL Labs",
+    6
+   ],
+   [
+    "MSSRF",
+    5
+   ],
+   [
+    "Saahas",
+    5
+   ],
+   [
+    "Goonj",
+    5
+   ],
+   [
+    "Waste Warriors",
+    5
+   ],
+   [
+    "PRADAN",
+    5
+   ]
+  ],
+  "inwardNote": "Named by the most peers. Several have few or no work items on this page (IIHS, CEEW, MSSRF), so a blank here does not mean absent from the ecosystem.",
+  "isolated": [
+   "Ethos Foundation (114 posts, 1 tie)",
+   "Buzz Women (98 posts)",
+   "Palluyir Trust (56)",
+   "Uttarayan (66)",
+   "Shivganga (20)",
+   "Industree (14)",
+   "Paani Foundation",
+   "GROW+",
+   "Sustainable Futures Collective"
+  ],
+  "isolatedNote": "Post a lot, name no other partner. Introductions would add most here."
+ },
+ "themes": {
+  "intro": "374 work items re-grouped into shared themes (an item can carry several). The three widest are not natural assets at all.",
+  "rows": [
+   [
+    "Youth, schools, nature education",
+    84,
+    34,
+    23,
+    "ComMutiny, Ethos, Dakshin, Palluyir, SlamOutLoud"
+   ],
+   [
+    "Data, tools, mapping",
+    61,
+    27,
+    18,
+    "WRI, Tech4Good, CSTEP, Praja"
+   ],
+   [
+    "Women-led livelihoods and SHGs",
+    60,
+    26,
+    22,
+    "Industree, Buzz Women, Lipok, Timbaktu"
+   ],
+   [
+    "Restoration, invasives, agroforestry",
+    56,
+    23,
+    17,
+    "Farmers for Forests, Gurukula, Shola Trust, NCF, ERA"
+   ],
+   [
+    "Arts, film, media",
+    53,
+    21,
+    22,
+    "Asar, ALT EFF, Dakshin, SlamOutLoud"
+   ],
+   [
+    "Solid waste and circularity",
+    36,
+    20,
+    12,
+    "Waste Warriors, Saahas, Socratus, SWMRT"
+   ],
+   [
+    "Natural farming, millets, FPOs",
+    27,
+    19,
+    13,
+    "Vaagdhara, Shivganga, Timbaktu, Wassan"
+   ],
+   [
+    "Water security",
+    27,
+    13,
+    11,
+    "Gram Vikas, Biome, WELL Labs"
+   ],
+   [
+    "Urban governance and councillors",
+    26,
+    6,
+    9,
+    "Praja, WRI, Janaagraha"
+   ],
+   [
+    "Human-wildlife conflict",
+    19,
+    10,
+    11,
+    "WCS, NCF, A Rocha, Wild Shaale"
+   ],
+   [
+    "Heat",
+    16,
+    6,
+    11,
+    "Asar, Saath, WRI, CSTEP"
+   ],
+   [
+    "Forest rights, commons, pastoralism",
+    16,
+    7,
+    11,
+    "NCF, Shivganga, Sahjeevan"
+   ],
+   [
+    "Coasts and fisheries",
+    16,
+    6,
+    6,
+    "Dakshin, WCS"
+   ],
+   [
+    "Bamboo value chain",
+    11,
+    2,
+    11,
+    "Industree"
+   ]
+  ],
+  "notes": [
+   "Heat and bamboo look widespread but are mostly one actor each (Asar 9 of 16 heat items; Industree 10 of 11 bamboo).",
+   "Human-wildlife conflict has 10 actors and three species across 11 states; no state page connects them.",
+   "Nilgiris and Western Ghats restoration is one cluster split across three state pages: Gurukula, Shola Trust, NCF, Keystone, Forest Way, Upstream, ERA."
+  ]
+ },
+ "gov": {
+  "intro": "151 of 374 work items (40%) name a government body. The shared doors:",
+  "rows": [
+   [
+    "State forest departments",
+    "11 partners, 13 states; five partners deal with the Tamil Nadu Forest Department alone"
+   ],
+   [
+    "Bengaluru city bodies (GBA, BBMP, Climate Action Cell)",
+    "6 partners: B.PAC, Biome, CSTEP, Socratus, WRI, Thicket Tales"
+   ],
+   [
+    "Assam Dept of Housing and Urban Affairs",
+    "4 partners: Janaagraha, Jana Urban Space, CSTEP, ClimateRISE"
+   ],
+   [
+    "Brihanmumbai Municipal Corporation",
+    "3 partners: WRI, Praja, Asar"
+   ],
+   [
+    "State rural livelihoods missions (DAY-NRLM)",
+    "Industree in 6 states; Paani (UMED), Tech4Good (Kudumbashree)"
+   ],
+   [
+    "Karnataka Panchayat Raj Commissionerate",
+    "Biome, NCF, Saahas, separately"
+   ]
+  ]
+ },
+ "ring": {
+  "intro": "A second ring of organisations that several partners work through. None is on the partner list; a newcomer to these places would want these names first.",
+  "orgs": [
+   [
+    "Adavi Trust",
+    "ATREE, ERA, Gurukula",
+    "Karnataka, Kerala, Assam, Himachal"
+   ],
+   [
+    "Hasiru Dala",
+    "Socratus, SWMRT, WRI",
+    "Bengaluru, Punjab"
+   ],
+   [
+    "Nature's Club, Kendrapada",
+    "Goonj, Gram Vikas, Socratus",
+    "Odisha"
+   ],
+   [
+    "Green Hub",
+    "ERA, NCF",
+    "North East, Himachal"
+   ],
+   [
+    "Jan Sahas",
+    "GROW+, WRI",
+    "3 states"
+   ],
+   [
+    "Keystone Foundation",
+    "ALT EFF, Tech4Good",
+    "Nilgiris"
+   ],
+   [
+    "GRAVIS",
+    "GROW+ anchor",
+    "Thar"
+   ],
+   [
+    "YUVA",
+    "Saath, WRI",
+    "Mumbai, Gujarat"
+   ],
+   [
+    "Innovation Guild",
+    "Gram Vikas, HUM, Wassan",
+    "4+ states"
+   ],
+   [
+    "Vanyavani / Seetai Creations",
+    "Asar, WCS",
+    "Goa, Maharashtra"
+   ]
+  ],
+  "alliances": "Existing tables partners already sit at: Sense of the House alliance, Alliance to Push Harder, ClimateRISE, Vikalp Sangam, ERA-India, URC-IS, NFSSM Alliance, SHIFT Transport Coalition, Network for Water Secure Gram Panchayats, GROW+ landscapes, Tech4Good Climate Coalition, Bengaluru Heat Collective (11 members)."
+ },
+ "funders": {
+  "intro": "Co-funding is the easiest introduction. Shared funders named in partners' own posts:",
+  "rows": [
+   [
+    "Dasra",
+    "9 partners"
+   ],
+   [
+    "The Habitats Trust",
+    "6: Gurukula, Sahjeevan, SlamOutLoud, Technology for Wildlife, Veditum, WCS"
+   ],
+   [
+    "Rohini Nilekani Philanthropies",
+    "5: ComMutiny, Praja, Tech4Good, Vidhi, WCS"
+   ],
+   [
+    "UNICEF",
+    "4"
+   ],
+   [
+    "EdelGive, Tata entities, UNDP, UNEP, SVP",
+    "3 each"
+   ]
+  ],
+  "money": "77 rupee amounts sit next to grant, fund or CSR words in partner posts (for example Biome: Rs 1.28 crore CSR plus Rs 69.3 lakh farmer co-financing in Kolar; Waste Warriors: Rs 8.5 lakh Resilience Fund award; Janaagraha: Rainmatter partnership renewed for 4 years from April 2025)."
+ },
+ "knowledge": {
+  "intro": "Reusable material shared on the forum that a practitioner could pick up today:",
+  "rows": [
+   [
+    "ERA seed germination database and restoration courses",
+    "https://grove.rainmatter.org/t/articles-on-restoration-and-rewilding/557"
+   ],
+   [
+    "Biome's open-well primer and Million Wells method",
+    "https://grove.rainmatter.org/t/how-do-we-mainstream-the-million-recharge-wells-for-bengaluru-project/33"
+   ],
+   [
+    "CoRE Stack: micro-watershed registry, commons diagnostics, Commons Connect (20+ CSOs, 9 states)",
+    "https://grove.rainmatter.org/t/launching-core-stack-tower-services/5381"
+   ],
+   [
+    "SWMRT 2bin1bag tools and rural waste modules",
+    "https://grove.rainmatter.org/t/pulse-swmrt-newsletter/2487"
+   ],
+   [
+    "Vidhi Green Hour: PCB vacancies, clearance and MISHTI spend trackers",
+    "https://grove.rainmatter.org/t/announcing-the-green-hour-online-bulletin/4655"
+   ],
+   [
+    "Gram Vikas Plan Vivo community carbon model",
+    "https://grove.rainmatter.org/t/gram-vikas-odisha-programme-updates/2715"
+   ],
+   [
+    "Uttarayan nursery and bee-station manuals",
+    "https://grove.rainmatter.org/t/rm-uw-reviving-biodiversity-with-bee-stations-training/1550"
+   ],
+   [
+    "WASSAN Village ECO2 scoreboard method",
+    "https://grove.rainmatter.org/t/village-eco-2-scoreboard/1614"
+   ],
+   [
+    "Jharkhand commons valued at Rs 3.77 lakh crore a year; Odisha Rs 36,890 crore (Common Ground)",
+    "https://grove.rainmatter.org/t/sustaining-learning-and-exchange-across-the-ecosystem/5320"
+   ],
+   [
+    "SFC: Heat Action Plans in nine cities are relief-only, not prevention",
+    "https://grove.rainmatter.org/t/systemic-heat-and-why-rural-india-is-reading-a-map-our-heat-action-plans-can-t-see/4973"
+   ]
+  ]
+ },
+ "open_q": {
+  "intro": "Raised on the forum and still hanging:",
+  "rows": [
+   [
+    "Who pays landscape stewards? (CoRE Stack, Nov 2026, no answer)",
+    "https://grove.rainmatter.org/t/launching-core-stack-tower-services/5381"
+   ],
+   [
+    "Fluoride-safe drinking water for Kadiri (asked in Funding, unanswered)",
+    "https://grove.rainmatter.org/t/funding-needs-announcements/3290"
+   ],
+   [
+    "A Rocha's ask for elephant early-warning software (Collaboration, Oct 2026)",
+    "https://grove.rainmatter.org/t/tech-collaboration-on-elephant-early-warning-systems/5323"
+   ],
+   [
+    "Invasive species: livelihood material (Shola, Industree) or wrong enemy (Gurukula)? The two camps never meet",
+    "https://grove.rainmatter.org/t/webinar-spontaneity-in-nature-and-urban-ecologies/5096"
+   ],
+   [
+    "The Foundation's 2024 funding pause promised 'chases'; none posted since",
+    "https://grove.rainmatter.org/t/funding-needs-announcements/3290"
+   ],
+   [
+    "Debal Deb's seed bank succession (2023, unanswered)",
+    "https://grove.rainmatter.org/t/most-scalable-ways-to-grow-more-forests/143"
+   ]
+  ]
+ },
+ "health": "The forum itself has shifted from conversation (2023: half of all posts and views) to noticeboard (2026: most new threads are single posts; average views per new thread fell roughly tenfold). Staff posting nearly stopped after 2023. This page exists partly because of that shift."
+}

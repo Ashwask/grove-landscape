@@ -246,6 +246,11 @@ select.f{font:inherit; font-size:12.5px; padding:5px 8px; border:1px solid var(-
  <div class="card"><div class="pad"><div class="tw" id="mx"></div></div></div>
 </section>
 
+<section class="tab" data-tab="insights">
+ <p class="lead">A reading of the whole public forum: 1,464 topics across 24 categories, 2020 to 2026. Quotes are verbatim and linked; lines marked (paraphrase) are not. Interpretation, not findings.</p>
+ <div id="insBody"></div>
+</section>
+
 <section class="tab" data-tab="open">
  <div class="grid">
   <div class="card"><h2>What partners are asking for <span id="waitSub"></span></h2><div class="pad" id="wait"></div></div>
@@ -291,18 +296,18 @@ select.f{font:inherit; font-size:12.5px; padding:5px 8px; border:1px solid var(-
 <h4>How the numbers are made</h4>
 <ul>
 <li><b>Update threads</b> in The Grove's Partner Updates category are matched to partners by the account that opened the thread, or by the organisation's name in the title. An account whose matched threads all belong to one partner is treated as that partner's.</li>
-<li><b>What is happening:</b> partners' own posts on The Grove since 2024 were read for the work they describe: what is done, the numbers, who it is done with (collaborators, government bodies, funders) and what is asked for. Each item links to its post and carries a verbatim quote. Posts were read up to their first 4,000 characters. Replies and reply counts are not used anywhere.</li>
+<li><b>What is happening:</b> partners' own posts on The Grove since 2024 were read for the work they describe: what is done, the numbers, who it is done with (collaborators, government bodies, funders) and what is asked for. Each item links to its post and carries a verbatim quote. Long posts were read only in part (roughly the first 3,500 to 4,000 characters), so an item can miss detail deeper in a post, and its figures may come from several posts of the same thread; the link is the latest post. A few items come from organisations that post in the category but are not on the partner list; they are marked ✻. Replies and reply counts are not used to judge anything.</li>
 <li><b>Readings and collaborations</b> are written from those items and are interpretation. A collaboration is a proposal, not something the partners have agreed.</li>
 <li><b>Calls, jobs and events:</b> topics started in the last <span id="openD"></span> days in the Funding, Collaboration, Small grants, Green Jobs and Events categories, from accounts past the forum's new-user level. Dates of the events themselves are not read.</li>
 </ul>
 
 <h4>The state of the place</h4>
 <ul id="indList"></ul>
-<p>These are read next to partner presence, never combined into a score. A next action is suggested only from a rule that is written down: a shared asset with no exchange, an update with no reply, a stressed asset with no partner, or a partner based in a state with no stated place of work.</p>
+<p>These are read next to partner presence, never combined into a score. A next action is suggested only from a rule that is written down: a shared asset, a stressed asset with no partner, or a partner based in a state with no stated place of work.</p>
 
 <h4>Limits</h4>
 <ul>
-<li>Only public, unauthenticated pages are read. No funding amounts appear because none are published on those pages.</li>
+<li>Only public, unauthenticated pages are read. Funding amounts appear only where a partner's own post or report states them.</li>
 <li>A dot, a missing kind or an unshaded state means "not in these public sources", not "no work happens here".</li>
 <li><span id="othN"></span> threads in Partner Updates match no organisation on the list as fetched and are left out. <details class="more" style="display:inline"><summary style="display:inline">List them</summary><div id="oth"></div></details></li>
 <li>If this proves useful, its natural home is The Grove or rainmatter.org rather than a separate site. If it does not, it should be retired.</li>
@@ -327,7 +332,7 @@ const SCOPE={national:'National or across India',region:'Regional, states not na
 const dark=()=>matchMedia('(prefers-color-scheme: dark)').matches;
 const RAMP=()=>dark()?['#1c4a5a','#21667b','#2b869e','#4fa6bd','#82c4d6','#b8e0ea']:['#cfe5eb','#9fcbd7','#6aaec0','#3a8fa6','#17708a','#0a4a61'];
 const F={kind:null,pid:null,tab:'together',focus:null,asset:null,role:null,geo:null,q:'',ext:false,lens:'n',sort:'name',dir:1};
-const TABS=[['together','Who could work together'],['open','Open now'],['partners','Partners'],['about','About and contribute']];
+const TABS=[['together','Who could work together'],['insights','Insights'],['open','Open now'],['partners','Partners'],['about','About and contribute']];
 const CROSS=new Set(M.cross.map(c=>c[0]+'-'+c[1]));
 const crossed=(a,b)=>CROSS.has(Math.min(a,b)+'-'+Math.max(a,b));
 const known=p=>p.sRF.concat(p.sDecl,p.sWeb);
@@ -567,7 +572,7 @@ function wide(){
   const s=F.geo,W=s&&s[0]!=='@'?(M.work||{})[s]:null,el=$('wide');
   if(!W||F.pid!=null){el.innerHTML='';return}
   const groups={};W.items.forEach(it=>{const k=it.asset&&ASSET[it.asset]?it.asset:'none';(groups[k]=groups[k]||[]).push(it)});
-  const pn=n=>{const p=P.find(x=>x.name===n);return p?`<a href="#" data-p="${p.id}">${esc(n)}</a>`:esc(n)};
+  const pn=n=>{const p=P.find(x=>x.name===n);return p?`<a href="#" data-p="${p.id}">${esc(n)}</a>`:esc(n)+' <span data-tip="Posts in the Partner Updates category but is not on the Foundation\'s partner list" style="color:var(--mut)">\u273B</span>'};
   const cc={};W.items.forEach(it=>(it.with||[]).forEach(x=>{const k=x.trim();if(k&&k.length<70)cc[k]=(cc[k]||0)+1}));
   const topc=Object.entries(cc).sort((a,b)=>b[1]-a[1]).filter(e=>e[1]>1).slice(0,8);
   let h=`<div class="card" style="margin-top:16px"><h2>What is happening in ${esc(s)} <span>${W.items.length} pieces of work · click for detail</span></h2><div class="pad">${topc.length?`<p class="note" style="margin-bottom:4px"><b style="color:var(--ink2)">Most named counterparts:</b> ${topc.map(e=>esc(e[0])+' ('+e[1]+')').join(', ')}.</p>`:''}<div class="wk">`;
@@ -649,6 +654,28 @@ function fin(){
   $('fin').innerHTML=`<table><thead><tr><th>Partner</th><th>Report</th><th>Total income</th><th>Total expenditure</th><th>Staff</th></tr></thead><tbody>`+rows.sort((a,b)=>a.p.name.localeCompare(b.p.name)).map(r=>`<tr><td><a href="#" data-p="${r.p.id}">${esc(r.p.name)}</a></td><td><a href="${esc(r.p.report.url)}" target="_blank" rel="noopener">${esc(r.p.report.year||'report')}</a></td><td>${c(r.inc)}</td><td>${c(r.exp)}</td><td>${c(r.st)}</td></tr>`).join('')+`</tbody></table><p class="note" style="margin-top:8px">${rows.length} of ${P.length} partners. Many reports print their accounts as images, which could not be read. Hover a figure for the line it came from.</p>`;
   $('fin').querySelectorAll('a[data-p]').forEach(a=>a.onclick=e=>{e.preventDefault();F.pid=+a.dataset.p;render();scrollTo({top:$('hero').offsetTop-8,behavior:'smooth'})});
 }
+function insights(){
+  const I=M.insights;if(!I||$('insBody').dataset.done)return;$('insBody').dataset.done=1;
+  const card=(t,sub,body,open)=>`<div class="card" style="margin-bottom:14px"><div class="pad"><details class="more" style="margin:0" ${open?'open':''}><summary><b>${esc(t)}</b> <span style="color:var(--mut);font-weight:400">${esc(sub)}</span></summary><div style="margin-top:10px">${body}</div></details></div></div>`;
+  const Q=a=>a.map(x=>`<div class="kf">“${esc(x.q)}” <span>· ${esc(x.who)}, ${esc(x.d)} · <a href="${esc(x.u)}" target="_blank" rel="noopener">thread</a></span></div>`).join('');
+  let h='';
+  h+=card('What the Foundation itself said','mostly 2020 to 2023; staff posts nearly stop after that',
+    `<div class="t" style="margin-top:0">On what it funds</div>${Q(I.staff.fund)}<div class="t">Its thesis</div>${Q(I.staff.thesis)}<div class="t">Offers and loose ends</div>${Q(I.staff.open)}`,true);
+  h+=card('Who already works with whom','from the full text of partners\' own posts, not replies',
+    `<p class="note">${esc(I.network.intro)}</p><div class="tw"><table><thead><tr><th>Pair</th><th>Evidence</th><th>Where</th></tr></thead><tbody>${I.network.ties.map(r=>`<tr><td><b>${esc(r[0])}</b></td><td>${esc(r[1])}</td><td>${esc(r[2])}</td></tr>`).join('')}</tbody></table></div>
+     <div class="t">Named by the most peers</div><p style="font-size:12.5px">${I.network.inward.map(x=>`${esc(x[0])} (${x[1]})`).join(' · ')}</p><p class="note">${esc(I.network.inwardNote)}</p>
+     <div class="t">Post a lot, name no one</div><p style="font-size:12.5px">${I.network.isolated.map(esc).join(' · ')}</p><p class="note">${esc(I.network.isolatedNote)}</p>`,true);
+  h+=card('Themes across states','what the asset lens hides',
+    `<p class="note">${esc(I.themes.intro)}</p><div class="tw"><table><thead><tr><th>Theme</th><th class="n">Items</th><th class="n">Partners</th><th class="n">States</th><th>Led by</th></tr></thead><tbody>${I.themes.rows.map(r=>`<tr><td>${esc(r[0])}</td><td class="n">${r[1]}</td><td class="n">${r[2]}</td><td class="n">${r[3]}</td><td style="color:var(--ink2)">${esc(r[4])}</td></tr>`).join('')}</tbody></table></div><ul style="font-size:12.5px;margin:8px 0;padding-left:18px">${I.themes.notes.map(n=>`<li>${esc(n)}</li>`).join('')}</ul>`);
+  h+=card('Shared government doors',I.gov.intro,`<div class="tw"><table><tbody>${I.gov.rows.map(r=>`<tr><td><b>${esc(r[0])}</b></td><td>${esc(r[1])}</td></tr>`).join('')}</tbody></table></div>`);
+  h+=card('The second ring','organisations several partners work through; none is on the partner list',
+    `<div class="tw"><table><thead><tr><th>Organisation</th><th>Worked with by</th><th>Where</th></tr></thead><tbody>${I.ring.orgs.map(r=>`<tr><td><b>${esc(r[0])}</b></td><td>${esc(r[1])}</td><td>${esc(r[2])}</td></tr>`).join('')}</tbody></table></div><p class="note" style="margin-top:8px">${esc(I.ring.alliances)}</p>`);
+  h+=card('Shared funders',I.funders.intro,`<div class="tw"><table><tbody>${I.funders.rows.map(r=>`<tr><td><b>${esc(r[0])}</b></td><td>${esc(r[1])}</td></tr>`).join('')}</tbody></table></div><p class="note" style="margin-top:8px">${esc(I.funders.money)}</p>`);
+  h+=card('Knowledge worth reusing',I.knowledge.intro,I.knowledge.rows.map(r=>`<div class="kf">${esc(r[0])} <span>· <a href="${esc(r[1])}" target="_blank" rel="noopener">thread</a></span></div>`).join(''));
+  h+=card('Still hanging',I.open_q.intro,I.open_q.rows.map(r=>`<div class="kf">${esc(r[0])} <span>· <a href="${esc(r[1])}" target="_blank" rel="noopener">thread</a></span></div>`).join(''));
+  h+=`<p class="note">${esc(I.health)}</p>`;
+  $('insBody').innerHTML=h;
+}
 function about(){
   $('minM').textContent=MINM;$('openD').textContent=M.meta.openDays;
   $('noAsset').textContent=P.filter(p=>!p.assets.length).length;$('nsN').textContent=P.filter(p=>!known(p).length&&p.scope==='ns').length;
@@ -663,7 +690,7 @@ function about(){
 /* ---------- plumbing ---------- */
 function hash(){const p=[];if(F.tab!=='together')p.push('tab='+F.tab);if(F.focus)p.push('focus='+F.focus);if(F.asset)p.push('asset='+F.asset);if(F.role)p.push('role='+F.role);if(F.geo)p.push('geo='+encodeURIComponent(F.geo));if(F.ext)p.push('ext');if(F.lens!=='n')p.push('lens='+F.lens);if(F.pid!=null)p.push('partner='+F.pid);history.replaceState(null,'',p.length?'#'+p.join('&'):location.pathname+location.search)}
 function readHash(){location.hash.slice(1).split('&').forEach(kv=>{const [k,v]=kv.split('=');if(k==='tab'&&TABS.some(t=>t[0]===v))F.tab=v;if(k==='focus'&&FOCUS[v])F.focus=v;if(k==='asset'&&ASSET[v])F.asset=v;if(k==='role'&&ROLE[v])F.role=v;if(k==='geo'&&v)F.geo=decodeURIComponent(v);if(k==='ext')F.ext=true;if(k==='lens'&&LENSES.some(l=>l[0]===v))F.lens=v;if(k==='partner'&&P[+v])F.pid=+v})}
-function render(){hash();tabs();filters();map();detail();wide();dir();together();openNow()}
+function render(){hash();tabs();filters();map();detail();wide();dir();together();openNow();insights()}
 const tip=$('tip');
 document.addEventListener('mousemove',e=>{const t=e.target.closest&&e.target.closest('[data-tip],[data-tiph]');if(!t){tip.style.display='none';return}
   if(t.dataset.tiph)tip.innerHTML=t.dataset.tiph;else tip.textContent=t.dataset.tip;tip.style.display='block';const w=tip.offsetWidth,hh=tip.offsetHeight;

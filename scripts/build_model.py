@@ -316,6 +316,7 @@ def main():
         "contributors": reg.get("contributors", []),
         "partners": partners, "cross": [[a, b, n] for (a, b), n in sorted(cross.items())],
         "open": open_now, "otherThreads": other_threads, "indicators": indicators,
+        "insights": json.load(open(os.path.join(ROOT, "data", "insights.json"), encoding="utf-8")),
         "work": json.load(open(os.path.join(ROOT, "data", "work.json"), encoding="utf-8"))["states"]
         if os.path.exists(os.path.join(ROOT, "data", "work.json")) else {},
     }
