@@ -92,6 +92,12 @@
   ],
   "open": [
    {
+    "q": "Update the forum every 2 months, one thread per organisation, linked from your name on our website",
+    "who": "Dinesh Pai, the reporting contract (paraphrase)",
+    "d": "2021-05",
+    "u": "https://grove.rainmatter.org/t/about-the-rainmatter-partner-updates-category/522"
+   },
+   {
     "q": "Offered the Foundation office to host a cross-organisation leadership discussion 'without our org hats'",
     "who": "Sameer Shisodia",
     "d": "2025-08",
@@ -219,7 +225,30 @@
    "GROW+",
    "Sustainable Futures Collective"
   ],
-  "isolatedNote": "Post a lot, name no other partner. Introductions would add most here."
+  "isolatedNote": "Post a lot, name no other partner. Introductions would add most here.",
+  "brokered": [
+   [
+    "NCF offered help on Hume Centre's thread",
+    "2023",
+    "https://grove.rainmatter.org/t/hume-centre-for-ecology-and-wildlife-biology/1131"
+   ],
+   [
+    "WELL Labs brokered Lipok to Tarun Bharat Sangh for Mewat",
+    "2023",
+    "https://grove.rainmatter.org/t/lipok-social-foundation-partners-with-rainmatter-foundation-for-a-green-economy/1005"
+   ],
+   [
+    "C-GEM brokered a Varaha and AKRSP-I deal and a Gram Vikas and Fair Climate Fund deal",
+    "2023",
+    "https://grove.rainmatter.org/t/launching-c-gem-to-the-grove-community-with-brief-updates-centre-for-grower-centric-ecovalue-markets/1850"
+   ],
+   [
+    "A thread reply found Farmers for Forests a millet street-play partner",
+    "2023",
+    "https://grove.rainmatter.org/t/farmers-for-forests-updates-thread/557"
+   ]
+  ],
+  "brokeredNote": "Introductions did happen on the forum in 2021-2023, mostly made in replies by staff or peers. That is the behaviour this page tries to restart."
  },
  "themes": {
   "intro": "374 work items re-grouped into shared themes (an item can carry several). The three widest are not natural assets at all.",
@@ -514,5 +543,5 @@
    ]
   ]
  },
- "health": "The forum itself has shifted from conversation (2023: half of all posts and views) to noticeboard (2026: most new threads are single posts; average views per new thread fell roughly tenfold). Staff posting nearly stopped after 2023. This page exists partly because of that shift."
+ "health": "The forum itself has shifted from conversation (2023: half of all posts and views) to noticeboard (2026: most new threads are single posts; average views per new thread fell roughly tenfold). Staff posting nearly stopped after 2023. This page exists partly because of that shift. The every-2-months reporting contract set in 2021 mostly failed: threads go silent for a year or turn into daily feeds. What drew engagement was hard numbers and admitted failures (uprooted trees, 20% sapling mortality); polished success feeds drew none."
 }
